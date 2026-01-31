@@ -1151,3 +1151,10 @@ Entries:
   id: 6621
   time: '2026-01-31T01:02:44.0000000+00:00'
   url: https://github.com/project-wayfarer/wayfarer-14/pull/409
+- author: VVersengt
+  changes:
+    - type: Tweak
+      message: Changed Hunger and Thirst component to match other species.
+  id: 6622
+  time: '2026-01-31T01:03:03.0000000+00:00'
+  url: https://github.com/project-wayfarer/wayfarer-14/pull/408
