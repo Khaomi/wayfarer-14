@@ -1259,3 +1259,10 @@ Entries:
   id: 6635
   time: '2026-02-04T06:29:20.0000000+00:00'
   url: https://github.com/project-wayfarer/wayfarer-14/pull/434
+- author: drraccoony
+  changes:
+    - type: Tweak
+      message: Changed character names to allow numbers
+  id: 6636
+  time: '2026-02-04T06:31:01.0000000+00:00'
+  url: https://github.com/project-wayfarer/wayfarer-14/pull/435
