@@ -1310,3 +1310,10 @@ Entries:
   id: 6642
   time: '2026-02-05T23:58:09.0000000+00:00'
   url: https://github.com/project-wayfarer/wayfarer-14/pull/441
+- author: Eillyrea
+  changes:
+    - type: Tweak
+      message: SMEs hold 3x the Charge, aSMEs hold 4x the charge
+  id: 6643
+  time: '2026-02-05T23:59:03.0000000+00:00'
+  url: https://github.com/project-wayfarer/wayfarer-14/pull/432
