@@ -1488,3 +1488,14 @@ Entries:
   id: 6664
   time: '2026-02-14T15:05:57.0000000+00:00'
   url: https://github.com/project-wayfarer/wayfarer-14/pull/488
+- author: VVersengt
+  changes:
+    - type: Add
+      message: Solid Red scarf to loadout and uniform printer.
+    - type: Remove
+      message: Contraband status from most clothing items.
+    - type: Tweak
+      message: Massively overhauled loadouts for Wayfarer and Outlaw
+  id: 6665
+  time: '2026-02-14T23:51:28.0000000+00:00'
+  url: https://github.com/project-wayfarer/wayfarer-14/pull/492
