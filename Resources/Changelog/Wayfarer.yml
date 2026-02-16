@@ -1515,3 +1515,12 @@ Entries:
   id: 6667
   time: '2026-02-16T22:05:58.0000000+00:00'
   url: https://github.com/project-wayfarer/wayfarer-14/pull/476
+- author: Eillyrea
+  changes:
+    - type: Add
+      message: >-
+        Add more coloured paper in bureaucracy crates and mailvend, as well as
+        coloured sticky notes.
+  id: 6668
+  time: '2026-02-16T22:06:31.0000000+00:00'
+  url: https://github.com/project-wayfarer/wayfarer-14/pull/487
