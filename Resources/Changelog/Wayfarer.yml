@@ -1410,3 +1410,12 @@ Entries:
   id: 6654
   time: '2026-02-12T20:21:29.0000000+00:00'
   url: https://github.com/project-wayfarer/wayfarer-14/pull/467
+- author: VVersengt
+  changes:
+    - type: Add
+      message: Added CGP Dagger ship variant and derelict medivac.
+    - type: Tweak
+      message: Tweaks to Dagger and Medivac ships.
+  id: 6655
+  time: '2026-02-16T20:47:06.0000000+00:00'
+  url: https://github.com/project-wayfarer/wayfarer-14/pull/486
