@@ -1428,3 +1428,10 @@ Entries:
   id: 6656
   time: '2026-02-16T20:48:19.0000000+00:00'
   url: https://github.com/project-wayfarer/wayfarer-14/pull/482
+- author: VVersengt
+  changes:
+    - type: Tweak
+      message: Extensive loadout tweaks for Wayfarers.
+  id: 6657
+  time: '2026-02-12T20:22:25.0000000+00:00'
+  url: https://github.com/project-wayfarer/wayfarer-14/pull/469
