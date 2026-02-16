@@ -1465,3 +1465,10 @@ Entries:
   id: 6661
   time: '2026-02-13T18:32:47.0000000+00:00'
   url: https://github.com/project-wayfarer/wayfarer-14/pull/480
+- author: Eillyrea
+  changes:
+    - type: Fix
+      message: Bar signs now display properly again
+  id: 6662
+  time: '2026-02-14T15:04:13.0000000+00:00'
+  url: https://github.com/project-wayfarer/wayfarer-14/pull/491
