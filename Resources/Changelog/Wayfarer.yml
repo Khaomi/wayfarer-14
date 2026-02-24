@@ -1623,3 +1623,10 @@ Entries:
   id: 6680
   time: '2026-02-24T21:20:25.0000000+00:00'
   url: https://github.com/project-wayfarer/wayfarer-14/pull/516
+- author: Eillyrea
+  changes:
+    - type: Add
+      message: UCA - Pridwen, a CGP Internal Investigations ship
+  id: 6681
+  time: '2026-02-24T21:20:46.0000000+00:00'
+  url: https://github.com/project-wayfarer/wayfarer-14/pull/518
