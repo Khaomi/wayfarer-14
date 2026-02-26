@@ -1655,3 +1655,12 @@ Entries:
   id: 6684
   time: '2026-02-26T06:24:07.0000000+00:00'
   url: https://github.com/project-wayfarer/wayfarer-14/pull/527
+- author: Eillyrea
+  changes:
+    - type: Add
+      message: >-
+        UCA - Dioddef, a small bare minimum shuttle for people who want to build
+        their own ship from it's bridge.
+  id: 6685
+  time: '2026-02-26T06:24:27.0000000+00:00'
+  url: https://github.com/project-wayfarer/wayfarer-14/pull/528
