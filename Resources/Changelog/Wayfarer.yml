@@ -1699,3 +1699,12 @@ Entries:
   id: 6690
   time: '2026-03-22T18:05:07.0000000+00:00'
   url: https://github.com/project-wayfarer/wayfarer-14/pull/532
+- author: VVersengt
+  changes:
+    - type: Fix
+      message: >-
+        Non-flying mobs can't freely move off-grid or away from high mass
+        object.
+  id: 6691
+  time: '2026-03-22T18:05:25.0000000+00:00'
+  url: https://github.com/project-wayfarer/wayfarer-14/pull/538
