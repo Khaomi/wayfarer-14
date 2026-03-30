@@ -1751,3 +1751,14 @@ Entries:
   id: 6696
   time: '2026-03-30T04:31:52.0000000+00:00'
   url: https://github.com/project-wayfarer/wayfarer-14/pull/535
+- author: LadyDanger2743
+  changes:
+    - type: Add
+      message: >-
+        Added the QH Monitor, a mid-sized expeditionary shuttle with salvaging
+        equipment. 
+    - type: Remove
+      message: Removed the NT Pathfinder.
+  id: 6697
+  time: '2026-03-30T04:32:11.0000000+00:00'
+  url: https://github.com/project-wayfarer/wayfarer-14/pull/533
