@@ -1776,3 +1776,12 @@ Entries:
   id: 6699
   time: '2026-04-03T23:22:34.0000000+00:00'
   url: https://github.com/project-wayfarer/wayfarer-14/pull/549
+- author: Goodfaun
+  changes:
+    - type: Add
+      message: Icarus a science ship sold via the scrapyard.
+    - type: Tweak
+      message: guidebook shipyard to show the ship.
+  id: 6700
+  time: '2026-04-04T06:27:14.0000000+00:00'
+  url: https://github.com/project-wayfarer/wayfarer-14/pull/544
