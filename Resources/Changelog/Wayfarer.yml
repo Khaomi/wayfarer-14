@@ -1960,3 +1960,10 @@ Entries:
   id: 6720
   time: '2026-04-17T19:52:55.0000000+00:00'
   url: https://github.com/project-wayfarer/wayfarer-14/pull/590
+- author: VVersengt
+  changes:
+    - type: Tweak
+      message: TI Hamger and Scryer visual overhaul.
+  id: 6721
+  time: '2026-04-18T18:23:26.0000000+00:00'
+  url: https://github.com/project-wayfarer/wayfarer-14/pull/597
