@@ -1978,3 +1978,12 @@ Entries:
   id: 6722
   time: '2026-04-19T10:44:24.0000000+00:00'
   url: https://github.com/project-wayfarer/wayfarer-14/pull/602
+- author: VVersengt
+  changes:
+    - type: Add
+      message: Honey and Honey accessories to ChevVend and Condiment vendors.
+    - type: Tweak
+      message: Hunger and Thirst values... AGAIN.
+  id: 6723
+  time: '2026-04-19T20:06:34.0000000+00:00'
+  url: https://github.com/project-wayfarer/wayfarer-14/pull/603
