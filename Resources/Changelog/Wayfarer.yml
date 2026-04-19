@@ -1994,3 +1994,10 @@ Entries:
   id: 6724
   time: '2026-04-19T22:06:40.0000000+00:00'
   url: https://github.com/project-wayfarer/wayfarer-14/pull/596
+- author: Goodfaun
+  changes:
+    - type: Tweak
+      message: guidebooks of some lore mentions
+  id: 6725
+  time: '2026-04-19T22:07:13.0000000+00:00'
+  url: https://github.com/project-wayfarer/wayfarer-14/pull/587
