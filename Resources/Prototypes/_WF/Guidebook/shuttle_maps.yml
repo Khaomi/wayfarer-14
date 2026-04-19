@@ -11,6 +11,17 @@
 
 - type: entity
   parent: PosterBase
+  id: ShuttleMapGrandideals
+  name: "Grand Ideals"
+  description: "Detailed map of a Grand Ideals shuttle."
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: Sprite
+    sprite: _WF/Guidebook/shuttle_maps/128x96.rsi
+    state: grandideals
+
+- type: entity
+  parent: PosterBase
   id: ShuttleMapHeater
   name: "Heater"
   description: "Detailed map of a Heater shuttle."
