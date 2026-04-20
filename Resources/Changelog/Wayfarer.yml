@@ -2045,3 +2045,10 @@ Entries:
   id: 6730
   time: '2026-04-20T20:02:44.0000000+00:00'
   url: https://github.com/project-wayfarer/wayfarer-14/pull/606
+- author: drraccoony
+  changes:
+    - type: Add
+      message: Added text body color toggle in accessibility options
+  id: 6731
+  time: '2026-04-20T20:02:51.0000000+00:00'
+  url: https://github.com/project-wayfarer/wayfarer-14/pull/605
