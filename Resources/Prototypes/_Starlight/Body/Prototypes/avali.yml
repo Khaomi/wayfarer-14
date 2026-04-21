@@ -10,7 +10,7 @@
       organs:
         brain: OrganAvaliBrain
         eyes: OrganAvaliEyes
-        tongue: OrganHumanTongue`
+        tongue: OrganHumanTongue
         # Wayfarer - Nexus brain implant is not implemented
     torso:
       part: TorsoAvali
