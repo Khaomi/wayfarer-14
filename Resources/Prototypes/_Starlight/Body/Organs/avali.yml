@@ -89,11 +89,7 @@
   name: eyes
   suffix: Avali
   description: "The eyes of an Avali."
-  components:
-  - type: OrganVisualization
-    layer: Eyes
-    prototypes:
-      Default: MobAvaliEyes
+  # Warfarer: No OrganVisualization, so no components
 
 - type: entity
   id: OrganAvaliBrain
