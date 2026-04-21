@@ -1,3 +1,4 @@
+using Content.Server.Body.Systems;
 using Content.Shared.Actions;
 using Content.Shared.Damage;
 using Robust.Shared.Timing;
@@ -8,7 +9,6 @@ using Content.Shared._Starlight.Actions.Events;
 using Content.Shared.Mobs.Systems;
 using Robust.Shared.Player;
 using Content.Shared.Damage.Systems;
-using Content.Server._Starlight.Medical.Body.Systems;
 
 namespace Content.Server._Starlight.Actions.EntitySystems;
 
