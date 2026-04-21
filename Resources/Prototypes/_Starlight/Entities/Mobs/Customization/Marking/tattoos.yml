@@ -7,7 +7,7 @@
     layers:
       eye_left:
         type: !type:EyeColoring
-  speciesRestriction: [ Avali ]
+  # speciesRestriction: [ Avali ] # Wayfarer: No restriction
   sprites:
   - sprite: _Starlight/Mobs/Customization/Avali/avali_eyes.rsi
     state: eye_left
@@ -20,7 +20,7 @@
     layers:
       eye_right:
         type: !type:EyeColoring
-  speciesRestriction: [ Avali ]
+  # speciesRestriction: [ Avali ] # Wayfarer: No restriction
   sprites:
   - sprite: _Starlight/Mobs/Customization/Avali/avali_eyes.rsi
     state: eye_right

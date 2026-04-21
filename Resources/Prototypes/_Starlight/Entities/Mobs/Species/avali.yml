@@ -39,7 +39,6 @@
         - DoorBumpOpener
         - AnomalyHost
         - Avali
-        - NotLabelable
     - type: HumanoidAppearance
       species: Avali
       hideLayersOnEquip:
