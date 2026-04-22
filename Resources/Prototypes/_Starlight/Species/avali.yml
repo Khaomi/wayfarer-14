@@ -15,14 +15,15 @@
   minAge: 23
   youngAge: 103
   oldAge: 257
-  maxAge: 430
-  minHeight: 0.8
-  defaultHeight: 0.91
-  maxHeight: 1
-  # standardSize: 150 # gives a range of 130-150cm and 27-31kg
-  # standardWeight: 31
-  # standardDensity: 11
-  customName: true # Starlight
+  # Coyote: Small enough to fit in a bag
+  minHeight: 0.6
+  defaultHeight: 0.8
+  maxHeight: 1.1
+  minWidth: 0.55
+  defaultWidth: 0.8
+  maxWidth: 1.15
+  # End Coyote
+  # Wayfarer: Can't use customeName
 
 - type: speciesBaseSprites
   id: MobAvaliSprites
@@ -43,6 +44,16 @@
     RLeg: MobAvaliRLeg
     LFoot: MobAvaliLFoot
     RFoot: MobAvaliRFoot
+    # Wayfarer Start
+    Special: MobHumanoidAnyMarking
+    TailBehind: MobHumanoidAnyMarking
+    TailOversuit: MobHumanoidAnyMarking
+    Hair: MobHumanoidAnyMarking
+    FacialHair: MobHumanoidAnyMarking
+    Snout: MobHumanoidAnyMarking
+    Genital: MobHumanoidAnyMarking
+    RArmExtension: MobHumanoidAnyMarking # Adds Wing Slot, this will look weird as fuck
+    # End Wayfarer
 
 - type: humanoidBaseSprite
   id: MobAvaliEyes
@@ -52,43 +63,58 @@
 
 - type: markingPoints
   id: MobAvaliMarkingLimits
-  onlyWhitelisted: true
   points:
+    # Wayfarer Start
+    Special:
+      points: 32
+      required: false
+    Head:
+      points: 32
+      required: false
+    # End Wayfarer
     Hair:
-      points: 1
+      points: 32 # Wayfarer
       required: false
     FacialHair:
-      points: 0
+      points: 32 # Wayfarer
       required: false
     Tail:
-      points: 1
+      points: 32 # Wayfarer
       required: true
       defaultMarkings: [ AvaliTailBase ]
     Snout:
-      points: 1
+      points: 32 # Wayfarer
       required: false
     HeadTop:
-      points: 1
+      points: 32 # Wayfarer
       required: false
     HeadSide:
-      points: 1
+      points: 32 # Wayfarer
       required: true
       defaultMarkings: [ AvaliEarsBase ]
     Chest:
-      points: 1
+      points: 32 # Wayfarer
       required: false
     Legs:
-      points: 2
+      points: 32 # Wayfarer
       required: false
     UndergarmentTop:
-      points: 1
+      points: 32 # Wayfarer
       required: false
     UndergarmentBottom:
-      points: 1
+      points: 32 # Wayfarer
       required: false
     Arms:
-      points: 4
+      points: 32 # Wayfarer
       required: false
+    # Wayfarer Start
+    Genital:
+      points: 32
+      required: false
+    Overlay:
+      points: 32
+      required: false
+    # End Wayfarer
 
 - type: humanoidBaseSprite
   id: MobAvaliHead
