@@ -2103,3 +2103,10 @@ Entries:
   id: 6738
   time: '2026-04-23T03:57:42.0000000+00:00'
   url: https://github.com/project-wayfarer/wayfarer-14/pull/620
+- author: Goodfaun
+  changes:
+    - type: Add
+      message: Grand Queen Cruiseliner service type ship
+  id: 6739
+  time: '2026-04-23T04:00:02.0000000+00:00'
+  url: https://github.com/project-wayfarer/wayfarer-14/pull/600
