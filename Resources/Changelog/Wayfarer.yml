@@ -2117,3 +2117,10 @@ Entries:
   id: 6740
   time: '2026-04-23T06:17:31.0000000+00:00'
   url: https://github.com/project-wayfarer/wayfarer-14/pull/629
+- author: Goodfaun
+  changes:
+    - type: Fix
+      message: freezer vents rotating due to fixrotations command
+  id: 6741
+  time: '2026-04-24T06:28:03.0000000+00:00'
+  url: https://github.com/project-wayfarer/wayfarer-14/pull/641
