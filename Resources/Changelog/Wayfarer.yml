@@ -2133,3 +2133,10 @@ Entries:
   id: 6742
   time: '2026-04-24T09:44:42.0000000+00:00'
   url: https://github.com/project-wayfarer/wayfarer-14/pull/642
+- author: Khaomi
+  changes:
+    - type: Tweak
+      message: Make organs have "Trash" tag
+  id: 6743
+  time: '2026-04-24T16:50:49.0000000+00:00'
+  url: https://github.com/project-wayfarer/wayfarer-14/pull/643
