@@ -2216,3 +2216,10 @@ Entries:
   id: 6751
   time: '2026-04-25T05:46:26.0000000+00:00'
   url: https://github.com/project-wayfarer/wayfarer-14/pull/644
+- author: Goodfaun
+  changes:
+    - type: Fix
+      message: Grand queen ship freezer atmos
+  id: 6752
+  time: '2026-04-25T05:48:57.0000000+00:00'
+  url: https://github.com/project-wayfarer/wayfarer-14/pull/647
