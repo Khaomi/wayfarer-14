@@ -2195,3 +2195,10 @@ Entries:
   id: 6748
   time: '2026-04-25T01:58:08.0000000+00:00'
   url: https://github.com/project-wayfarer/wayfarer-14/pull/648
+- author: drraccoony
+  changes:
+    - type: Fix
+      message: Subtle chat can now be filtered
+  id: 6749
+  time: '2026-04-25T03:25:20.0000000+00:00'
+  url: https://github.com/project-wayfarer/wayfarer-14/pull/650
