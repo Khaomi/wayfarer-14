@@ -2269,3 +2269,16 @@ Entries:
   id: 6758
   time: '2026-04-26T08:14:26.0000000+00:00'
   url: https://github.com/project-wayfarer/wayfarer-14/pull/672
+- author: VVersengt
+  changes:
+    - type: Remove
+      message: Juggernaut suits are no longer available in the ContraVend
+    - type: Tweak
+      message: Vitamin value now adds to a foods biomass value in the Biogenerator
+    - type: Fix
+      message: Fixed the Deep Fryer
+    - type: Remove
+      message: Removed loadout bundles
+  id: 6759
+  time: '2026-04-26T15:39:41.0000000+00:00'
+  url: https://github.com/project-wayfarer/wayfarer-14/pull/677
