@@ -2302,3 +2302,10 @@ Entries:
   id: 6761
   time: '2026-04-26T18:01:52.0000000+00:00'
   url: https://github.com/project-wayfarer/wayfarer-14/pull/624
+- author: drraccoony
+  changes:
+    - type: Add
+      message: Community Goal Terminal now works with a selling pad
+  id: 6762
+  time: '2026-04-26T18:32:20.0000000+00:00'
+  url: https://github.com/project-wayfarer/wayfarer-14/pull/671
