@@ -2248,3 +2248,10 @@ Entries:
   id: 6755
   time: '2026-04-26T07:31:42.0000000+00:00'
   url: https://github.com/project-wayfarer/wayfarer-14/pull/676
+- author: RoY7x
+  changes:
+    - type: Fix
+      message: Wehfarer plushie now looks right when you equip him on your head!
+  id: 6756
+  time: '2026-04-26T07:42:36.0000000+00:00'
+  url: https://github.com/project-wayfarer/wayfarer-14/pull/673
