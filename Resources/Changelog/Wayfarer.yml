@@ -2323,3 +2323,10 @@ Entries:
   id: 6764
   time: '2026-04-27T09:50:58.0000000+00:00'
   url: https://github.com/project-wayfarer/wayfarer-14/pull/682
+- author: Luweth
+  changes:
+    - type: Add
+      message: Five new discreet loadout items, sprites, etc.
+  id: 6765
+  time: '2026-04-27T09:52:24.0000000+00:00'
+  url: https://github.com/project-wayfarer/wayfarer-14/pull/685
