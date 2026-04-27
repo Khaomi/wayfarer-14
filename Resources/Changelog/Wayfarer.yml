@@ -2337,3 +2337,10 @@ Entries:
   id: 6766
   time: '2026-04-27T10:38:52.0000000+00:00'
   url: https://github.com/project-wayfarer/wayfarer-14/pull/684
+- author: drraccoony
+  changes:
+    - type: Tweak
+      message: Changed Dusk. (Community Terminal, Directional Signs, Vends)
+  id: 6767
+  time: '2026-04-27T10:49:22.0000000+00:00'
+  url: https://github.com/project-wayfarer/wayfarer-14/pull/679
