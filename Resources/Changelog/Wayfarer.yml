@@ -2436,3 +2436,14 @@ Entries:
   id: 6777
   time: '2026-04-28T14:55:49.0000000+00:00'
   url: https://github.com/project-wayfarer/wayfarer-14/pull/691
+- author: VVersengt
+  changes:
+    - type: Remove
+      message: Unshackled the Syndicate Grenadier
+    - type: Tweak
+      message: Adjusted NPC Pathfinding (again) and they will now pry doors faster.
+    - type: Fix
+      message: Fixed mobs on UIVs being weightless
+  id: 6778
+  time: '2026-04-28T19:30:16.0000000+00:00'
+  url: https://github.com/project-wayfarer/wayfarer-14/pull/686
