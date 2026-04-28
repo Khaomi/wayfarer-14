@@ -15,6 +15,10 @@
       sprite: Floof/Clothing/Neck/collar_blue.rsi
     - type: Clothing
       sprite: Floof/Clothing/Neck/collar_blue.rsi
+      clothingVisuals: # HardLight
+        neck-quadborg:
+          - sprite: _HL/Clothing/Neck/QuadCollars/collar_blue_quad.rsi
+        state: equipped-NECK-quadborg
 
 - type: entity
   parent: ClothingNeckCollarBase
