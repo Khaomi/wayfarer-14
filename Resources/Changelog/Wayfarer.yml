@@ -2454,3 +2454,10 @@ Entries:
   id: 6779
   time: '2026-04-29T04:58:58.0000000+00:00'
   url: https://github.com/project-wayfarer/wayfarer-14/pull/706
+- author: TheSlapper
+  changes:
+    - type: Add
+      message: (Miles) Wanted Outlaws can now enter a reason for being wanted.
+  id: 6780
+  time: '2026-04-29T05:14:34.0000000+00:00'
+  url: https://github.com/project-wayfarer/wayfarer-14/pull/705
