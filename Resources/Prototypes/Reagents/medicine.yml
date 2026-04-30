@@ -716,6 +716,32 @@
         amount: -0.5
 
 - type: reagent
+  id: Ruboxadone
+  name: reagent-name-ruboxadone
+  group: Medicine
+  desc: reagent-desc-ruboxadone
+  physicalDesc: reagent-physical-desc-milky
+  flavor: medicine
+  color: "#45cd45"
+  worksOnTheDead: true # Wayfarer
+  metabolisms:
+    Cryogenic: # Wayfarer: Medicine<Cryogenic
+      effects:
+        - !type:HealthChange
+          conditions:
+          - !type:Temperature
+            max: 213.0
+          damage:
+            types:
+             Rot: -4 # Wayfarer: -4
+        # Wayfarer: No addition to damage yet. Rui was testing this to balance splitting rot and cellular mechanics.
+        - !type:ModifyBleedAmount # Wayfarer
+          conditions: # Wayfarer
+          - !type:Temperature # Wayfarer
+            max: 213.0 # Wayfarer
+          amount: -0.5 # Wayfarer
+
+- type: reagent
   id: Saline
   name: reagent-name-saline
   group: Medicine

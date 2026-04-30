@@ -46,7 +46,7 @@ public sealed partial class RottingComponent : Component
         DamageDict = new()
         {
             { "Blunt", 0.06 },
-            { "Cellular", 0.06 }
+            { "Rot", 0.06 } // Wayfarer: Changed Cellular to Rot damage to split them into two separate types.
         }
     };
 

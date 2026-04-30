@@ -30,6 +30,9 @@ reagent-desc-dexalin = Used for treating minor oxygen deprivation and bloodloss,
 
 reagent-name-dexalin-plus = dexalin plus
 reagent-desc-dexalin-plus = Used in treatment of extreme cases of oxygen deprivation and bloodloss, toxic to Avali. Flushes heartbreaker toxin out of the blood stream.
+
+reagent-name-ruboxadone = ruboxadone
+reagent-desc-ruboxadone = A cryogenics chemical. Heals rot damage caused by unfrozen flesh. Works regardless of the patient being alive or dead.
 # End Wayfarer
 
 reagent-name-epinephrine = epinephrine
