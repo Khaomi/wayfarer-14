@@ -2522,3 +2522,12 @@ Entries:
   id: 6785
   time: '2026-04-30T20:15:01.0000000+00:00'
   url: https://github.com/project-wayfarer/wayfarer-14/pull/721
+- author: DevArchwave
+  changes:
+    - type: Add
+      message: >-
+        Biogenerators now have a buffer system! They generate biomass slowly to
+        a certain limit, which is used before the material stacks.
+  id: 6786
+  time: '2026-04-30T20:17:04.0000000+00:00'
+  url: https://github.com/project-wayfarer/wayfarer-14/pull/681
