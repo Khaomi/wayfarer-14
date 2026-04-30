@@ -2480,3 +2480,10 @@ Entries:
   id: 6781
   time: '2026-04-30T20:01:28.0000000+00:00'
   url: https://github.com/project-wayfarer/wayfarer-14/pull/724
+- author: drraccoony
+  changes:
+    - type: Fix
+      message: Fixed IPC issues (Wallet, RPI, SSD Indicator, and more)
+  id: 6782
+  time: '2026-04-30T20:03:08.0000000+00:00'
+  url: https://github.com/project-wayfarer/wayfarer-14/pull/713
