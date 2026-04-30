@@ -2515,3 +2515,10 @@ Entries:
   id: 6784
   time: '2026-04-30T20:07:17.0000000+00:00'
   url: https://github.com/project-wayfarer/wayfarer-14/pull/683
+- author: DevArchwave
+  changes:
+    - type: Add
+      message: New atmospheric sprites
+  id: 6785
+  time: '2026-04-30T20:15:01.0000000+00:00'
+  url: https://github.com/project-wayfarer/wayfarer-14/pull/721
