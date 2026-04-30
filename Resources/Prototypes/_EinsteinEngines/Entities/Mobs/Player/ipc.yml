@@ -102,12 +102,14 @@
   - type: EmitBuzzWhileDamaged
   - type: CanHostGuardian
   - type: WeldingHealable
+  - type: RoleplayIncentive # Wayfarer
 
 - type: entity
   save: false
   name: Urist McPositronic
   parent: MobHumanDummy
   id: MobIPCDummy
+  categories: [ HideSpawnMenu ]
   description: A dummy IPC meant to be used in character setup.
   components:
   - type: HumanoidAppearance
