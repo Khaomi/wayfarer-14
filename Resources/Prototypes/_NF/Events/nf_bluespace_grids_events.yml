@@ -85,7 +85,7 @@
       Nfsd: 0.25
       Frontier: 0.25
       Medical: 0.25
-      Edison: 0.25
+    #  Edison: 0.25 Wayfayer: Edison should make it's own money.
 
 - type: entity
   id: BluespaceVaultSmallError
@@ -131,7 +131,7 @@
       Nfsd: 0.25
       Frontier: 0.25
       Medical: 0.25
-      Edison: 0.25
+    #  Edison: 0.25 Wayfayer: Edison should make it's own money.
 
 - type: entity
   id: BluespaceSyndicateFTLInterception
