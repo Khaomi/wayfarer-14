@@ -2598,3 +2598,10 @@ Entries:
   id: 6793
   time: '2026-05-01T06:33:21.0000000+00:00'
   url: https://github.com/project-wayfarer/wayfarer-14/pull/742
+- author: VVersengt
+  changes:
+    - type: Tweak
+      message: IFF Electronics are now CGP restricted contraband
+  id: 6794
+  time: '2026-05-01T06:51:03.0000000+00:00'
+  url: https://github.com/project-wayfarer/wayfarer-14/pull/744
