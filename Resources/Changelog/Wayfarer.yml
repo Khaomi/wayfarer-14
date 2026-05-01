@@ -2531,3 +2531,10 @@ Entries:
   id: 6786
   time: '2026-04-30T20:17:04.0000000+00:00'
   url: https://github.com/project-wayfarer/wayfarer-14/pull/681
+- author: Thr3d
+  changes:
+    - type: Tweak
+      message: Reduce harpy gasping
+  id: 6787
+  time: '2026-05-01T05:39:36.0000000+00:00'
+  url: https://github.com/project-wayfarer/wayfarer-14/pull/737
