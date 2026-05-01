@@ -2605,3 +2605,12 @@ Entries:
   id: 6794
   time: '2026-05-01T06:51:03.0000000+00:00'
   url: https://github.com/project-wayfarer/wayfarer-14/pull/744
+- author: drraccoony
+  changes:
+    - type: Add
+      message: Added "Force down" emote verb
+    - type: Tweak
+      message: Changed emote verbs to respect identity system if someones ID is hidden
+  id: 6795
+  time: '2026-05-01T07:00:09.0000000+00:00'
+  url: https://github.com/project-wayfarer/wayfarer-14/pull/745
