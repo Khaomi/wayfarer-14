@@ -2576,3 +2576,18 @@ Entries:
   id: 6791
   time: '2026-05-01T06:01:10.0000000+00:00'
   url: https://github.com/project-wayfarer/wayfarer-14/pull/739
+- author: Luweth
+  changes:
+    - type: Add
+      message: Added missing discreet options to Responders.
+    - type: Add
+      message: Added discreet options to clothes mate.
+    - type: Tweak
+      message: >-
+        Readjusted bag inventory. People storing large weapons in invisible bags
+        is bad.
+    - type: Fix
+      message: Fixed the parents of the boots and mask.
+  id: 6792
+  time: '2026-05-01T06:02:04.0000000+00:00'
+  url: https://github.com/project-wayfarer/wayfarer-14/pull/727
