@@ -2569,3 +2569,10 @@ Entries:
   id: 6790
   time: '2026-05-01T05:55:32.0000000+00:00'
   url: https://github.com/project-wayfarer/wayfarer-14/pull/736
+- author: VVersengt
+  changes:
+    - type: Fix
+      message: Fixed automated hauler turrets targeting
+  id: 6791
+  time: '2026-05-01T06:01:10.0000000+00:00'
+  url: https://github.com/project-wayfarer/wayfarer-14/pull/739
