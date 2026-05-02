@@ -2639,3 +2639,16 @@ Entries:
   id: 6798
   time: '2026-05-02T17:49:53.0000000+00:00'
   url: https://github.com/project-wayfarer/wayfarer-14/pull/678
+- author: DevArchwave
+  changes:
+    - type: Add
+      message: Armor plates.
+    - type: Add
+      message: >-
+        Clothing that Inherits ClothingOuterStorageBase can now use Armor
+        Plates.
+    - type: Tweak
+      message: Dressers now fit more things.
+  id: 6799
+  time: '2026-05-02T17:50:36.0000000+00:00'
+  url: https://github.com/project-wayfarer/wayfarer-14/pull/718
