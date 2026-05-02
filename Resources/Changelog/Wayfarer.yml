@@ -2652,3 +2652,12 @@ Entries:
   id: 6799
   time: '2026-05-02T17:50:36.0000000+00:00'
   url: https://github.com/project-wayfarer/wayfarer-14/pull/718
+- author: DevArchwave
+  changes:
+    - type: Add
+      message: >-
+        Respiron cans can now be found both in salvage and in the cargo request
+        console.
+  id: 6800
+  time: '2026-05-02T17:55:06.0000000+00:00'
+  url: https://github.com/project-wayfarer/wayfarer-14/pull/755
