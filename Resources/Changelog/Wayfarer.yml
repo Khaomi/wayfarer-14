@@ -2623,3 +2623,10 @@ Entries:
   id: 6796
   time: '2026-05-02T14:56:05.0000000+00:00'
   url: https://github.com/project-wayfarer/wayfarer-14/pull/700
+- author: DevArchwave
+  changes:
+    - type: Add
+      message: Druid clothes can be purchased straight from the loadout menu.
+  id: 6797
+  time: '2026-05-02T17:37:40.0000000+00:00'
+  url: https://github.com/project-wayfarer/wayfarer-14/pull/754
