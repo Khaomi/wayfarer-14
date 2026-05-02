@@ -2674,3 +2674,12 @@ Entries:
   id: 6801
   time: '2026-05-02T17:55:46.0000000+00:00'
   url: https://github.com/project-wayfarer/wayfarer-14/pull/752
+- author: JustKaits
+  changes:
+    - type: Add
+      message: AME jar capacity increase
+    - type: Add
+      message: AME fuel jar price increase
+  id: 6802
+  time: '2026-05-02T21:44:06.0000000+00:00'
+  url: https://github.com/project-wayfarer/wayfarer-14/pull/729
