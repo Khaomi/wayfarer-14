@@ -2694,3 +2694,10 @@ Entries:
   id: 6803
   time: '2026-05-02T21:45:41.0000000+00:00'
   url: https://github.com/project-wayfarer/wayfarer-14/pull/759
+- author: TheSlapper
+  changes:
+    - type: Add
+      message: (Miles) Point disk terminal. (Cherry pick Monolith 1408).
+  id: 6804
+  time: '2026-05-02T23:05:47.0000000+00:00'
+  url: https://github.com/project-wayfarer/wayfarer-14/pull/760
