@@ -2701,3 +2701,10 @@ Entries:
   id: 6804
   time: '2026-05-02T23:05:47.0000000+00:00'
   url: https://github.com/project-wayfarer/wayfarer-14/pull/760
+- author: TheSlapper
+  changes:
+    - type: Add
+      message: (Miles) Shuttle network buttons from Monolith
+  id: 6805
+  time: '2026-05-03T23:22:16.0000000+00:00'
+  url: https://github.com/project-wayfarer/wayfarer-14/pull/764
