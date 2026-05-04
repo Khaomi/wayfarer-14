@@ -2715,3 +2715,10 @@ Entries:
   id: 6806
   time: '2026-05-04T01:34:19.0000000+00:00'
   url: https://github.com/project-wayfarer/wayfarer-14/pull/770
+- author: drraccoony
+  changes:
+    - type: Add
+      message: Added Vore place in mouth and chewing
+  id: 6807
+  time: '2026-05-04T05:33:37.0000000+00:00'
+  url: https://github.com/project-wayfarer/wayfarer-14/pull/767
