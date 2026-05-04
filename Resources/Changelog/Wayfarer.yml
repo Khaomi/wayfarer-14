@@ -2729,3 +2729,10 @@ Entries:
   id: 6808
   time: '2026-05-04T05:34:09.0000000+00:00'
   url: https://github.com/project-wayfarer/wayfarer-14/pull/750
+- author: DevArchwave
+  changes:
+    - type: Tweak
+      message: Added swabs to the biogenerator, and mutagen to its emag inventory
+  id: 6809
+  time: '2026-05-04T05:35:51.0000000+00:00'
+  url: https://github.com/project-wayfarer/wayfarer-14/pull/738
