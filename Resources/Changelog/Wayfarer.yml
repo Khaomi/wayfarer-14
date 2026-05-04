@@ -2745,3 +2745,10 @@ Entries:
   id: 6810
   time: '2026-05-04T07:38:37.0000000+00:00'
   url: https://github.com/project-wayfarer/wayfarer-14/pull/772
+- author: Goodfaun
+  changes:
+    - type: Add
+      message: witch hat to loadout
+  id: 6811
+  time: '2026-05-04T18:11:12.0000000+00:00'
+  url: https://github.com/project-wayfarer/wayfarer-14/pull/781
