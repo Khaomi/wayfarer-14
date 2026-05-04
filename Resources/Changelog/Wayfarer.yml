@@ -2708,3 +2708,10 @@ Entries:
   id: 6805
   time: '2026-05-03T23:22:16.0000000+00:00'
   url: https://github.com/project-wayfarer/wayfarer-14/pull/764
+- author: drraccoony
+  changes:
+    - type: Fix
+      message: Fixed broken IPC markings introduced by PR 713
+  id: 6806
+  time: '2026-05-04T01:34:19.0000000+00:00'
+  url: https://github.com/project-wayfarer/wayfarer-14/pull/770
