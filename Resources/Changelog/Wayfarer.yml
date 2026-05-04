@@ -2752,3 +2752,10 @@ Entries:
   id: 6811
   time: '2026-05-04T18:11:12.0000000+00:00'
   url: https://github.com/project-wayfarer/wayfarer-14/pull/781
+- author: Khaomi
+  changes:
+    - type: Tweak
+      message: Harpy have more bird emotes
+  id: 6812
+  time: '2026-05-04T21:55:21.0000000+00:00'
+  url: https://github.com/project-wayfarer/wayfarer-14/pull/782
