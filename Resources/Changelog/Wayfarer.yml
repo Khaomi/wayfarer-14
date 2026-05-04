@@ -2736,3 +2736,12 @@ Entries:
   id: 6809
   time: '2026-05-04T05:35:51.0000000+00:00'
   url: https://github.com/project-wayfarer/wayfarer-14/pull/738
+- author: Luweth
+  changes:
+    - type: Add
+      message: Proper reagents to Vox brains.
+    - type: Tweak
+      message: Changed trash reagent values for Vox! Gimmie the gorbage.
+  id: 6810
+  time: '2026-05-04T07:38:37.0000000+00:00'
+  url: https://github.com/project-wayfarer/wayfarer-14/pull/772
