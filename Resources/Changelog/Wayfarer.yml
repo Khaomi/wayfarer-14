@@ -2789,3 +2789,10 @@ Entries:
   id: 6816
   time: '2026-05-05T04:58:46.0000000+00:00'
   url: https://github.com/project-wayfarer/wayfarer-14/pull/777
+- author: Feathernights
+  changes:
+    - type: Tweak
+      message: Changed the Goblin sprite to be a LOT less green.
+  id: 6817
+  time: '2026-05-05T05:11:26.0000000+00:00'
+  url: https://github.com/project-wayfarer/wayfarer-14/pull/773
