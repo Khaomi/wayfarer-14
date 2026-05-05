@@ -2782,3 +2782,10 @@ Entries:
   id: 6815
   time: '2026-05-05T04:54:03.0000000+00:00'
   url: https://github.com/project-wayfarer/wayfarer-14/pull/779
+- author: Rellu225
+  changes:
+    - type: Tweak
+      message: Changed textures for the B.I.O.P.A.C.M.A.N.
+  id: 6816
+  time: '2026-05-05T04:58:46.0000000+00:00'
+  url: https://github.com/project-wayfarer/wayfarer-14/pull/777
