@@ -2759,3 +2759,12 @@ Entries:
   id: 6812
   time: '2026-05-04T21:55:21.0000000+00:00'
   url: https://github.com/project-wayfarer/wayfarer-14/pull/782
+- author: BlueSushii
+  changes:
+    - type: Add
+      message: Large ammo boxes
+    - type: Tweak
+      message: Buffed small ammo box size
+  id: 6813
+  time: '2026-05-05T04:00:48.0000000+00:00'
+  url: https://github.com/project-wayfarer/wayfarer-14/pull/790
