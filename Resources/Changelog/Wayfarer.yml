@@ -2803,3 +2803,12 @@ Entries:
   id: 6818
   time: '2026-05-05T05:14:08.0000000+00:00'
   url: https://github.com/project-wayfarer/wayfarer-14/pull/775
+- author: Possumongus
+  changes:
+    - type: Tweak
+      message: Vaults/cache now have a 2 hour cooldown between them
+    - type: Tweak
+      message: Reworded announcements to make clear pvp rules within vault/cache NFZ
+  id: 6819
+  time: '2026-05-05T05:14:53.0000000+00:00'
+  url: https://github.com/project-wayfarer/wayfarer-14/pull/757
