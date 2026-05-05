@@ -2775,3 +2775,10 @@ Entries:
   id: 6814
   time: '2026-05-05T04:53:14.0000000+00:00'
   url: https://github.com/project-wayfarer/wayfarer-14/pull/784
+- author: VVersengt
+  changes:
+    - type: Fix
+      message: Can now butcher entities inside of containers.
+  id: 6815
+  time: '2026-05-05T04:54:03.0000000+00:00'
+  url: https://github.com/project-wayfarer/wayfarer-14/pull/779
