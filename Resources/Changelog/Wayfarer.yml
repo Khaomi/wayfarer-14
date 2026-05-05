@@ -2768,3 +2768,10 @@ Entries:
   id: 6813
   time: '2026-05-05T04:00:48.0000000+00:00'
   url: https://github.com/project-wayfarer/wayfarer-14/pull/790
+- author: TheSlapper
+  changes:
+    - type: Add
+      message: (Miles) Horny & Extreme Kink radio channels added to Horny Hawker.
+  id: 6814
+  time: '2026-05-05T04:53:14.0000000+00:00'
+  url: https://github.com/project-wayfarer/wayfarer-14/pull/784
