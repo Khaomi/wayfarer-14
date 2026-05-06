@@ -2841,3 +2841,10 @@ Entries:
   id: 6822
   time: '2026-05-06T06:46:53.0000000+00:00'
   url: https://github.com/project-wayfarer/wayfarer-14/pull/789
+- author: TheSlapper
+  changes:
+    - type: Fix
+      message: (Miles) Fixed extra PDA Blip
+  id: 6823
+  time: '2026-05-06T06:47:53.0000000+00:00'
+  url: https://github.com/project-wayfarer/wayfarer-14/pull/793
