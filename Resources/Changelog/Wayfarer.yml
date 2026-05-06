@@ -2918,3 +2918,16 @@ Entries:
   id: 6831
   time: '2026-05-06T22:23:29.0000000+00:00'
   url: https://github.com/project-wayfarer/wayfarer-14/pull/800
+- author: stinky, Absotively, walksanatora
+  changes:
+    - type: Tweak
+      message: reverses the display order for labels from hand labelers
+    - type: Tweak
+      message: merges labeler UI improvements from wizden (reset/clear button)
+    - type: Tweak
+      message: >-
+        ports hand labeler label saving from starlight (saved labels persist
+        through client restarts & through new rounds)
+  id: 6832
+  time: '2026-05-06T22:27:15.0000000+00:00'
+  url: https://github.com/project-wayfarer/wayfarer-14/pull/783
