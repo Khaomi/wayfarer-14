@@ -2855,3 +2855,12 @@ Entries:
   id: 6824
   time: '2026-05-06T06:48:35.0000000+00:00'
   url: https://github.com/project-wayfarer/wayfarer-14/pull/797
+- author: Possumongus
+  changes:
+    - type: Add
+      message: Added a bang marking that can be mixed and match with different hairs
+    - type: Add
+      message: Snout for IPC
+  id: 6825
+  time: '2026-05-06T06:53:48.0000000+00:00'
+  url: https://github.com/project-wayfarer/wayfarer-14/pull/794
