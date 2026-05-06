@@ -2864,3 +2864,10 @@ Entries:
   id: 6825
   time: '2026-05-06T06:53:48.0000000+00:00'
   url: https://github.com/project-wayfarer/wayfarer-14/pull/794
+- author: Goodfaun
+  changes:
+    - type: Add
+      message: Bam Remedy medical service ship
+  id: 6826
+  time: '2026-05-06T06:54:58.0000000+00:00'
+  url: https://github.com/project-wayfarer/wayfarer-14/pull/640
