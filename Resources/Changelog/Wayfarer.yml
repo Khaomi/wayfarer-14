@@ -2871,3 +2871,10 @@ Entries:
   id: 6826
   time: '2026-05-06T06:54:58.0000000+00:00'
   url: https://github.com/project-wayfarer/wayfarer-14/pull/640
+- author: TheSlapper
+  changes:
+    - type: Add
+      message: (Miles) Black market bounty app to Outlaw/Wanted Outlaw PDA
+  id: 6827
+  time: '2026-05-06T06:55:46.0000000+00:00'
+  url: https://github.com/project-wayfarer/wayfarer-14/pull/709
