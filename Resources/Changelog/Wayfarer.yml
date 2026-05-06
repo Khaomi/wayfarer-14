@@ -2894,3 +2894,20 @@ Entries:
   id: 6829
   time: '2026-05-06T22:18:24.0000000+00:00'
   url: https://github.com/project-wayfarer/wayfarer-14/pull/801
+- author: Luweth
+  changes:
+    - type: Add
+      message: Added EVA bridge, park and spacewalk!
+    - type: Add
+      message: Rechargers and wall rechargers to Dusk. Check bar and hospital!
+    - type: Add
+      message: Vox Dorm lock buttons
+    - type: Add
+      message: Cryoroom defib!
+    - type: Fix
+      message: All dorms buttons cannot be clicked from outside of the room now!
+    - type: Fix
+      message: One case of airlock Initialization in map, found by Archie.
+  id: 6830
+  time: '2026-05-06T22:19:06.0000000+00:00'
+  url: https://github.com/project-wayfarer/wayfarer-14/pull/786
