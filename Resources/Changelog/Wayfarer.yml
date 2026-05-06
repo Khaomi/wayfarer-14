@@ -2848,3 +2848,10 @@ Entries:
   id: 6823
   time: '2026-05-06T06:47:53.0000000+00:00'
   url: https://github.com/project-wayfarer/wayfarer-14/pull/793
+- author: Possumongus
+  changes:
+    - type: Add
+      message: Buffed respiron oxygenation rate.
+  id: 6824
+  time: '2026-05-06T06:48:35.0000000+00:00'
+  url: https://github.com/project-wayfarer/wayfarer-14/pull/797
