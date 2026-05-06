@@ -2885,3 +2885,12 @@ Entries:
   id: 6828
   time: '2026-05-06T06:56:48.0000000+00:00'
   url: https://github.com/project-wayfarer/wayfarer-14/pull/774
+- author: Feathernights
+  changes:
+    - type: Add
+      message: Added new paperwork to the PTech (SR). Beware, bureaucracy!
+    - type: Remove
+      message: Removed the old SR folder from the PTech (SR).
+  id: 6829
+  time: '2026-05-06T22:18:24.0000000+00:00'
+  url: https://github.com/project-wayfarer/wayfarer-14/pull/801
