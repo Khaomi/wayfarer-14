@@ -2830,3 +2830,14 @@ Entries:
   id: 6821
   time: '2026-05-06T02:47:39.0000000+00:00'
   url: https://github.com/project-wayfarer/wayfarer-14/pull/762
+- author: stinky
+  changes:
+    - type: Add
+      message: Hand labeler can apply labels to airlocks!
+    - type: Add
+      message: >-
+        Papers can now be attached to airlocks in the same way that papers are
+        attached to lockers, crates, etc
+  id: 6822
+  time: '2026-05-06T06:46:53.0000000+00:00'
+  url: https://github.com/project-wayfarer/wayfarer-14/pull/789
