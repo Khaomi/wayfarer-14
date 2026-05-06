@@ -2931,3 +2931,10 @@ Entries:
   id: 6832
   time: '2026-05-06T22:27:15.0000000+00:00'
   url: https://github.com/project-wayfarer/wayfarer-14/pull/783
+- author: ThiccNekoThighs
+  changes:
+    - type: Fix
+      message: PDA ringtones are now in-tune
+  id: 6833
+  time: '2026-05-06T22:28:57.0000000+00:00'
+  url: https://github.com/project-wayfarer/wayfarer-14/pull/791
