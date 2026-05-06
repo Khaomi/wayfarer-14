@@ -2821,3 +2821,12 @@ Entries:
   id: 6820
   time: '2026-05-05T05:27:16.0000000+00:00'
   url: https://github.com/project-wayfarer/wayfarer-14/pull/720
+- author: DevArchwave
+  changes:
+    - type: Add
+      message: >-
+        Added a new Research shuttle, the DBI Stronghold! it's research chamber
+        is sure to hold out strong!
+  id: 6821
+  time: '2026-05-06T02:47:39.0000000+00:00'
+  url: https://github.com/project-wayfarer/wayfarer-14/pull/762
