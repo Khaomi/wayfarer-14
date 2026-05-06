@@ -2878,3 +2878,10 @@ Entries:
   id: 6827
   time: '2026-05-06T06:55:46.0000000+00:00'
   url: https://github.com/project-wayfarer/wayfarer-14/pull/709
+- author: Khaomi
+  changes:
+    - type: Add
+      message: Added Digesiton Traits
+  id: 6828
+  time: '2026-05-06T06:56:48.0000000+00:00'
+  url: https://github.com/project-wayfarer/wayfarer-14/pull/774
