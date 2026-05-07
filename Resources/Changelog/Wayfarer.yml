@@ -2938,3 +2938,10 @@ Entries:
   id: 6833
   time: '2026-05-06T22:28:57.0000000+00:00'
   url: https://github.com/project-wayfarer/wayfarer-14/pull/791
+- author: Possumongus
+  changes:
+    - type: Fix
+      message: fixed the scary music
+  id: 6834
+  time: '2026-05-07T00:55:13.0000000+00:00'
+  url: https://github.com/project-wayfarer/wayfarer-14/pull/805
