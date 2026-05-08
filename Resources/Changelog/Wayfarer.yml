@@ -3011,3 +3011,12 @@ Entries:
   id: 6842
   time: '2026-05-08T14:03:06.0000000+00:00'
   url: https://github.com/project-wayfarer/wayfarer-14/pull/820
+- author: Luweth
+  changes:
+    - type: Tweak
+      message: Changed a missed button to not be clickable through walls in maints.
+    - type: Fix
+      message: EVA bridge grid atmos pressure bug. Cleaned up airlock.
+  id: 6843
+  time: '2026-05-08T14:07:35.0000000+00:00'
+  url: https://github.com/project-wayfarer/wayfarer-14/pull/819
