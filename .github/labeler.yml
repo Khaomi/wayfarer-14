@@ -4,33 +4,45 @@
 
 "Map-Admin":
 - changed-files:
-  - any-glob-to-any-file: "Resources/Maps/_NF/Admin/**/*.yml" # Grid Files
+  - any-glob-to-any-file:
+    - "Resources/Maps/_NF/Admin/**/*.yml" # Grid Files
+    - "Resources/Maps/_WF/Admin/**/*.yml" # Wayfarer
 
 "Map-Bluespace":
 - changed-files:
-  - any-glob-to-any-file: "Resources/Maps/_NF/Bluespace/**/*.yml" # Grid Files
+  - any-glob-to-any-file:
+    - "Resources/Maps/_NF/Bluespace/**/*.yml" # Grid Files
+    - "Resources/Maps/_WF/Bluespace/**/*.yml" # Wayfarer
 
 "Map-Dungeon":
 - changed-files:
-  - any-glob-to-any-file: "Resources/Maps/_NF/Dungeon/**/*.yml" # Grid Files
+  - any-glob-to-any-file:
+    - "Resources/Maps/_NF/Dungeon/**/*.yml" # Grid Files
+    - "Resources/Maps/_WF/Dungeon/**/*.yml" # Wayfarer
 
 "Map-Outpost":
 - changed-files:
   - any-glob-to-any-file:
     - "Resources/Maps/_NF/Outpost/*.yml" # Map Files
     - "Resources/Prototypes/_NF/Maps/Outpost/*.yml" # Prototypes Files
+    - "Resources/Maps/_WF/Outpost/*.yml" # Wayfarer
+    - "Resources/Prototypes/_WF/Maps/Outpost/*.yml" # Wayfarer
 
 "Map-Shuttle":
 - changed-files:
   - any-glob-to-any-file:
     - "Resources/Maps/_NF/Shuttles/**/*.yml" # Grid Files
     - "Resources/Prototypes/_NF/Shipyard/**/*.yml" # Prototypes Files
+    - "Resources/Maps/_WF/Shuttles/**/*.yml" # Wayfarer
+    - "Resources/Prototypes/_WF/Shipyard/**/*.yml" # Wayfarer
 
 "Map-POI":
 - changed-files:
   - any-glob-to-any-file:
     - "Resources/Maps/_NF/POI/**/*.yml" # Grid Files
     - "Resources/Prototypes/_NF/Maps/POI/**/*.yml" # Prototypes Files
+    - "Resources/Maps/_WF/POI/**/*.yml" # Wayfarer
+    - "Resources/Prototypes/_WF/Maps/POI/**/*.yml" # Wayfarer
 
 "Sprites":
 - changed-files:
@@ -75,6 +87,8 @@
     - all-globs-to-any-file:
       - "!Resources/Maps/_NF/**/*.yml"
       - "!Resources/Prototypes/Maps/_NF/**/*.yml"
+      - "!Resources/Maps/_WF/**/*.yml"
+      - "!Resources/Prototypes/Maps/_WF/**/*.yml"
 
 "DB Migration":
 - changed-files:
