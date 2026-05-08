@@ -7,5 +7,10 @@ Dusk: true # Wayfarer
 
 # TECHNICAL DEBT BELOW. These ones were added to this list to ensure other PR's would not break upon merging. It is
 # the intention for this list to become empty in separate PR's.
+# Wayfarer: Quick Fixes
+Mjolnir:
+- WallPlastitanium
+- WallPlastitaniumDiagonal
+# Wayfarer end
 Tinnia:
 - RubberStampSyndicate # existing meme
