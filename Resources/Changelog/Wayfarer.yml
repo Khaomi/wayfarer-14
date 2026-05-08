@@ -3004,3 +3004,10 @@ Entries:
   id: 6841
   time: '2026-05-08T06:04:51.0000000+00:00'
   url: https://github.com/project-wayfarer/wayfarer-14/pull/821
+- author: drraccoony
+  changes:
+    - type: Add
+      message: Added WFClayBody Quirk
+  id: 6842
+  time: '2026-05-08T14:03:06.0000000+00:00'
+  url: https://github.com/project-wayfarer/wayfarer-14/pull/820
