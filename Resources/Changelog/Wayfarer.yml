@@ -2988,3 +2988,10 @@ Entries:
   id: 6839
   time: '2026-05-08T02:56:29.0000000+00:00'
   url: https://github.com/project-wayfarer/wayfarer-14/pull/812
+- author: TheSlapper
+  changes:
+    - type: Tweak
+      message: (Miles) Reduced instances of IFF consoles as loot.
+  id: 6840
+  time: '2026-05-08T02:57:05.0000000+00:00'
+  url: https://github.com/project-wayfarer/wayfarer-14/pull/802
