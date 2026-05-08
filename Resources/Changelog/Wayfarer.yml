@@ -2995,3 +2995,12 @@ Entries:
   id: 6840
   time: '2026-05-08T02:57:05.0000000+00:00'
   url: https://github.com/project-wayfarer/wayfarer-14/pull/802
+- author: DevArchwave
+  changes:
+    - type: Tweak
+      message: >-
+        The custom examine menu can now only be accessed through right clicking
+        yourself, instead of pressing the action button.
+  id: 6841
+  time: '2026-05-08T06:04:51.0000000+00:00'
+  url: https://github.com/project-wayfarer/wayfarer-14/pull/821
