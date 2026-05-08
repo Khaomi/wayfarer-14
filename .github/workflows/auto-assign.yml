@@ -19,22 +19,17 @@ jobs:
         with:
           script: |
             const pr = context.payload.pull_request
-            const author = pr.user.login
-
-            const reviewers = ['drraccoony', "Khaomi"]
-            const filteredReviewers = reviewers.filter(r => r !== author)
 
             await github.rest.issues.addAssignees({
-              owner: context.repo.owner,
-              repo: context.repo.repo,
-              issue_number: pr.number,
-              assignees: [author]
+                owner: context.repo.owner,
+                repo: context.repo.repo,
+                issue_number: pr.number,
+                assignees: [pr.user.login]
             })
 
-            if (filteredReviewers.length > 0)
-              await github.rest.pulls.requestReviewers({
+            await github.rest.pulls.requestReviewers({
                 owner: context.repo.owner,
                 repo: context.repo.repo,
                 pull_number: pr.number,
-                reviewers: filteredReviewers
-              });
+                team_reviewers: [process.env.REVIEWERS_TEAM_SLUG ?? 'reviewers']
+            });
