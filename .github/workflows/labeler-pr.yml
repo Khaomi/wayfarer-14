@@ -5,7 +5,7 @@ on:
 
 jobs:
   labeler:
-    if: github.actor != 'PJBot' && github.actor != 'web-flow' # Wayfarer: FontierATC<web-flow
+    if: github.actor != 'PJBot' && github.actor != 'github-actions[bot]' # Wayfarer: FontierATC<github-actions[bot]
     permissions:
       contents: read
       pull-requests: write
