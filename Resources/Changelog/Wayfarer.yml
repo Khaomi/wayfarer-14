@@ -3036,3 +3036,12 @@ Entries:
   id: 6845
   time: '2026-05-09T16:49:17.0000000+00:00'
   url: https://github.com/project-wayfarer/wayfarer-14/pull/822
+- author: VVersengt
+  changes:
+    - type: Tweak
+      message: EMPs will no longer disable radios.
+    - type: Tweak
+      message: 40mm EMP will now disable devices for 30 seconds instead of 12
+  id: 6846
+  time: '2026-05-09T17:31:18.0000000+00:00'
+  url: https://github.com/project-wayfarer/wayfarer-14/pull/831
