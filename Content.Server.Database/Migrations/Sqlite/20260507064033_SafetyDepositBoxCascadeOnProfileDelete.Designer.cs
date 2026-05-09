@@ -3,6 +3,7 @@ using System;
 using Content.Server.Database;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 
 #nullable disable
@@ -10,9 +11,11 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace Content.Server.Database.Migrations.Sqlite
 {
     [DbContext(typeof(SqliteServerDbContext))]
-    partial class SqliteServerDbContextModelSnapshot : ModelSnapshot
+    [Migration("20260507064033_SafetyDepositBoxCascadeOnProfileDelete")]
+    partial class SafetyDepositBoxCascadeOnProfileDelete
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        /// <inheritdoc />
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder.HasAnnotation("ProductVersion", "9.0.1");
@@ -1459,54 +1462,6 @@ namespace Content.Server.Database.Migrations.Sqlite
                     b.ToTable("wayfarer_community_goals", (string)null);
                 });
 
-            modelBuilder.Entity("Content.Server.Database.WayfarerCommunityGoalContribution", b =>
-                {
-                    b.Property<int>("Id")
-                        .ValueGeneratedOnAdd()
-                        .HasColumnType("INTEGER")
-                        .HasColumnName("id");
-
-                    b.Property<long>("Amount")
-                        .HasColumnType("INTEGER")
-                        .HasColumnName("amount");
-
-                    b.Property<string>("CharacterName")
-                        .IsRequired()
-                        .HasColumnType("TEXT")
-                        .HasColumnName("character_name");
-
-                    b.Property<DateTime>("ContributedAt")
-                        .HasColumnType("TEXT")
-                        .HasColumnName("contributed_at");
-
-                    b.Property<string>("EntityPrototypeId")
-                        .IsRequired()
-                        .HasColumnType("TEXT")
-                        .HasColumnName("entity_prototype_id");
-
-                    b.Property<Guid>("PlayerUserId")
-                        .HasColumnType("TEXT")
-                        .HasColumnName("player_user_id");
-
-                    b.Property<int>("RequirementId")
-                        .HasColumnType("INTEGER")
-                        .HasColumnName("requirement_id");
-
-                    b.Property<int>("RoundId")
-                        .HasColumnType("INTEGER")
-                        .HasColumnName("round_id");
-
-                    b.HasKey("Id")
-                        .HasName("PK_wayfarer_community_goal_contributions");
-
-                    b.HasIndex("PlayerUserId");
-
-                    b.HasIndex("RequirementId")
-                        .HasDatabaseName("IX_wayfarer_community_goal_contributions_requirement_id");
-
-                    b.ToTable("wayfarer_community_goal_contributions", (string)null);
-                });
-
             modelBuilder.Entity("Content.Server.Database.WayfarerCommunityGoalRequirement", b =>
                 {
                     b.Property<int>("Id")
@@ -2362,18 +2317,6 @@ namespace Content.Server.Database.Migrations.Sqlite
                     b.Navigation("Profile");
                 });
 
-            modelBuilder.Entity("Content.Server.Database.WayfarerCommunityGoalContribution", b =>
-                {
-                    b.HasOne("Content.Server.Database.WayfarerCommunityGoalRequirement", "Requirement")
-                        .WithMany("Contributions")
-                        .HasForeignKey("RequirementId")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired()
-                        .HasConstraintName("FK_wayfarer_community_goal_contributions_wayfarer_community_goal_requirements_requirement_id");
-
-                    b.Navigation("Requirement");
-                });
-
             modelBuilder.Entity("Content.Server.Database.WayfarerCommunityGoalRequirement", b =>
                 {
                     b.HasOne("Content.Server.Database.WayfarerCommunityGoal", "Goal")
@@ -2545,11 +2488,6 @@ namespace Content.Server.Database.Migrations.Sqlite
             modelBuilder.Entity("Content.Server.Database.WayfarerCommunityGoal", b =>
                 {
                     b.Navigation("Requirements");
-                });
-
-            modelBuilder.Entity("Content.Server.Database.WayfarerCommunityGoalRequirement", b =>
-                {
-                    b.Navigation("Contributions");
                 });
 
             modelBuilder.Entity("Content.Server.Database.WayfarerSafetyDepositBox", b =>
