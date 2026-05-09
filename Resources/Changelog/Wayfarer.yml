@@ -3027,3 +3027,12 @@ Entries:
   id: 6844
   time: '2026-05-09T16:48:59.0000000+00:00'
   url: https://github.com/project-wayfarer/wayfarer-14/pull/826
+- author: drraccoony
+  changes:
+    - type: Add
+      message: Added in-game ability to read commends
+    - type: Tweak
+      message: Commend improvements
+  id: 6845
+  time: '2026-05-09T16:49:17.0000000+00:00'
+  url: https://github.com/project-wayfarer/wayfarer-14/pull/822
