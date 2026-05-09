@@ -3020,3 +3020,10 @@ Entries:
   id: 6843
   time: '2026-05-08T14:07:35.0000000+00:00'
   url: https://github.com/project-wayfarer/wayfarer-14/pull/819
+- author: TheSlapper
+  changes:
+    - type: Add
+      message: (Miles) Ported numerous clothing items from Starlight
+  id: 6844
+  time: '2026-05-09T16:48:59.0000000+00:00'
+  url: https://github.com/project-wayfarer/wayfarer-14/pull/826
