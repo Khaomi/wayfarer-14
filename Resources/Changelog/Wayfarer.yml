@@ -3045,3 +3045,12 @@ Entries:
   id: 6846
   time: '2026-05-09T17:31:18.0000000+00:00'
   url: https://github.com/project-wayfarer/wayfarer-14/pull/831
+- author: drraccoony
+  changes:
+    - type: Tweak
+      message: >-
+        Changed Hoverbikes. Riders have a 70% chance of knockdown upon taking
+        damage while riding.
+  id: 6847
+  time: '2026-05-10T00:46:13.0000000+00:00'
+  url: https://github.com/project-wayfarer/wayfarer-14/pull/833
