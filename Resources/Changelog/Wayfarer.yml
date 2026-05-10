@@ -3091,3 +3091,10 @@ Entries:
   id: 6850
   time: '2026-05-10T00:50:52.0000000+00:00'
   url: https://github.com/project-wayfarer/wayfarer-14/pull/818
+- author: JustKaits
+  changes:
+    - type: Add
+      message: Rui added guidebook sprite
+  id: 6851
+  time: '2026-05-10T02:24:30.0000000+00:00'
+  url: https://github.com/project-wayfarer/wayfarer-14/pull/630
