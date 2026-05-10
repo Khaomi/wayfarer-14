@@ -3076,3 +3076,18 @@ Entries:
   id: 6849
   time: '2026-05-10T00:48:38.0000000+00:00'
   url: https://github.com/project-wayfarer/wayfarer-14/pull/817
+- author: DevArchwave
+  changes:
+    - type: Tweak
+      message: >-
+        Artifact teleport effect now checks for non-ssd targets and had its
+        range decreased.
+    - type: Tweak
+      message: >-
+        Artifact explosion weights reduced a little, in favor of a healing
+        effect.
+    - type: Tweak
+      message: Duration of artifact polymorph effects halved.
+  id: 6850
+  time: '2026-05-10T00:50:52.0000000+00:00'
+  url: https://github.com/project-wayfarer/wayfarer-14/pull/818
