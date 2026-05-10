@@ -3069,3 +3069,10 @@ Entries:
   id: 6848
   time: '2026-05-10T00:48:25.0000000+00:00'
   url: https://github.com/project-wayfarer/wayfarer-14/pull/825
+- author: drraccoony
+  changes:
+    - type: Fix
+      message: Fixed Spacehulk spawn lagspike
+  id: 6849
+  time: '2026-05-10T00:48:38.0000000+00:00'
+  url: https://github.com/project-wayfarer/wayfarer-14/pull/817
