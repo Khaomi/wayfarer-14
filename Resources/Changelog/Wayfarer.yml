@@ -3054,3 +3054,18 @@ Entries:
   id: 6847
   time: '2026-05-10T00:46:13.0000000+00:00'
   url: https://github.com/project-wayfarer/wayfarer-14/pull/833
+- author: VVersengt
+  changes:
+    - type: Add
+      message: Hypospray to DoC and Brigmedic.
+    - type: Tweak
+      message: >-
+        Changed CGP loadouts so they have patrol suits and gave them access to
+        the gun loadouts like everyone else.
+    - type: Add
+      message: White variant of combat gloves.
+    - type: Add
+      message: 'STC is now mindshielded. '
+  id: 6848
+  time: '2026-05-10T00:48:25.0000000+00:00'
+  url: https://github.com/project-wayfarer/wayfarer-14/pull/825
