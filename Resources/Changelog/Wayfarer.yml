@@ -3128,3 +3128,10 @@ Entries:
   id: 6855
   time: '2026-05-11T23:53:08.0000000+00:00'
   url: https://github.com/project-wayfarer/wayfarer-14/pull/849
+- author: Possumongus
+  changes:
+    - type: Fix
+      message: Fixed IPC snout sprite missplacement
+  id: 6856
+  time: '2026-05-11T23:54:47.0000000+00:00'
+  url: https://github.com/project-wayfarer/wayfarer-14/pull/846
