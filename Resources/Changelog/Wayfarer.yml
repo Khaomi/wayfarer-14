@@ -3181,3 +3181,10 @@ Entries:
   id: 6862
   time: '2026-05-12T19:18:37.0000000+00:00'
   url: https://github.com/project-wayfarer/wayfarer-14/pull/856
+- author: TheSlapper
+  changes:
+    - type: Add
+      message: (Miles) Ported clothing from ImpStation
+  id: 6863
+  time: '2026-05-12T21:40:42.0000000+00:00'
+  url: https://github.com/project-wayfarer/wayfarer-14/pull/841
