@@ -3163,3 +3163,14 @@ Entries:
   id: 6860
   time: '2026-05-12T19:16:13.0000000+00:00'
   url: https://github.com/project-wayfarer/wayfarer-14/pull/834
+- author: Possumongus
+  changes:
+    - type: Add
+      message: RPD. Find it in your nearest engineering lathe or vendor
+    - type: Fix
+      message: >-
+        Fixed RCD desync issues, better ghost functionality, light stacking and
+        a bunch of other stuff.
+  id: 6861
+  time: '2026-05-12T19:17:51.0000000+00:00'
+  url: https://github.com/project-wayfarer/wayfarer-14/pull/850
