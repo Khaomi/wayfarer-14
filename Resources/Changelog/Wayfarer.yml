@@ -3188,3 +3188,10 @@ Entries:
   id: 6863
   time: '2026-05-12T21:40:42.0000000+00:00'
   url: https://github.com/project-wayfarer/wayfarer-14/pull/841
+- author: VVersengt
+  changes:
+    - type: Remove
+      message: Anomalous Geode is no more
+  id: 6864
+  time: '2026-05-12T21:44:58.0000000+00:00'
+  url: https://github.com/project-wayfarer/wayfarer-14/pull/830
