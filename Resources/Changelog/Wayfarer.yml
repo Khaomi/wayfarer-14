@@ -3135,3 +3135,10 @@ Entries:
   id: 6856
   time: '2026-05-11T23:54:47.0000000+00:00'
   url: https://github.com/project-wayfarer/wayfarer-14/pull/846
+- author: DevArchwave
+  changes:
+    - type: Tweak
+      message: New sprites for the AME and its jars.
+  id: 6857
+  time: '2026-05-12T09:17:49.0000000+00:00'
+  url: https://github.com/project-wayfarer/wayfarer-14/pull/855
