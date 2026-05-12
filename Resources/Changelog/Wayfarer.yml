@@ -3174,3 +3174,10 @@ Entries:
   id: 6861
   time: '2026-05-12T19:17:51.0000000+00:00'
   url: https://github.com/project-wayfarer/wayfarer-14/pull/850
+- author: Khaomi
+  changes:
+    - type: Add
+      message: Added Weh Flap by Enrico, which is a modification of Flip Flap
+  id: 6862
+  time: '2026-05-12T19:18:37.0000000+00:00'
+  url: https://github.com/project-wayfarer/wayfarer-14/pull/856
