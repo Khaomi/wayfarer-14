@@ -3209,3 +3209,30 @@ Entries:
   id: 6866
   time: '2026-05-13T00:40:44.0000000+00:00'
   url: https://github.com/project-wayfarer/wayfarer-14/pull/835
+- author: Luweth
+  changes:
+    - type: Tweak
+      message: >-
+        Changed the name of Old-kin to Aurelian, cleaning up their entire
+        structure in the process.
+    - type: Tweak
+      message: >-
+        Redone guide for Aurelian, better clarifying things in the process. Also
+        colors.
+    - type: Add
+      message: Separate organs and parts for Aurelian Vox.
+    - type: Add
+      message: Added various new hairs and markings for Aurelian Vox.
+    - type: Add
+      message: Vox plushie to loadout. (Most important change here.)
+    - type: Add
+      message: Regular Vox may now be carried. Uppies.
+    - type: Fix
+      message: Aurelian are blacklisted from medical bounty pods.
+    - type: Fix
+      message: All Vox not processing dead reagents in their streams.
+    - type: Fix
+      message: All Vox having duplicate organs while missing others.
+  id: 6867
+  time: '2026-05-13T00:50:13.0000000+00:00'
+  url: https://github.com/project-wayfarer/wayfarer-14/pull/854
