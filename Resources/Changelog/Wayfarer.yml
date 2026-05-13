@@ -3236,3 +3236,12 @@ Entries:
   id: 6867
   time: '2026-05-13T00:50:13.0000000+00:00'
   url: https://github.com/project-wayfarer/wayfarer-14/pull/854
+- author: DevArchwave
+  changes:
+    - type: Tweak
+      message: >-
+        KC Pathfinder shuttle was updated and re-enabled, bringing it to modern
+        standards.
+  id: 6868
+  time: '2026-05-13T01:23:11.0000000+00:00'
+  url: https://github.com/project-wayfarer/wayfarer-14/pull/836
