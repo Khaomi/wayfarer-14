@@ -3245,3 +3245,12 @@ Entries:
   id: 6868
   time: '2026-05-13T01:23:11.0000000+00:00'
   url: https://github.com/project-wayfarer/wayfarer-14/pull/836
+- author: VVersengt
+  changes:
+    - type: Tweak
+      message: >-
+        MAA now requires 72 hours total CGP time instead of 72 hours as
+        Peacekeeper
+  id: 6869
+  time: '2026-05-13T02:52:13.0000000+00:00'
+  url: https://github.com/project-wayfarer/wayfarer-14/pull/861
