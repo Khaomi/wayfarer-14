@@ -1,11 +1,11 @@
 - type: entity
   abstract: true
   parent: [ BaseItem, BasePart ]
-  id: PartOldKinVox
-  name: "old-kin vox body part"
+  id: PartAurelianVox
+  name: "aurelian vox body part"
   components:
   - type: Sprite
-    sprite: _WF/Mobs/Species/OldKinVox/parts.rsi
+    sprite: _WF/Mobs/Species/AurelianVox/parts.rsi
   - type: Extractable
     juiceSolution:
       reagents:
@@ -15,9 +15,9 @@
         Quantity: 10
 
 - type: entity
-  parent: [PartOldKinVox, BaseTorso]
-  id: TorsoOldKinVox
-  name: "old-kin vox torso"
+  parent: [PartAurelianVox, BaseTorso]
+  id: TorsoAurelianVox
+  name: "aurelian vox torso"
   components:
   - type: Sprite
     state: "torso"
@@ -30,9 +30,9 @@
         Quantity: 20
 
 - type: entity
-  parent: [ PartOldKinVox, BaseHead ]
-  id: HeadOldKinVox
-  name: "old-kin vox head"
+  parent: [ PartAurelianVox, BaseHead ]
+  id: HeadAurelianVox
+  name: "aurelian vox head"
   components:
   - type: Sprite
     state: "head"
@@ -45,65 +45,65 @@
         Quantity: 10
 
 - type: entity
-  parent: [ PartOldKinVox, BaseLeftArm ]
-  id: LeftArmOldKinVox
-  name: "left old-kin vox arm"
+  parent: [ PartAurelianVox, BaseLeftArm ]
+  id: LeftArmAurelianVox
+  name: "left aurelian vox arm"
   components:
   - type: Sprite
     state: "l_arm"
 
 - type: entity
-  parent: [ PartOldKinVox, BaseRightArm ]
-  id: RightArmOldKinVox
-  name: "right old-kin vox arm"
+  parent: [ PartAurelianVox, BaseRightArm ]
+  id: RightArmAurelianVox
+  name: "right aurelian vox arm"
   components:
   - type: Sprite
     state: "r_arm"
 
 - type: entity
-  parent: [ PartOldKinVox, BaseLeftHand ]
-  id: LeftHandOldKinVox
-  name: "left old-kin vox hand"
+  parent: [ PartAurelianVox, BaseLeftHand ]
+  id: LeftHandAurelianVox
+  name: "left aurelian vox hand"
   components:
   - type: Sprite
     state: "l_hand"
 
 - type: entity
-  parent: [ PartOldKinVox, BaseRightHand ]
-  id: RightHandOldKinVox
-  name: "right old-kin vox hand"
+  parent: [ PartAurelianVox, BaseRightHand ]
+  id: RightHandAurelianVox
+  name: "right aurelian vox hand"
   components:
   - type: Sprite
     state: "r_hand"
 
 - type: entity
-  parent:  [ PartOldKinVox, BaseLeftLeg ]
-  id: LeftLegOldKinVox
-  name: "left old-kin vox leg"
+  parent:  [ PartAurelianVox, BaseLeftLeg ]
+  id: LeftLegAurelianVox
+  name: "left aurelian vox leg"
   components:
   - type: Sprite
     state: "l_leg"
 
 - type: entity
-  parent:  [ PartOldKinVox, BaseRightLeg ]
-  id: RightLegOldKinVox
-  name: "right old-kin vox leg"
+  parent:  [ PartAurelianVox, BaseRightLeg ]
+  id: RightLegAurelianVox
+  name: "right aurelian vox leg"
   components:
   - type: Sprite
     state: "r_leg"
 
 - type: entity
-  parent: [ PartOldKinVox, BaseLeftFoot ]
-  id: LeftFootOldKinVox
-  name: "left old-kin vox foot"
+  parent: [ PartAurelianVox, BaseLeftFoot ]
+  id: LeftFootAurelianVox
+  name: "left aurelian vox foot"
   components:
   - type: Sprite
     state: "l_foot"
 
 - type: entity
-  parent: [ PartOldKinVox, BaseRightFoot ]
-  id: RightFootOldKinVox
-  name: "right old-kin vox foot"
+  parent: [ PartAurelianVox, BaseRightFoot ]
+  id: RightFootAurelianVox
+  name: "right aurelian vox foot"
   components:
   - type: Sprite
     state: "r_foot"

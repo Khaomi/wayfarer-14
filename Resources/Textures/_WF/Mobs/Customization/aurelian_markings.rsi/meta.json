@@ -1,7 +1,7 @@
 {
   "version": 1,
   "license": "CC-BY-SA-3.0",
-  "copyright": "Taken from https://github.com/NebulaSS13/Nebula and modified by Yatiyaya",
+  "copyright": "Taken from https://github.com/NebulaSS13/Nebula and modified by Yatiyaya, robotics modified by Luweth.",
   "size": {
     "x": 32,
     "y": 32
@@ -74,6 +74,51 @@
     {
       "name": "scutes_foot_right",
       "directions": 4
-    }
+    },
+	    {
+      "name": "robotic_arm_right",
+      "directions": 4
+    },
+    {
+        "name": "robotic_arm_left",
+        "directions": 4
+      },
+    {
+      "name": "robotic_hand_right",
+      "directions": 4
+    },
+    {
+      "name": "robotic_hand_left",
+      "directions": 4
+    },
+    {
+      "name": "robotic_leg_right",
+      "directions": 4
+    },
+    {
+      "name": "robotic_leg_left",
+      "directions": 4
+    },
+    {
+      "name": "robotic_foot_left",
+      "directions": 4
+    },
+    {
+      "name": "robotic_foot_right",
+      "directions": 4
+    },
+    {
+      "name": "robotic_head",
+      "directions": 4
+    },
+    {
+      "name": "robotic_tail",
+      "directions": 4
+    },
+    {
+      "name": "robotic_chest",
+      "directions": 4
+	}
+
   ]
 }

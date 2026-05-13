@@ -1,5 +1,5 @@
 - type: entity
   save: false
   name: Uristititi McRegalVox
-  parent: BaseMobOldKinVox
-  id: MobOldKinVox
+  parent: BaseMobAurelianVox
+  id: MobAurelianVox
