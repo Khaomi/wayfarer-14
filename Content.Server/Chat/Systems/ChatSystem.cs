@@ -256,7 +256,7 @@ public sealed partial class ChatSystem : SharedChatSystem
         // The minimum contrast required by WCAG (Level AA) for text
         var nameHashColor = ColorExtensions.ConsistentRandomSeededColorFromString(entityName, 149);
         var nameColorString = nameHashColor.ToHex();
-        // Wayfarer end
+        // End Wayfarer
 
         // Was there an emote in the message? If so, send it.
         if (player != null && emoteStr != message && emoteStr != null)
