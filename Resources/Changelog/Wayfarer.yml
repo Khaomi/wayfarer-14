@@ -3254,3 +3254,12 @@ Entries:
   id: 6869
   time: '2026-05-13T02:52:13.0000000+00:00'
   url: https://github.com/project-wayfarer/wayfarer-14/pull/861
+- author: Whisper
+  changes:
+    - type: Add
+      message: Added Synthetic Lizard markings! Try making an IPC!
+    - type: Fix
+      message: Fixed my stupid son looking stupid!
+  id: 6870
+  time: '2026-05-14T04:37:55.0000000+00:00'
+  url: https://github.com/project-wayfarer/wayfarer-14/pull/872
