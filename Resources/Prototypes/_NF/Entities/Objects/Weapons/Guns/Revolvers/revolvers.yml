@@ -78,7 +78,7 @@
 
 - type: entity
   id: NFWeaponPistolFlintlock
-  parent: [ NFBaseWeaponRevolverChamber60, NFBaseWeaponFrameRevolverSteelbolt ]
+  parent: [ NFBaseWeaponFlintlockChamber, NFBaseWeaponFrameRevolverSteelbolt ] # Wayfarer: NFBaseWeaponRevolverChamber60<NFBaseWeaponFlintlockChamber get real lmao
   name: flintlock pistol
   description: |-
     A pirate's companion. Yarrr! An illegal weapon often used by pirates.
