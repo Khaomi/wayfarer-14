@@ -3326,3 +3326,10 @@ Entries:
   id: 6877
   time: '2026-05-15T22:12:48.0000000+00:00'
   url: https://github.com/project-wayfarer/wayfarer-14/pull/870
+- author: VVersengt
+  changes:
+    - type: Tweak
+      message: Moved Perdition further out
+  id: 6878
+  time: '2026-05-15T22:13:21.0000000+00:00'
+  url: https://github.com/project-wayfarer/wayfarer-14/pull/877
