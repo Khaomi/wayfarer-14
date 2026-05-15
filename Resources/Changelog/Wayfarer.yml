@@ -3342,3 +3342,12 @@ Entries:
   id: 6879
   time: '2026-05-15T22:15:34.0000000+00:00'
   url: https://github.com/project-wayfarer/wayfarer-14/pull/868
+- author: stinkiestdog
+  changes:
+    - type: Tweak
+      message: >-
+        Bluespace events no longer target shuttles which are considered
+        'inactive' (gray IFF).
+  id: 6880
+  time: '2026-05-15T22:16:08.0000000+00:00'
+  url: https://github.com/project-wayfarer/wayfarer-14/pull/878
