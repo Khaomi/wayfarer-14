@@ -3294,3 +3294,12 @@ Entries:
   id: 6873
   time: '2026-05-15T12:47:43.0000000+00:00'
   url: https://github.com/project-wayfarer/wayfarer-14/pull/881
+- author: JustKaits
+  changes:
+    - type: Add
+      message: some LV cables
+    - type: Remove
+      message: airlocks.
+  id: 6874
+  time: '2026-05-15T15:50:48.0000000+00:00'
+  url: https://github.com/project-wayfarer/wayfarer-14/pull/734
