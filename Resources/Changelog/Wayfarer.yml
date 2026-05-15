@@ -3303,3 +3303,12 @@ Entries:
   id: 6874
   time: '2026-05-15T15:50:48.0000000+00:00'
   url: https://github.com/project-wayfarer/wayfarer-14/pull/734
+- author: VVersengt
+  changes:
+    - type: Fix
+      message: >-
+        Fixed Syndicate PDAs not having any apps installed. Do you have games on
+        your phone?
+  id: 6875
+  time: '2026-05-15T22:06:16.0000000+00:00'
+  url: https://github.com/project-wayfarer/wayfarer-14/pull/882
