@@ -3279,3 +3279,18 @@ Entries:
   id: 6872
   time: '2026-05-15T12:44:58.0000000+00:00'
   url: https://github.com/project-wayfarer/wayfarer-14/pull/874
+- author: VVersengt
+  changes:
+    - type: Add
+      message: Added new items to outlaw uplink and reduced prices across the board.
+    - type: Tweak
+      message: Flintlock is no longer a pocket Hristov, seriously why was this a thing?
+    - type: Tweak
+      message: Tweaked damage values on .45 ammo, it is god's chosen caliber after all.
+    - type: Tweak
+      message: Interdyne herbals now contain Bicaridine instead of Tricodrazine.
+    - type: Tweak
+      message: Outlaw hardsuit now has a new sprite.
+  id: 6873
+  time: '2026-05-15T12:47:43.0000000+00:00'
+  url: https://github.com/project-wayfarer/wayfarer-14/pull/881
