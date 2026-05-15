@@ -3351,3 +3351,13 @@ Entries:
   id: 6880
   time: '2026-05-15T22:16:08.0000000+00:00'
   url: https://github.com/project-wayfarer/wayfarer-14/pull/878
+- author: Whisper
+  changes:
+    - type: Add
+      message: >-
+        Added (standard) blinking eye markings! You can add these to your
+        character to make them blink! (You can also toggle this off in-game if
+        you make the marking hidable!)
+  id: 6881
+  time: '2026-05-15T22:18:27.0000000+00:00'
+  url: https://github.com/project-wayfarer/wayfarer-14/pull/876
