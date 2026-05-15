@@ -3270,3 +3270,12 @@ Entries:
   id: 6871
   time: '2026-05-15T08:37:06.0000000+00:00'
   url: https://github.com/project-wayfarer/wayfarer-14/pull/880
+- author: VVersengt
+  changes:
+    - type: Remove
+      message: Removed contraband tags from Arcadia items.
+    - type: Tweak
+      message: Reclassified most contraband to fit the new system.
+  id: 6872
+  time: '2026-05-15T12:44:58.0000000+00:00'
+  url: https://github.com/project-wayfarer/wayfarer-14/pull/874
