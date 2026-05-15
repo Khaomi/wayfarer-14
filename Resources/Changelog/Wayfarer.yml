@@ -3312,3 +3312,10 @@ Entries:
   id: 6875
   time: '2026-05-15T22:06:16.0000000+00:00'
   url: https://github.com/project-wayfarer/wayfarer-14/pull/882
+- author: VVersengt
+  changes:
+    - type: Tweak
+      message: CGP Thrusters are just a tiny bit faster than regular ones.
+  id: 6876
+  time: '2026-05-15T22:10:18.0000000+00:00'
+  url: https://github.com/project-wayfarer/wayfarer-14/pull/884
