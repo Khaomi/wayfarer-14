@@ -3319,3 +3319,10 @@ Entries:
   id: 6876
   time: '2026-05-15T22:10:18.0000000+00:00'
   url: https://github.com/project-wayfarer/wayfarer-14/pull/884
+- author: DevArchwave
+  changes:
+    - type: Tweak
+      message: Omni blueprints have been largely removed, saved for common items.
+  id: 6877
+  time: '2026-05-15T22:12:48.0000000+00:00'
+  url: https://github.com/project-wayfarer/wayfarer-14/pull/870
