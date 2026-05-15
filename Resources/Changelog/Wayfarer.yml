@@ -3333,3 +3333,12 @@ Entries:
   id: 6878
   time: '2026-05-15T22:13:21.0000000+00:00'
   url: https://github.com/project-wayfarer/wayfarer-14/pull/877
+- author: DevArchwave
+  changes:
+    - type: Add
+      message: >-
+        Added mutable server configuration variables that can modify how many
+        points certain sources of science can give.
+  id: 6879
+  time: '2026-05-15T22:15:34.0000000+00:00'
+  url: https://github.com/project-wayfarer/wayfarer-14/pull/868
