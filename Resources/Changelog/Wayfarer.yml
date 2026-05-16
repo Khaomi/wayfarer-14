@@ -3392,3 +3392,10 @@ Entries:
   id: 6884
   time: '2026-05-16T00:14:10.0000000+00:00'
   url: https://github.com/project-wayfarer/wayfarer-14/pull/885
+- author: DevArchwave
+  changes:
+    - type: Fix
+      message: Mitigated a client crash related to markings.
+  id: 6885
+  time: '2026-05-16T01:11:05.0000000+00:00'
+  url: https://github.com/project-wayfarer/wayfarer-14/pull/891
