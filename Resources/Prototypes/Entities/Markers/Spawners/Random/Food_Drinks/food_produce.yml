@@ -175,3 +175,8 @@
       - id: DeathNettle
         amount: !type:RangeNumberSelector
           range: 1, 5
+      # Begin Floof additions
+      - id: FoodPomegranate
+        amount: !type:RangeNumberSelector
+          range: 1, 5
+      # End Floof additions
