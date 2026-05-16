@@ -3378,3 +3378,10 @@ Entries:
   id: 6882
   time: '2026-05-16T00:03:15.0000000+00:00'
   url: https://github.com/project-wayfarer/wayfarer-14/pull/887
+- author: DevArchwave
+  changes:
+    - type: Add
+      message: Ported Starlight's RPD Refactor
+  id: 6883
+  time: '2026-05-16T00:07:35.0000000+00:00'
+  url: https://github.com/project-wayfarer/wayfarer-14/pull/866
