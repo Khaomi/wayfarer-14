@@ -3385,3 +3385,10 @@ Entries:
   id: 6883
   time: '2026-05-16T00:07:35.0000000+00:00'
   url: https://github.com/project-wayfarer/wayfarer-14/pull/866
+- author: Khaomi
+  changes:
+    - type: Add
+      message: Added Ship Out Of Character (SOOC)
+  id: 6884
+  time: '2026-05-16T00:14:10.0000000+00:00'
+  url: https://github.com/project-wayfarer/wayfarer-14/pull/885
