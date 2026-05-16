@@ -3361,3 +3361,20 @@ Entries:
   id: 6881
   time: '2026-05-15T22:18:27.0000000+00:00'
   url: https://github.com/project-wayfarer/wayfarer-14/pull/876
+- author: Luweth
+  changes:
+    - type: Add
+      message: Added Aurelian metabolizer type.
+    - type: Add
+      message: Countless mask and hardsuit variants for Aurelian Vox
+    - type: Tweak
+      message: >-
+        Changed Aurelian Vox to now be poisoned by healing chems derived from
+        Oxygen
+    - type: Tweak
+      message: Various localization adjustments for A-Vox
+    - type: Fix
+      message: Various Aurelian layering issues.
+  id: 6882
+  time: '2026-05-16T00:03:15.0000000+00:00'
+  url: https://github.com/project-wayfarer/wayfarer-14/pull/887
