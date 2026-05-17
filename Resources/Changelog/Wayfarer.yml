@@ -3413,3 +3413,26 @@ Entries:
   id: 6887
   time: '2026-05-17T06:53:58.0000000+00:00'
   url: https://github.com/project-wayfarer/wayfarer-14/pull/902
+- author: VVersengt
+  changes:
+    - type: Fix
+      message: Fixed evil pens fitting into safety deposit boxes.
+  id: 6888
+  time: '2026-05-17T10:43:50.0000000+00:00'
+  url: https://github.com/project-wayfarer/wayfarer-14/pull/906
+- author: VVersengt
+  changes:
+    - type: Fix
+      message: Fixed Hot Chili spilling over the floor when cooked.
+  id: 6889
+  time: '2026-05-17T10:44:23.0000000+00:00'
+  url: https://github.com/project-wayfarer/wayfarer-14/pull/907
+- author: VVersengt
+  changes:
+    - type: Fix
+      message: >-
+        Explosive and EMP crossbow bolts now explode and EMP, respectively, on
+        impact.
+  id: 6890
+  time: '2026-05-17T10:44:47.0000000+00:00'
+  url: https://github.com/project-wayfarer/wayfarer-14/pull/908
