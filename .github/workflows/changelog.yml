@@ -6,7 +6,6 @@ on:
 
 env:
   # GITHUB_TOKEN: ${{ secrets.BOT_TOKEN }} # Wayfarer
-  BOT_TOKEN: ${{ secrets.GITHUB_TOKEN }} # Wayfarer
   CHANGELOG_DIR: Resources/Changelog/Wayfarer.yml # Frontier: Changelog.yml<Frontier.yml # Wayfarer: Frontier.yml<Wayfarer.yml
   PR_NUMBER: ${{ github.event.number }}
 
@@ -20,7 +19,7 @@ jobs:
       - name: Checkout Master
         uses: actions/checkout@v3
         with:
-          token: ${{ secrets.BOT_TOKEN }}
+          token: ${{ secrets.GITHUB_TOKEN }} # Warfarer: BOT_TOKEN<GITHUB_TOKEN
           ref: master
 
       - name: Setup Git
