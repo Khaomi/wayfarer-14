@@ -29,7 +29,7 @@ body:
       required: true
   - type: textarea
     attributes:
-      label: estimate
+      label: Estimates
       description: In your estimate, what would be needed to complete this request? Would it need changes to the engine in C#? Just changes to items with YML? Sprites or Sound Effects? Etc. Etc?
     validations:
       required: false
