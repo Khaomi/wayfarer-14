@@ -15,6 +15,7 @@ jobs:
     # Wayfarer
     permissions:
       pull-requests: write
+      issues: write
     # End Wayfarer
 
     steps:
