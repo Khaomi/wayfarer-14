@@ -1,34 +1,38 @@
-- type: reaction
-  id: 7DeadlySins
-  reactants:
-    Blood:
-      amount: 1
-    FourteenLoko:
-      amount: 1
-    Pomelustine:
-      amount: 1
-    Sugar:
-      amount: 1
-    TableSalt:
-      amount: 1
-    Tequila:
-      amount: 2
-  products:
-    7DeadlySins: 7
+# Wayfarer: Disabled for now
+# - type: reaction
+#   id: 7DeadlySins
+#   reactants:
+#     Blood:
+#       amount: 1
+#     FourteenLoko:
+#       amount: 1
+#     Pomelustine:
+#       amount: 1
+#     Sugar:
+#       amount: 1
+#     TableSalt:
+#       amount: 1
+#     Tequila:
+#       amount: 2
+#   products:
+#     7DeadlySins: 7
+# End Wayfarer
 
-- type: reaction
-  id: ABLustine
-  requiredMixerCategories:
-  - Shake
-  reactants:
-    JuiceApple:
-      amount: 1
-    JuiceBanana:
-      amount: 1
-    Pomelustine:
-      amount: 1
-  products:
-    ABLustine: 3
+# Wayfarer: Disabled for now
+# - type: reaction
+#   id: ABLustine
+#   requiredMixerCategories:
+#   - Shake
+#   reactants:
+#     JuiceApple:
+#       amount: 1
+#     JuiceBanana:
+#       amount: 1
+#     Pomelustine:
+#       amount: 1
+#   products:
+#     ABLustine: 3
+# End Wayfarer
 
 - type: reaction
   id: AppleberryFizz
@@ -58,45 +62,51 @@
   products:
     BandE: 3
 
-- type: reaction
-  id: BethanysCumLust
-  requiredMixerCategories:
-  - Shake
-  reactants:
-    Cum:
-      amount: 4
-    Pomelustine:
-      amount: 3
-    NikkosNaughtyNectar:
-      amount: 4
-  products:
-    BethanysCumLust: 11
+# Wayfarer: Disabled for now
+# - type: reaction
+#   id: BethanysCumLust
+#   requiredMixerCategories:
+#   - Shake
+#   reactants:
+#     Cum:
+#       amount: 4
+#     Pomelustine:
+#       amount: 3
+#     NikkosNaughtyNectar:
+#       amount: 4
+#   products:
+#     BethanysCumLust: 11
+# End Wayfarer
 
-- type: reaction
-  id: BethanysSluttyCumLust
-  requiredMixerCategories:
-  - Shake
-  reactants:
-    BethanysCumLust:
-      amount: 11
-    Philterex:
-      amount: 3
-  products:
-    BethanysSluttyCumLust: 14
+# Wayfarer: Disabled for now
+# - type: reaction
+#   id: BethanysSluttyCumLust
+#   requiredMixerCategories:
+#   - Shake
+#   reactants:
+#     BethanysCumLust:
+#       amount: 11
+#     Philterex:
+#       amount: 3
+#   products:
+#     BethanysSluttyCumLust: 14
+# Wayfarer End
 
-- type: reaction
-  id: BlueBaller
-  requiredMixerCategories:
-  - Stir
-  reactants:
-    BlueCuracao:
-      amount: 1
-    JuiceWatermelon:
-      amount: 1
-    Pomelustine:
-      amount: 1
-  products:
-    BlueBaller: 3
+# Wayfarer: Disabled for now
+# - type: reaction
+#   id: BlueBaller
+#   requiredMixerCategories:
+#   - Stir
+#   reactants:
+#     BlueCuracao:
+#       amount: 1
+#     JuiceWatermelon:
+#       amount: 1
+#     Pomelustine:
+#       amount: 1
+#   products:
+#     BlueBaller: 3
+# End Wayfarer
 
 - type: reaction
   id: CafeDeCacao
@@ -180,21 +190,23 @@
   products:
     DeadMansDraught: 4
 
-- type: reaction
-  id: DemonSeed
-  requiredMixerCategories:
-  - Shake
-  reactants:
-    Blood:
-      amount: 2
-    Cum:
-      amount: 1
-    Pomelustine:
-      amount: 2
-    Vodka:
-      amount: 1
-  products:
-    DemonSeed: 6
+# Wayfarer: Disabled for now
+# - type: reaction
+#   id: DemonSeed
+#   requiredMixerCategories:
+#   - Shake
+#   reactants:
+#     Blood:
+#       amount: 2
+#     Cum:
+#       amount: 1
+#     Pomelustine:
+#       amount: 2
+#     Vodka:
+#       amount: 1
+#   products:
+#     DemonSeed: 6
+# End Wayfarer
 
 - type: reaction
   id: DirtyWastelander
@@ -266,19 +278,21 @@
   products:
     DragonsSeed: 4
 
-- type: reaction
-  id: EmeraldSwinger
-  requiredMixerCategories:
-  - Shake
-  reactants:
-    JuiceGrape:
-      amount: 2
-    MelonLiquor:
-      amount: 2
-    JuicePomegranate:
-      amount: 1
-  products:
-    EmeraldSwinger: 5
+# Wayfarer: Disabled for now
+# - type: reaction
+#   id: EmeraldSwinger
+#   requiredMixerCategories:
+#   - Shake
+#   reactants:
+#     JuiceGrape:
+#       amount: 2
+#     MelonLiquor:
+#       amount: 2
+#     JuicePomegranate:
+#       amount: 1
+#   products:
+#     EmeraldSwinger: 5
+# End Wayfarer
 
 # Wayfarer: Commented out so we can add it later
 # - type: reaction
@@ -325,19 +339,21 @@
   products:
     GrandNavy: 3
 
-- type: reaction
-  id: HeartbreakMountain
-  requiredMixerCategories:
-  - Stir
-  reactants:
-    EnergyDrink:
-      amount: 1
-    Pomelustine:
-      amount: 1
-    SpaceMountainWind:
-      amount: 1
-  products:
-    HeartbreakMountain: 3
+# Wayfarer: Disabled for now
+# - type: reaction
+#   id: HeartbreakMountain
+#   requiredMixerCategories:
+#   - Stir
+#   reactants:
+#     EnergyDrink:
+#       amount: 1
+#     Pomelustine:
+#       amount: 1
+#     SpaceMountainWind:
+#       amount: 1
+#   products:
+#     HeartbreakMountain: 3
+# End Wayfarer
 
 - type: reaction
   id: HolyVice
@@ -351,19 +367,19 @@
   products:
     HolyVice: 3
 
-- type: reaction
-  id: HornyStallion
-  requiredMixerCategories:
-  - Stir
-  reactants:
-    Coffee:
-      amount: 1
-    Libidozenithizine:
-      amount: 1
-    SodaWater:
-      amount: 1
-  products:
-    HornyStallion: 3
+# - type: reaction
+#   id: HornyStallion
+#   requiredMixerCategories:
+#   - Stir
+#   reactants:
+#     Coffee:
+#       amount: 1
+#     Libidozenithizine:
+#       amount: 1
+#     SodaWater:
+#       amount: 1
+#   products:
+#     HornyStallion: 3
 
 - type: reaction
   id: KoboldKooler
@@ -393,19 +409,21 @@
   products:
     KoboldKorkscrew: 3
 
-- type: reaction
-  id: Lamplight
-  requiredMixerCategories:
-  - Stir
-  reactants:
-    EnergyDrink:
-      amount: 1
-    Pomelustine:
-      amount: 1
-    Sugar:
-      amount: 1
-  products:
-    Lamplight: 3
+# Wayfarer: Disabled for now
+# - type: reaction
+#   id: Lamplight
+#   requiredMixerCategories:
+#   - Stir
+#   reactants:
+#     EnergyDrink:
+#       amount: 1
+#     Pomelustine:
+#       amount: 1
+#     Sugar:
+#       amount: 1
+#   products:
+#     Lamplight: 3
+# End Wayfarer
 
 - type: reaction
   id: LemonPopsicle
@@ -423,17 +441,19 @@
   products:
     LemonPopsicle: 10
 
-- type: reaction
-  id: LoversKiss
-  requiredMixerCategories:
-  - Stir
-  reactants:
-    Pomelustine:
-      amount: 1
-    Wine:
-      amount: 2
-  products:
-    LoversKiss: 3
+# Wayfarer: Disabled for now
+# - type: reaction
+#   id: LoversKiss
+#   requiredMixerCategories:
+#   - Stir
+#   reactants:
+#     Pomelustine:
+#       amount: 1
+#     Wine:
+#       amount: 2
+#   products:
+#     LoversKiss: 3
+# End Wayfarer
 
 - type: reaction
   id: MarieJulep
@@ -465,21 +485,23 @@
   products:
     MarsBar: 3
 
-- type: reaction
-  id: MossBloodShot
-  requiredMixerCategories:
-  - Shake
-  reactants:
-    JuiceBerry:
-      amount: 1
-    JuicePomegranate:
-      amount: 1
-    Rum:
-      amount: 2
-    Sugar:
-      amount: 1
-  products:
-    MossBloodShot: 5
+# Wayfarer: Disabled for now
+# - type: reaction
+#   id: MossBloodShot
+#   requiredMixerCategories:
+#   - Shake
+#   reactants:
+#     JuiceBerry:
+#       amount: 1
+#     JuicePomegranate:
+#       amount: 1
+#     Rum:
+#       amount: 2
+#     Sugar:
+#       amount: 1
+#   products:
+#     MossBloodShot: 5
+# End Wayfarer
 
 - type: reaction
   id: NumberOne
@@ -523,45 +545,51 @@
   products:
     OrgasmOnTheBeach: 5
 
-- type: reaction
-  id: Pomonade
-  requiredMixerCategories:
-  - Stir
-  reactants:
-    JuicePomegranate:
-      amount: 1
-    Lemonade:
-      amount: 2
-  products:
-    Pomonade: 3
+# Wayfarer: Disabled for now
+# - type: reaction
+#   id: Pomonade
+#   requiredMixerCategories:
+#   - Stir
+#   reactants:
+#     JuicePomegranate:
+#       amount: 1
+#     Lemonade:
+#       amount: 2
+#   products:
+#     Pomonade: 3
+# End Wayfarer
 
-- type: reaction
-  id: PomPassion
-  requiredMixerCategories:
-  - Shake
-  reactants:
-    BlueCuracao:
-      amount: 1
-    Grenadine:
-      amount: 1
-    JuicePomegranate:
-      amount: 1
-  products:
-    PomPassion: 3
+# Wayfarer: Disabled for now
+# - type: reaction
+#   id: PomPassion
+#   requiredMixerCategories:
+#   - Shake
+#   reactants:
+#     BlueCuracao:
+#       amount: 1
+#     Grenadine:
+#       amount: 1
+#     JuicePomegranate:
+#       amount: 1
+#   products:
+#     PomPassion: 3
+# End Wayfarer
 
-- type: reaction
-  id: PomTwist
-  requiredMixerCategories:
-  - Shake
-  reactants:
-    JuiceLemon:
-      amount: 1
-    JuiceLime:
-      amount: 1
-    Pomelustine:
-      amount: 1
-  products:
-    PomTwist: 3
+# Wayfarer: Disabled for now
+# - type: reaction
+#   id: PomTwist
+#   requiredMixerCategories:
+#   - Shake
+#   reactants:
+#     JuiceLemon:
+#       amount: 1
+#     JuiceLime:
+#       amount: 1
+#     Pomelustine:
+#       amount: 1
+#   products:
+#     PomTwist: 3
+# End Wayfarer
 
 - type: reaction
   id: PrairieOyster
@@ -613,33 +641,37 @@
   products:
     QuadrupleCreamChalice: 4
 
-- type: reaction
-  id: RandyStallion
-  reactants:
-    Coffee:
-      amount: 1
-    Pomelustine:
-      amount: 1
-    SodaWater:
-      amount: 1
-  products:
-    RandyStallion: 3
+# Wayfarer: Disabled for now
+# - type: reaction
+#   id: RandyStallion
+#   reactants:
+#     Coffee:
+#       amount: 1
+#     Pomelustine:
+#       amount: 1
+#     SodaWater:
+#       amount: 1
+#   products:
+#     RandyStallion: 3
+# End Wayfarer
 
-- type: reaction
-  id: RedRocket
-  requiredMixerCategories:
-  - Shake
-  reactants:
-    Grenadine:
-      amount: 2
-    JuicePomegranate:
-      amount: 1
-    Rum:
-      amount: 1
-    JuiceWatermelon:
-      amount: 2
-  products:
-    RedRocket: 6
+# Wayfarer: Disabled for now
+# - type: reaction
+#   id: RedRocket
+#   requiredMixerCategories:
+#   - Shake
+#   reactants:
+#     Grenadine:
+#       amount: 2
+#     JuicePomegranate:
+#       amount: 1
+#     Rum:
+#       amount: 1
+#     JuiceWatermelon:
+#       amount: 2
+#   products:
+#     RedRocket: 6
+# End Wayfarer
 
 - type: reaction
   id: SalvagersDelight
@@ -726,19 +758,21 @@
   products:
     Snowball: 4
 
-- type: reaction
-  id: SpecialSundae
-  requiredMixerCategories:
-  - Shake
-  reactants:
-    Cum:
-      amount: 1
-    IceCream:
-      amount: 1
-    JuicePomegranate:
-      amount: 1
-  products:
-    SpecialSundae: 3
+# Wayfarer: Disabled for now
+# - type: reaction
+#   id: SpecialSundae
+#   requiredMixerCategories:
+#   - Shake
+#   reactants:
+#     Cum:
+#       amount: 1
+#     IceCream:
+#       amount: 1
+#     JuicePomegranate:
+#       amount: 1
+#   products:
+#     SpecialSundae: 3
+# End Wayfarer
 
 - type: reaction
   id: SyndicateEggnog
@@ -844,21 +878,23 @@
   products:
     TheWaterslide: 3
 
-- type: reaction
-  id: YeOlHandy
-  requiredMixerCategories:
-  - Shake
-  reactants:
-    Ice:
-      amount: 1
-    JuiceOrange:
-      amount: 2
-    JuicePomegranate:
-      amount: 1
-    Whiskey:
-      amount: 1
-  products:
-    YeOlHandy: 5
+# Wayfarer: Disabled for now
+# - type: reaction
+#   id: YeOlHandy
+#   requiredMixerCategories:
+#   - Shake
+#   reactants:
+#     Ice:
+#       amount: 1
+#     JuiceOrange:
+#       amount: 2
+#     JuicePomegranate:
+#       amount: 1
+#     Whiskey:
+#       amount: 1
+#   products:
+#     YeOlHandy: 5
+# End Wayfarer
 
 - type: reaction
   id: Sake
@@ -873,31 +909,35 @@
   products:
     Sake: 1
 
-- type: reaction
-  id: TheCuteCaptain
-  requiredMixerCategories:
-  - Stir
-  reactants:
-    Tea:
-      amount: 2
-    Pomelustine:
-      amount: 1
-  products:
-    TheCuteCaptain: 3
+# Wayfarer: Disabled for now
+# - type: reaction
+#   id: TheCuteCaptain
+#   requiredMixerCategories:
+#   - Stir
+#   reactants:
+#     Tea:
+#       amount: 2
+#     Pomelustine:
+#       amount: 1
+#   products:
+#     TheCuteCaptain: 3
+# End Wayfarer
 
-- type: reaction
-  id: AxelsAle
-  requiredMixerCategories:
-  - Stir
-  reactants:
-    Ale:
-      amount: 1
-    Rum:
-      amount: 1
-    Pomelustine:
-      amount: 1
-  products:
-    AxelsAle: 3
+# Wayfarer: Disabled for now
+# - type: reaction
+#   id: AxelsAle
+#   requiredMixerCategories:
+#   - Stir
+#   reactants:
+#     Ale:
+#       amount: 1
+#     Rum:
+#       amount: 1
+#     Pomelustine:
+#       amount: 1
+#   products:
+#     AxelsAle: 3
+# End Wayfarer
 
 - type: reaction
   id: JennTonic

@@ -1,18 +1,20 @@
-- type: reaction
-  minTemp: 369
-  id: Libidozenithizine
-  impact: High
-  reactants:
-    Pomelustine:
-      amount: 1
-    Philterex:
-      amount: 1
-    Impedrezene:
-      amount: 1
-    Silicon:
-      amount: 1
-  products:
-    Libidozenithizine: 2
+# Wayfarer: Disabled for now
+# - type: reaction
+#   minTemp: 369
+#   id: Libidozenithizine
+#   impact: High
+#   reactants:
+#     Pomelustine:
+#       amount: 1
+#     Philterex:
+#       amount: 1
+#     Impedrezene:
+#       amount: 1
+#     Silicon:
+#       amount: 1
+#   products:
+#     Libidozenithizine: 2
+# End Wayfarer
 
 - type: reaction
   id : PFCBlood

@@ -1,2 +1,4 @@
-seeds-pomegranate-name = pomegranate
-seeds-pomegranate-display-name = pomegranate
+# Wayfarer: Disabled for now
+# seeds-pomegranate-name = pomegranate
+# seeds-pomegranate-display-name = pomegranate
+# End Wayfarer

@@ -1,51 +1,56 @@
-- type: reagent
-  id: 7DeadlySins
-  name: reagent-name-7deadlysins
-  parent: BaseAlcohol
-  desc: reagent-desc-7deadlysins
-  physicalDesc: reagent-physical-desc-sickly
-  flavor: 7deadlysins
-  color: "#751c10"
-  metamorphicSprite:
-    sprite: _Floof/Objects/Consumable/Drinks/7deadlysins.rsi
-    state: icon_empty
-  metamorphicMaxFillLevels: 4
-  metamorphicFillBaseName: fill-
-  metamorphicChangeColor: false
-  metabolisms:
-    Drink:
-      effects:
-      - !type:SatiateThirst
-        factor: 1
-      - !type:AdjustReagent
-        reagent: Pomelustine
-        amount: 0.5
-      - !type:AdjustReagent
-        reagent: Blood
-        amount: 0.07
 
-- type: reagent
-  id: ABLustine
-  name: reagent-name-ablustine
-  parent: BaseAlcohol
-  desc: reagent-desc-ablustine
-  physicalDesc: reagent-physical-desc-syrupy
-  flavor: ablustine
-  color: "#a845a3"
-  metamorphicSprite:
-    sprite: _Floof/Objects/Consumable/Drinks/ablustine.rsi
-    state: icon_empty
-  metamorphicMaxFillLevels: 5
-  metamorphicFillBaseName: fill-
-  metamorphicChangeColor: false
-  metabolisms:
-    Drink:
-      effects:
-      - !type:SatiateThirst
-        factor: 3
-      - !type:AdjustReagent
-        reagent: Pomelustine
-        amount: 0.5
+# Wayfarer: Disabled for now
+# - type: reagent
+#   id: 7DeadlySins
+#   name: reagent-name-7deadlysins
+#   parent: BaseAlcohol
+#   desc: reagent-desc-7deadlysins
+#   physicalDesc: reagent-physical-desc-sickly
+#   flavor: 7deadlysins
+#   color: "#751c10"
+#   metamorphicSprite:
+#     sprite: _Floof/Objects/Consumable/Drinks/7deadlysins.rsi
+#     state: icon_empty
+#   metamorphicMaxFillLevels: 4
+#   metamorphicFillBaseName: fill-
+#   metamorphicChangeColor: false
+#   metabolisms:
+#     Drink:
+#       effects:
+#       - !type:SatiateThirst
+#         factor: 1
+#       - !type:AdjustReagent
+#         reagent: Pomelustine
+#         amount: 0.5
+#       - !type:AdjustReagent
+#         reagent: Blood
+#         amount: 0.07
+# End Wayfarer
+
+# Wayfarer: Disabled for now
+# - type: reagent
+#   id: ABLustine
+#   name: reagent-name-ablustine
+#   parent: BaseAlcohol
+#   desc: reagent-desc-ablustine
+#   physicalDesc: reagent-physical-desc-syrupy
+#   flavor: ablustine
+#   color: "#a845a3"
+#   metamorphicSprite:
+#     sprite: _Floof/Objects/Consumable/Drinks/ablustine.rsi
+#     state: icon_empty
+#   metamorphicMaxFillLevels: 5
+#   metamorphicFillBaseName: fill-
+#   metamorphicChangeColor: false
+#   metabolisms:
+#     Drink:
+#       effects:
+#       - !type:SatiateThirst
+#         factor: 3
+#       - !type:AdjustReagent
+#         reagent: Pomelustine
+#         amount: 0.5
+# End Wayfarer
 
 - type: reagent
   id: Anisette
@@ -110,86 +115,92 @@
         reagent: Cum
         amount: 0.15
 
-- type: reagent
-  id: BethanysCumLust
-  name: reagent-name-bethanyscumlust
-  parent: BaseAlcohol
-  desc: reagent-desc-bethanyscumlust
-  physicalDesc: reagent-physical-desc-gloopy
-  flavor: bethanyscumlust
-  color: "#c977b5"
-  metamorphicSprite:
-    sprite: _Floof/Objects/Consumable/Drinks/bethanyscumlust.rsi
-    state: icon_empty
-  metamorphicMaxFillLevels: 4
-  metamorphicFillBaseName: fill-
-  metamorphicChangeColor: false
-  metabolisms:
-    Drink:
-      effects:
-      - !type:SatiateThirst
-        factor: 3
-      - !type:AdjustReagent
-        reagent: Pomelustine
-        amount: 0.5
-      - !type:AdjustReagent
-        reagent: Cum
-        amount: 0.14
+# Wayfarer: Disabled for now
+# - type: reagent
+#   id: BethanysCumLust
+#   name: reagent-name-bethanyscumlust
+#   parent: BaseAlcohol
+#   desc: reagent-desc-bethanyscumlust
+#   physicalDesc: reagent-physical-desc-gloopy
+#   flavor: bethanyscumlust
+#   color: "#c977b5"
+#   metamorphicSprite:
+#     sprite: _Floof/Objects/Consumable/Drinks/bethanyscumlust.rsi
+#     state: icon_empty
+#   metamorphicMaxFillLevels: 4
+#   metamorphicFillBaseName: fill-
+#   metamorphicChangeColor: false
+#   metabolisms:
+#     Drink:
+#       effects:
+#       - !type:SatiateThirst
+#         factor: 3
+#       - !type:AdjustReagent
+#         reagent: Pomelustine
+#         amount: 0.5
+#       - !type:AdjustReagent
+#         reagent: Cum
+#         amount: 0.14
+# End Wayfarer
 
-- type: reagent
-  id: BethanysSluttyCumLust
-  name: reagent-name-bethanyssluttycumlust
-  parent: BaseAlcohol
-  desc: reagent-desc-bethanyssluttycumlust
-  physicalDesc: reagent-physical-desc-gloopy
-  flavor: bethanyssluttycumlust
-  color: "#c977b5"
-  metamorphicSprite:
-    sprite: _Floof/Objects/Consumable/Drinks/bethanyssluttycumlust.rsi
-    state: icon_empty
-  metamorphicMaxFillLevels: 4
-  metamorphicFillBaseName: fill-
-  metamorphicChangeColor: false
-  metabolisms:
-    Drink:
-      effects:
-      - !type:SatiateThirst
-        factor: 3
-      - !type:AdjustReagent
-        reagent: Pomelustine
-        amount: 0.5
-      - !type:AdjustReagent
-        reagent: Philterex
-        amount: 0.5
-      - !type:AdjustReagent
-        reagent: Cum
-        amount: 0.14
+# Wayfarer: Disabled for now
+# - type: reagent
+#   id: BethanysSluttyCumLust
+#   name: reagent-name-bethanyssluttycumlust
+#   parent: BaseAlcohol
+#   desc: reagent-desc-bethanyssluttycumlust
+#   physicalDesc: reagent-physical-desc-gloopy
+#   flavor: bethanyssluttycumlust
+#   color: "#c977b5"
+#   metamorphicSprite:
+#     sprite: _Floof/Objects/Consumable/Drinks/bethanyssluttycumlust.rsi
+#     state: icon_empty
+#   metamorphicMaxFillLevels: 4
+#   metamorphicFillBaseName: fill-
+#   metamorphicChangeColor: false
+#   metabolisms:
+#     Drink:
+#       effects:
+#       - !type:SatiateThirst
+#         factor: 3
+#       - !type:AdjustReagent
+#         reagent: Pomelustine
+#         amount: 0.5
+#       - !type:AdjustReagent
+#         reagent: Philterex
+#         amount: 0.5
+#       - !type:AdjustReagent
+#         reagent: Cum
+#         amount: 0.14
+# End Wayfarer
 
-- type: reagent
-  id: BlueBaller
-  name: reagent-name-blueballer
-  parent: BaseAlcohol
-  desc: reagent-desc-blueballer
-  physicalDesc: reagent-physical-desc-tropical
-  flavor: blueballer
-  color: "#88065b"
-  metamorphicSprite:
-    sprite: _Floof/Objects/Consumable/Drinks/blueballer.rsi
-    state: icon_empty
-  metamorphicMaxFillLevels: 5
-  metamorphicFillBaseName: fill-
-  metamorphicChangeColor: false
-  metabolisms:
-    Drink:
-      effects:
-      - !type:SatiateThirst
-        factor: 2
-      - !type:AdjustReagent
-        reagent: Ethanol
-        amount: 0.06
-      - !type:AdjustReagent
-        reagent: Pomelustine
-        amount: 0.5
+# Wayfarer: Disabled for now
+# - type: reagent
+#   id: BlueBaller
+#   name: reagent-name-blueballer
+#   parent: BaseAlcohol
+#   desc: reagent-desc-blueballer
+#   physicalDesc: reagent-physical-desc-tropical
+#   flavor: blueballer
+#   color: "#88065b"
+#   metamorphicSprite:
+#     sprite: _Floof/Objects/Consumable/Drinks/blueballer.rsi
+#     state: icon_empty
+#   metamorphicMaxFillLevels: 5
+#   metamorphicFillBaseName: fill-
+#   metamorphicChangeColor: false
+#   metabolisms:
+#     Drink:
+#       effects:
+#       - !type:SatiateThirst
+#         factor: 2
+#       - !type:AdjustReagent
+#         reagent: Ethanol
+#         amount: 0.06
+#       - !type:AdjustReagent
+#         reagent: Pomelustine
+#         amount: 0.5
+# End Wayfarer
 
 - type: reagent
   id: CafeDeCacao
@@ -303,37 +314,39 @@
         reagent: Ethanol
         amount: 0.08
 
-- type: reagent
-  id: DemonSeed
-  name: reagent-name-demonseed
-  parent: BaseAlcohol
-  desc: reagent-desc-demonseed
-  physicalDesc: reagent-physical-desc-gloopy
-  flavor: demonseed
-  color: "#301637"
-  metamorphicSprite:
-    sprite: _Floof/Objects/Consumable/Drinks/demonseed.rsi
-    state: icon_empty
-  metamorphicMaxFillLevels: 5
-  metamorphicFillBaseName: fill-
-  metamorphicChangeColor: false
-  metabolisms:
-    Drink:
-      effects:
-      - !type:SatiateThirst
-        factor: 2
-      - !type:AdjustReagent
-        reagent: Ethanol
-        amount: 0.07
-      - !type:AdjustReagent
-        reagent: Pomelustine
-        amount: 1
-      - !type:AdjustReagent
-        reagent: Cum
-        amount: 0.08
-      - !type:AdjustReagent
-        reagent: Blood
-        amount: 0.08
+# Wayfarer: Disabled for now
+# - type: reagent
+#   id: DemonSeed
+#   name: reagent-name-demonseed
+#   parent: BaseAlcohol
+#   desc: reagent-desc-demonseed
+#   physicalDesc: reagent-physical-desc-gloopy
+#   flavor: demonseed
+#   color: "#301637"
+#   metamorphicSprite:
+#     sprite: _Floof/Objects/Consumable/Drinks/demonseed.rsi
+#     state: icon_empty
+#   metamorphicMaxFillLevels: 5
+#   metamorphicFillBaseName: fill-
+#   metamorphicChangeColor: false
+#   metabolisms:
+#     Drink:
+#       effects:
+#       - !type:SatiateThirst
+#         factor: 2
+#       - !type:AdjustReagent
+#         reagent: Ethanol
+#         amount: 0.07
+#       - !type:AdjustReagent
+#         reagent: Pomelustine
+#         amount: 1
+#       - !type:AdjustReagent
+#         reagent: Cum
+#         amount: 0.08
+#       - !type:AdjustReagent
+#         reagent: Blood
+#         amount: 0.08
+# End Wayfarer
 
 - type: reagent
   id: DirtyWastelander
@@ -456,51 +469,55 @@
         reagent: Cum
         amount: 0.12
 
-- type: reagent
-  id: EmeraldSwinger
-  name: reagent-name-emeraldswinger
-  parent: BaseAlcohol
-  desc: reagent-desc-emeraldswinger
-  physicalDesc: reagent-physical-desc-buzzy
-  flavor: emeraldswinger
-  color: "#50c878"
-  metamorphicSprite:
-    sprite: _Floof/Objects/Consumable/Drinks/emeraldswinger.rsi
-    state: icon_empty
-  metamorphicMaxFillLevels: 5
-  metamorphicFillBaseName: fill-
-  metamorphicChangeColor: false
-  metabolisms:
-    Drink:
-      effects:
-      - !type:SatiateThirst
-        factor: 2
-      - !type:AdjustReagent
-        reagent: Ethanol
-        amount: 0.04
+# Wayfarer: Disabled for now
+# - type: reagent
+#   id: EmeraldSwinger
+#   name: reagent-name-emeraldswinger
+#   parent: BaseAlcohol
+#   desc: reagent-desc-emeraldswinger
+#   physicalDesc: reagent-physical-desc-buzzy
+#   flavor: emeraldswinger
+#   color: "#50c878"
+#   metamorphicSprite:
+#     sprite: _Floof/Objects/Consumable/Drinks/emeraldswinger.rsi
+#     state: icon_empty
+#   metamorphicMaxFillLevels: 5
+#   metamorphicFillBaseName: fill-
+#   metamorphicChangeColor: false
+#   metabolisms:
+#     Drink:
+#       effects:
+#       - !type:SatiateThirst
+#         factor: 2
+#       - !type:AdjustReagent
+#         reagent: Ethanol
+#         amount: 0.04
+# End Wayfarer
 
-- type: reagent
-  id: Eminence
-  name: reagent-name-eminence
-  parent: BaseAlcohol
-  desc: reagent-desc-eminence
-  physicalDesc: reagent-physical-desc-ethereal-brass
-  flavor: eminence
-  color: "#c59042"
-  metamorphicSprite:
-    sprite: _Floof/Objects/Consumable/Drinks/eminence.rsi
-    state: icon_empty
-  metamorphicMaxFillLevels: 3
-  metamorphicFillBaseName: fill-
-  metamorphicChangeColor: false
-  metabolisms:
-    Drink:
-      effects:
-      - !type:SatiateThirst
-        factor: 2
-      - !type:AdjustReagent
-        reagent: Ethanol
-        amount: 0.3
+# Wayfarer: Disabled for now
+# - type: reagent
+#   id: Eminence
+#   name: reagent-name-eminence
+#   parent: BaseAlcohol
+#   desc: reagent-desc-eminence
+#   physicalDesc: reagent-physical-desc-ethereal-brass
+#   flavor: eminence
+#   color: "#c59042"
+#   metamorphicSprite:
+#     sprite: _Floof/Objects/Consumable/Drinks/eminence.rsi
+#     state: icon_empty
+#   metamorphicMaxFillLevels: 3
+#   metamorphicFillBaseName: fill-
+#   metamorphicChangeColor: false
+#   metabolisms:
+#     Drink:
+#       effects:
+#       - !type:SatiateThirst
+#         factor: 2
+#       - !type:AdjustReagent
+#         reagent: Ethanol
+#         amount: 0.3
+# End Wayfarer
 
 - type: reagent
   id: GoldbloomSpecial
@@ -548,28 +565,30 @@
         reagent: Ethanol
         amount: 0.06
 
-- type: reagent
-  id: HeartbreakMountain
-  name: reagent-name-heartbreakmountain
-  parent: BaseAlcohol
-  desc: reagent-desc-heartbreakmountain
-  physicalDesc: reagent-physical-desc-fizzy-sharp-citrussy
-  flavor: heartbreakmountain
-  color: "#913409"
-  metamorphicSprite:
-    sprite: _Floof/Objects/Consumable/Drinks/heartbreakmountain.rsi
-    state: icon_empty
-  metamorphicMaxFillLevels: 4
-  metamorphicFillBaseName: fill-
-  metamorphicChangeColor: false
-  metabolisms:
-    Drink:
-      effects:
-      - !type:SatiateThirst
-        factor: 3
-      - !type:AdjustReagent
-        reagent: Pomelustine
-        amount: 0.5
+# Wayfarer: Disabled for now
+# - type: reagent
+#   id: HeartbreakMountain
+#   name: reagent-name-heartbreakmountain
+#   parent: BaseAlcohol
+#   desc: reagent-desc-heartbreakmountain
+#   physicalDesc: reagent-physical-desc-fizzy-sharp-citrussy
+#   flavor: heartbreakmountain
+#   color: "#913409"
+#   metamorphicSprite:
+#     sprite: _Floof/Objects/Consumable/Drinks/heartbreakmountain.rsi
+#     state: icon_empty
+#   metamorphicMaxFillLevels: 4
+#   metamorphicFillBaseName: fill-
+#   metamorphicChangeColor: false
+#   metabolisms:
+#     Drink:
+#       effects:
+#       - !type:SatiateThirst
+#         factor: 3
+#       - !type:AdjustReagent
+#         reagent: Pomelustine
+#         amount: 0.5
+# End Wayfarer
 
 - type: reagent
   id: HolyVice
@@ -597,31 +616,33 @@
         reagent: Blood
         amount: 0.15
 
-- type: reagent
-  id: HornyStallion
-  name: reagent-name-hornystallion
-  parent: BaseAlcohol
-  desc: reagent-desc-hornystallion
-  physicalDesc: reagent-physical-desc-strong-smelling
-  flavor: hornystallion
-  color: "#6b4247"
-  metamorphicSprite:
-    sprite: _Floof/Objects/Consumable/Drinks/hornystallion.rsi
-    state: icon_empty
-  metamorphicMaxFillLevels: 5
-  metamorphicFillBaseName: fill-
-  metamorphicChangeColor: false
-  metabolisms:
-    Drink:
-      effects:
-      - !type:SatiateThirst
-        factor: 2
-      - !type:AdjustReagent
-        reagent: Ethanol
-        amount: 0.06
-      - !type:AdjustReagent
-        reagent: Libidozenithizine
-        amount: 0.5
+# Wayfarer: Disabled for now
+# - type: reagent
+#   id: HornyStallion
+#   name: reagent-name-hornystallion
+#   parent: BaseAlcohol
+#   desc: reagent-desc-hornystallion
+#   physicalDesc: reagent-physical-desc-strong-smelling
+#   flavor: hornystallion
+#   color: "#6b4247"
+#   metamorphicSprite:
+#     sprite: _Floof/Objects/Consumable/Drinks/hornystallion.rsi
+#     state: icon_empty
+#   metamorphicMaxFillLevels: 5
+#   metamorphicFillBaseName: fill-
+#   metamorphicChangeColor: false
+#   metabolisms:
+#     Drink:
+#       effects:
+#       - !type:SatiateThirst
+#         factor: 2
+#       - !type:AdjustReagent
+#         reagent: Ethanol
+#         amount: 0.06
+#       - !type:AdjustReagent
+#         reagent: Libidozenithizine
+#         amount: 0.5
+# End Wayfarer
 
 - type: reagent
   id: KoboldKooler
@@ -666,43 +687,45 @@
         reagent: Cum
         amount: 0.15
 
-- type: reagent
-  id: Lamplight
-  name: reagent-name-lamplight
-  parent: BaseAlcohol
-  desc: reagent-desc-lamplight
-  physicalDesc: reagent-physical-desc-vibrant
-  flavor: lamplight
-  color: "#ffd000"
-  metamorphicSprite:
-    sprite: _Floof/Objects/Consumable/Drinks/lamplight.rsi
-    state: icon_empty
-  metamorphicMaxFillLevels: 3
-  metamorphicFillBaseName: fill-
-  metamorphicChangeColor: false
-  metabolisms:
-    Drink:
-      effects:
-      - !type:SatiateThirst
-        factor: 2
-      - !type:AdjustReagent
-        conditions:
-        - !type:ReagentThreshold
-          min: 1
-        - !type:OrganType
-          type: Moth # non-moths get standard effect
-          shouldHave: false
-        reagent: Pomelustine
-        amount: 0.5
-      - !type:AdjustReagent
-        conditions:
-        - !type:ReagentThreshold
-          min: 1
-        - !type:OrganType
-          type: Moth # Get them moffy fucks horny
-          shouldHave: true
-        reagent: Philterex
-        amount: 0.5
+# Wayfarer: Disabled for now
+# - type: reagent
+#   id: Lamplight
+#   name: reagent-name-lamplight
+#   parent: BaseAlcohol
+#   desc: reagent-desc-lamplight
+#   physicalDesc: reagent-physical-desc-vibrant
+#   flavor: lamplight
+#   color: "#ffd000"
+#   metamorphicSprite:
+#     sprite: _Floof/Objects/Consumable/Drinks/lamplight.rsi
+#     state: icon_empty
+#   metamorphicMaxFillLevels: 3
+#   metamorphicFillBaseName: fill-
+#   metamorphicChangeColor: false
+#   metabolisms:
+#     Drink:
+#       effects:
+#       - !type:SatiateThirst
+#         factor: 2
+#       - !type:AdjustReagent
+#         conditions:
+#         - !type:ReagentThreshold
+#           min: 1
+#         - !type:OrganType
+#           type: Moth # non-moths get standard effect
+#           shouldHave: false
+#         reagent: Pomelustine
+#         amount: 0.5
+#       - !type:AdjustReagent
+#         conditions:
+#         - !type:ReagentThreshold
+#           min: 1
+#         - !type:OrganType
+#           type: Moth # Get them moffy fucks horny
+#           shouldHave: true
+#         reagent: Philterex
+#         amount: 0.5
+# End Wayfarer
 
 - type: reagent
   id: LemonPopsicle
@@ -724,31 +747,33 @@
       - !type:SatiateThirst
         factor: 3
 
-- type: reagent
-  id: LoversKiss
-  name: reagent-name-loverskiss
-  parent: BaseAlcohol
-  desc: reagent-desc-loverskiss
-  physicalDesc: reagent-physical-desc-smooth
-  flavor: loverskiss
-  color: "#591d35"
-  metamorphicSprite:
-    sprite: _Floof/Objects/Consumable/Drinks/loverskiss.rsi
-    state: icon_empty
-  metamorphicMaxFillLevels: 3
-  metamorphicFillBaseName: fill-
-  metamorphicChangeColor: false
-  metabolisms:
-    Drink:
-      effects:
-      - !type:SatiateThirst
-        factor: 2
-      - !type:AdjustReagent
-        reagent: Ethanol
-        amount: 0.03
-      - !type:AdjustReagent
-        reagent: Pomelustine
-        amount: 0.5
+# Wayfarer: Disabled for now
+# - type: reagent
+#   id: LoversKiss
+#   name: reagent-name-loverskiss
+#   parent: BaseAlcohol
+#   desc: reagent-desc-loverskiss
+#   physicalDesc: reagent-physical-desc-smooth
+#   flavor: loverskiss
+#   color: "#591d35"
+#   metamorphicSprite:
+#     sprite: _Floof/Objects/Consumable/Drinks/loverskiss.rsi
+#     state: icon_empty
+#   metamorphicMaxFillLevels: 3
+#   metamorphicFillBaseName: fill-
+#   metamorphicChangeColor: false
+#   metabolisms:
+#     Drink:
+#       effects:
+#       - !type:SatiateThirst
+#         factor: 2
+#       - !type:AdjustReagent
+#         reagent: Ethanol
+#         amount: 0.03
+#       - !type:AdjustReagent
+#         reagent: Pomelustine
+#         amount: 0.5
+# End Wayfarer
 
 - type: reagent
   id: MarieJulep
@@ -799,28 +824,30 @@
         reagent: Cum
         amount: 0.15
 
-- type: reagent
-  id: MossBloodShot
-  name: reagent-name-mossbloodshot
-  parent: BaseAlcohol
-  desc: reagent-desc-mossbloodshot
-  physicalDesc: reagent-physical-desc-crystalline
-  flavor: mossbloodshot
-  color: "#ff0800"
-  metamorphicSprite:
-    sprite: _Floof/Objects/Consumable/Drinks/mossbloodshot.rsi
-    state: icon_empty
-  metamorphicMaxFillLevels: 3
-  metamorphicFillBaseName: fill-
-  metamorphicChangeColor: false
-  metabolisms:
-    Drink:
-      effects:
-      - !type:SatiateThirst
-        factor: 2
-      - !type:AdjustReagent
-        reagent: Ethanol
-        amount: 0.03
+# Wayfarer: Disabled for now
+# - type: reagent
+#   id: MossBloodShot
+#   name: reagent-name-mossbloodshot
+#   parent: BaseAlcohol
+#   desc: reagent-desc-mossbloodshot
+#   physicalDesc: reagent-physical-desc-crystalline
+#   flavor: mossbloodshot
+#   color: "#ff0800"
+#   metamorphicSprite:
+#     sprite: _Floof/Objects/Consumable/Drinks/mossbloodshot.rsi
+#     state: icon_empty
+#   metamorphicMaxFillLevels: 3
+#   metamorphicFillBaseName: fill-
+#   metamorphicChangeColor: false
+#   metabolisms:
+#     Drink:
+#       effects:
+#       - !type:SatiateThirst
+#         factor: 2
+#       - !type:AdjustReagent
+#         reagent: Ethanol
+#         amount: 0.03
+# End Wayfarer
 
 - type: reagent
   id: NumberOne
@@ -904,71 +931,77 @@
         reagent: Cum
         amount: 0.1
 
-- type: reagent
-  id: Pomonade
-  name: reagent-name-pomonade
-  parent: BaseAlcohol
-  desc: reagent-desc-pomonade
-  physicalDesc: reagent-physical-desc-sugary
-  flavor: pomonade
-  color: "#fc69ff"
-  metamorphicSprite:
-    sprite: _Floof/Objects/Consumable/Drinks/pomonade.rsi
-    state: icon_empty
-  metamorphicMaxFillLevels: 4
-  metamorphicFillBaseName: fill-
-  metamorphicChangeColor: false
-  metabolisms:
-    Drink:
-      effects:
-      - !type:SatiateThirst
-        factor: 3
+# Wayfarer: Disabled for now
+# - type: reagent
+#   id: Pomonade
+#   name: reagent-name-pomonade
+#   parent: BaseAlcohol
+#   desc: reagent-desc-pomonade
+#   physicalDesc: reagent-physical-desc-sugary
+#   flavor: pomonade
+#   color: "#fc69ff"
+#   metamorphicSprite:
+#     sprite: _Floof/Objects/Consumable/Drinks/pomonade.rsi
+#     state: icon_empty
+#   metamorphicMaxFillLevels: 4
+#   metamorphicFillBaseName: fill-
+#   metamorphicChangeColor: false
+#   metabolisms:
+#     Drink:
+#       effects:
+#       - !type:SatiateThirst
+#         factor: 3
+# End Wayfarer
 
-- type: reagent
-  id: PomPassion
-  name: reagent-name-pompassion
-  parent: BaseAlcohol
-  desc: reagent-desc-pompassion
-  physicalDesc: reagent-physical-desc-sugary
-  flavor: pompassion
-  color: "#9c0101"
-  metamorphicSprite:
-    sprite: _Floof/Objects/Consumable/Drinks/pompassion.rsi
-    state: icon_empty
-  metamorphicMaxFillLevels: 3
-  metamorphicFillBaseName: fill-
-  metamorphicChangeColor: false
-  metabolisms:
-    Drink:
-      effects:
-      - !type:SatiateThirst
-        factor: 2
-      - !type:AdjustReagent
-        reagent: Ethanol
-        amount: 0.03
+# Wayfarer: Disabled for now
+# - type: reagent
+#   id: PomPassion
+#   name: reagent-name-pompassion
+#   parent: BaseAlcohol
+#   desc: reagent-desc-pompassion
+#   physicalDesc: reagent-physical-desc-sugary
+#   flavor: pompassion
+#   color: "#9c0101"
+#   metamorphicSprite:
+#     sprite: _Floof/Objects/Consumable/Drinks/pompassion.rsi
+#     state: icon_empty
+#   metamorphicMaxFillLevels: 3
+#   metamorphicFillBaseName: fill-
+#   metamorphicChangeColor: false
+#   metabolisms:
+#     Drink:
+#       effects:
+#       - !type:SatiateThirst
+#         factor: 2
+#       - !type:AdjustReagent
+#         reagent: Ethanol
+#         amount: 0.03
+# End Wayfarer
 
-- type: reagent
-  id: PomTwist
-  name: reagent-name-pomtwist
-  parent: BaseAlcohol
-  desc: reagent-desc-pomtwist
-  physicalDesc: reagent-physical-desc-tart
-  flavor: pomtwist
-  color: "#6b3e9c"
-  metamorphicSprite:
-    sprite: _Floof/Objects/Consumable/Drinks/pomtwist.rsi
-    state: icon_empty
-  metamorphicMaxFillLevels: 5
-  metamorphicFillBaseName: fill-
-  metamorphicChangeColor: false
-  metabolisms:
-    Drink:
-      effects:
-      - !type:SatiateThirst
-        factor: 3
-      - !type:AdjustReagent
-        reagent: Pomelustine
-        amount: 0.5
+# Wayfarer: Disabled for now
+# - type: reagent
+#   id: PomTwist
+#   name: reagent-name-pomtwist
+#   parent: BaseAlcohol
+#   desc: reagent-desc-pomtwist
+#   physicalDesc: reagent-physical-desc-tart
+#   flavor: pomtwist
+#   color: "#6b3e9c"
+#   metamorphicSprite:
+#     sprite: _Floof/Objects/Consumable/Drinks/pomtwist.rsi
+#     state: icon_empty
+#   metamorphicMaxFillLevels: 5
+#   metamorphicFillBaseName: fill-
+#   metamorphicChangeColor: false
+#   metabolisms:
+#     Drink:
+#       effects:
+#       - !type:SatiateThirst
+#         factor: 3
+#       - !type:AdjustReagent
+#         reagent: Pomelustine
+#         amount: 0.5
+# End Wayfarer
 
 - type: reagent
   id: PrairieOyster
@@ -1036,55 +1069,58 @@
         reagent: Cum
         amount: 0.12
 
-- type: reagent
-  id: RandyStallion
-  name: reagent-name-randystallion
-  parent: BaseAlcohol
-  desc: reagent-desc-randystallion
-  physicalDesc: reagent-physical-desc-fizzy
-  flavor: randystallion
-  color: "#b36868"
-  metamorphicSprite:
-    sprite: _Floof/Objects/Consumable/Drinks/randystallion.rsi
-    state: icon_empty
-  metamorphicMaxFillLevels: 5
-  metamorphicFillBaseName: fill-
-  metamorphicChangeColor: false
-  metabolisms:
-    Drink:
-      effects:
-      - !type:SatiateThirst
-        factor: 2
-      - !type:AdjustReagent
-        reagent: Ethanol
-        amount: 0.06
-      - !type:AdjustReagent
-        reagent: Pomelustine
-        amount: 0.5
+# Wayfarer: Disabled for now
+# - type: reagent
+#   id: RandyStallion
+#   name: reagent-name-randystallion
+#   parent: BaseAlcohol
+#   desc: reagent-desc-randystallion
+#   physicalDesc: reagent-physical-desc-fizzy
+#   flavor: randystallion
+#   color: "#b36868"
+#   metamorphicSprite:
+#     sprite: _Floof/Objects/Consumable/Drinks/randystallion.rsi
+#     state: icon_empty
+#   metamorphicMaxFillLevels: 5
+#   metamorphicFillBaseName: fill-
+#   metamorphicChangeColor: false
+#   metabolisms:
+#     Drink:
+#       effects:
+#       - !type:SatiateThirst
+#         factor: 2
+#       - !type:AdjustReagent
+#         reagent: Ethanol
+#         amount: 0.06
+#       - !type:AdjustReagent
+#         reagent: Pomelustine
+#         amount: 0.5
+# End Wayfarer
 
-
-- type: reagent
-  id: RedRocket
-  name: reagent-name-redrocket
-  parent: BaseAlcohol
-  desc: reagent-desc-redrocket
-  physicalDesc: reagent-physical-desc-saucey
-  flavor: redrocket
-  color: "#ba3b3d"
-  metamorphicSprite:
-    sprite: _Floof/Objects/Consumable/Drinks/redrocket.rsi
-    state: icon_empty
-  metamorphicMaxFillLevels: 5
-  metamorphicFillBaseName: fill-
-  metamorphicChangeColor: false
-  metabolisms:
-    Drink:
-      effects:
-      - !type:SatiateThirst
-        factor: 2
-      - !type:AdjustReagent
-        reagent: Ethanol
-        amount: 0.06
+# Wayfarer: Disabled for now
+# - type: reagent
+#   id: RedRocket
+#   name: reagent-name-redrocket
+#   parent: BaseAlcohol
+#   desc: reagent-desc-redrocket
+#   physicalDesc: reagent-physical-desc-saucey
+#   flavor: redrocket
+#   color: "#ba3b3d"
+#   metamorphicSprite:
+#     sprite: _Floof/Objects/Consumable/Drinks/redrocket.rsi
+#     state: icon_empty
+#   metamorphicMaxFillLevels: 5
+#   metamorphicFillBaseName: fill-
+#   metamorphicChangeColor: false
+#   metabolisms:
+#     Drink:
+#       effects:
+#       - !type:SatiateThirst
+#         factor: 2
+#       - !type:AdjustReagent
+#         reagent: Ethanol
+#         amount: 0.06
+# End Wayfarer
 
 - type: reagent
   id: SalvagersDelight
@@ -1249,31 +1285,33 @@
         reagent: Cum
         amount: 0.12
 
-- type: reagent
-  id: SpecialSundae
-  name: reagent-name-specialsundae
-  parent: BaseAlcohol
-  desc: reagent-desc-specialsundae
-  physicalDesc: reagent-physical-desc-creamy
-  flavor: specialsundae
-  color: "#b04d84"
-  metamorphicSprite:
-    sprite: _Floof/Objects/Consumable/Drinks/specialsundae.rsi
-    state: icon_empty
-  metamorphicMaxFillLevels: 4
-  metamorphicFillBaseName: fill-
-  metamorphicChangeColor: false
-  metabolisms:
-    Drink:
-      effects:
-      - !type:SatiateThirst
-        factor: 3
-      - !type:AdjustReagent
-        reagent: Pomelustine
-        amount: 0.05
-      - !type:AdjustReagent
-        reagent: Cum
-        amount: 0.15
+# Wayfarer: Disabled for now
+# - type: reagent
+#   id: SpecialSundae
+#   name: reagent-name-specialsundae
+#   parent: BaseAlcohol
+#   desc: reagent-desc-specialsundae
+#   physicalDesc: reagent-physical-desc-creamy
+#   flavor: specialsundae
+#   color: "#b04d84"
+#   metamorphicSprite:
+#     sprite: _Floof/Objects/Consumable/Drinks/specialsundae.rsi
+#     state: icon_empty
+#   metamorphicMaxFillLevels: 4
+#   metamorphicFillBaseName: fill-
+#   metamorphicChangeColor: false
+#   metabolisms:
+#     Drink:
+#       effects:
+#       - !type:SatiateThirst
+#         factor: 3
+#       - !type:AdjustReagent
+#         reagent: Pomelustine
+#         amount: 0.05
+#       - !type:AdjustReagent
+#         reagent: Cum
+#         amount: 0.15
+# End Wayfarer
 
 - type: reagent
   id: SyndicatesOverseer
@@ -1416,77 +1454,83 @@
         reagent: Cum
         amount: 0.15
 
-- type: reagent
-  id: YeOlHandy
-  name: reagent-name-yeolhandy
-  parent: BaseAlcohol
-  desc: reagent-desc-yeolhandy
-  physicalDesc: reagent-physical-desc-soothing
-  flavor: yeolhandy
-  color: "#d29062"
-  metamorphicSprite:
-    sprite: _Floof/Objects/Consumable/Drinks/yeolhandy.rsi
-    state: icon_empty
-  metamorphicMaxFillLevels: 5
-  metamorphicFillBaseName: fill-
-  metamorphicChangeColor: false
-  metabolisms:
-    Drink:
-      effects:
-      - !type:SatiateThirst
-        factor: 2
-      - !type:AdjustReagent
-        reagent: Ethanol
-        amount: 0.05
+# Wayfarer: Disabled for now
+# - type: reagent
+#   id: YeOlHandy
+#   name: reagent-name-yeolhandy
+#   parent: BaseAlcohol
+#   desc: reagent-desc-yeolhandy
+#   physicalDesc: reagent-physical-desc-soothing
+#   flavor: yeolhandy
+#   color: "#d29062"
+#   metamorphicSprite:
+#     sprite: _Floof/Objects/Consumable/Drinks/yeolhandy.rsi
+#     state: icon_empty
+#   metamorphicMaxFillLevels: 5
+#   metamorphicFillBaseName: fill-
+#   metamorphicChangeColor: false
+#   metabolisms:
+#     Drink:
+#       effects:
+#       - !type:SatiateThirst
+#         factor: 2
+#       - !type:AdjustReagent
+#         reagent: Ethanol
+#         amount: 0.05
+# End Wayfarer
 
-- type: reagent
-  id: TheCuteCaptain
-  name: reagent-name-the-cute-captain
-  parent: BaseAlcohol
-  desc: reagent-desc-the-cute-captain
-  physicalDesc: reagent-physical-desc-starry
-  flavor: thecutecaptain
-  color: "#87cefa"
-  metamorphicSprite:
-    sprite: Nyanotrasen/Objects/Consumable/Drinks/sakeglass.rsi
-    state: icon_empty
-  metamorphicMaxFillLevels: 3
-  metamorphicFillBaseName: fill-
-  metamorphicChangeColor: true
-  metabolisms:
-    Drink:
-      effects:
-      - !type:SatiateThirst
-        factor: 3
-      - !type:AdjustReagent
-        reagent: Pomelustine
-        amount: 0.5
+# Wayfarer: Disabled for now
+# - type: reagent
+#   id: TheCuteCaptain
+#   name: reagent-name-the-cute-captain
+#   parent: BaseAlcohol
+#   desc: reagent-desc-the-cute-captain
+#   physicalDesc: reagent-physical-desc-starry
+#   flavor: thecutecaptain
+#   color: "#87cefa"
+#   metamorphicSprite:
+#     sprite: Nyanotrasen/Objects/Consumable/Drinks/sakeglass.rsi
+#     state: icon_empty
+#   metamorphicMaxFillLevels: 3
+#   metamorphicFillBaseName: fill-
+#   metamorphicChangeColor: true
+#   metabolisms:
+#     Drink:
+#       effects:
+#       - !type:SatiateThirst
+#         factor: 3
+#       - !type:AdjustReagent
+#         reagent: Pomelustine
+#         amount: 0.5
+# End Wayfarer
 
-- type: reagent
-  id: AxelsAle
-  name: reagent-name-axels-ale
-  parent: BaseAlcohol
-  desc: reagent-desc-axels-ale
-  physicalDesc: reagent-physical-desc-strong-smelling
-  flavor: axelsale
-  color: "#E43414"
-  metamorphicSprite:
-    sprite: _Floof/Objects/Consumable/Drinks/deadmansdraught.rsi
-    state: icon_empty
-  metamorphicMaxFillLevels: 4
-  metamorphicFillBaseName: fill-
-  metamorphicChangeColor: true
-  metabolisms:
-    Drink:
-      effects:
-      - !type:SatiateThirst
-        factor: 2
-      - !type:AdjustReagent
-        reagent: Pomelustine
-        amount: 0.5
-      - !type:AdjustReagent
-        reagent: Ethanol
-        amount: 0.1
+# Wayfarer: Disabled for now
+# - type: reagent
+#   id: AxelsAle
+#   name: reagent-name-axels-ale
+#   parent: BaseAlcohol
+#   desc: reagent-desc-axels-ale
+#   physicalDesc: reagent-physical-desc-strong-smelling
+#   flavor: axelsale
+#   color: "#E43414"
+#   metamorphicSprite:
+#     sprite: _Floof/Objects/Consumable/Drinks/deadmansdraught.rsi
+#     state: icon_empty
+#   metamorphicMaxFillLevels: 4
+#   metamorphicFillBaseName: fill-
+#   metamorphicChangeColor: true
+#   metabolisms:
+#     Drink:
+#       effects:
+#       - !type:SatiateThirst
+#         factor: 2
+#       - !type:AdjustReagent
+#         reagent: Pomelustine
+#         amount: 0.5
+#       - !type:AdjustReagent
+#         reagent: Ethanol
+#         amount: 0.1
+# End Wayfarer
 
 - type: reagent
   id: JennTonic
@@ -1511,28 +1555,30 @@
         reagent: Ethanol
         amount: 0.08
 
-- type: reagent
-  id: Hallelujah
-  name: reagent-name-hallelujah
-  parent: BaseAlcohol
-  desc: reagent-desc-hallelujah
-  physicalDesc: reagent-physical-desc-soothing
-  flavor: hallelujah
-  color: "#87757E"
-  metamorphicSprite:
-    sprite: Objects/Consumable/Drinks/wineglass.rsi
-    state: icon_empty
-  metamorphicMaxFillLevels: 5
-  metamorphicFillBaseName: fill-
-  metamorphicChangeColor: true
-  metabolisms:
-    Drink:
-      effects:
-      - !type:SatiateThirst
-        factor: 5
-      - !type:AdjustReagent
-        reagent: Ethanol
-        amount: 0.06
+# Wayfarer: Disabled for now
+# - type: reagent
+#   id: Hallelujah
+#   name: reagent-name-hallelujah
+#   parent: BaseAlcohol
+#   desc: reagent-desc-hallelujah
+#   physicalDesc: reagent-physical-desc-soothing
+#   flavor: hallelujah
+#   color: "#87757E"
+#   metamorphicSprite:
+#     sprite: Objects/Consumable/Drinks/wineglass.rsi
+#     state: icon_empty
+#   metamorphicMaxFillLevels: 5
+#   metamorphicFillBaseName: fill-
+#   metamorphicChangeColor: true
+#   metabolisms:
+#     Drink:
+#       effects:
+#       - !type:SatiateThirst
+#         factor: 5
+#       - !type:AdjustReagent
+#         reagent: Ethanol
+#         amount: 0.06
+# End Wayfarer
 
 - type: reagent
   id: SyndicateEggnog

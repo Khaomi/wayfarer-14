@@ -1,8 +1,12 @@
-reagent-name-7deadlysins = 7 deadly sins
-reagent-desc-7deadlysins = A vile concoction of liqour and various other ingredients, all coming together into something that has the stench of death.
+# Wayfarer: Disabled for now
+#reagent-name-7deadlysins = 7 deadly sins
+#reagent-desc-7deadlysins = A vile concoction of liqour and various other ingredients, all coming together into something that has the stench of death.
+# End Wayfarer
 
-reagent-name-ablustine = a.b. lustine
-reagent-desc-ablustine = Fruity and flavorful, an easy to make drink, and a very nice one at that.
+# Wayfarer: Disabled for now
+# reagent-name-ablustine = a.b. lustine
+# reagent-desc-ablustine = Fruity and flavorful, an easy to make drink, and a very nice one at that.
+# End Wayfarer
 
 reagent-name-anisette = anisette
 reagent-desc-anisette = Liquor made of anise and sugar, typically used as a sweeter form of absinthe.
@@ -13,14 +17,20 @@ reagent-desc-appleberryfizz = A sweet, delightful little drink.
 reagent-name-bande = b&e
 reagent-desc-bande = A mischevious, dark drink, with a splash of bodily fluids.
 
-reagent-name-bethanyscumlust = bethany's cum-lust
-reagent-desc-bethanyscumlust = Named after a very particularly fiesty member of the crew within the Floof sector.
+# Wayfarer: Disabled for now
+#reagent-name-bethanyscumlust = bethany's cum-lust
+#reagent-desc-bethanyscumlust = Named after a very particularly fiesty member of the crew within the Floof sector.
+# End Wayfarer
 
-reagent-name-bethanyssluttycumlust = bethany's slutty cum-lust
-reagent-desc-bethanyssluttycumlust = For those looking for an even more intense version.
+# Wayfarer: Disabled for now
+#reagent-name-bethanyssluttycumlust = bethany's slutty cum-lust
+#reagent-desc-bethanyssluttycumlust = For those looking for an even more intense version.
+# End Wayfarer
 
-reagent-name-blueballer = blue baller
-reagent-desc-blueballer = For those love-shy workers.
+# Wayfarer: Disabled for now
+#reagent-name-blueballer = blue baller
+#reagent-desc-blueballer = For those love-shy workers.
+# End Wayfarer
 
 reagent-name-cafedecacao = cafe de cacao
 reagent-desc-cafedecacao = Almost like a mocha, except with alcohol.
@@ -37,8 +47,10 @@ reagent-desc-darkoasis = The darker it looks the sweeter it tastes.
 reagent-name-deadmansdraught = dead man's draught
 reagent-desc-deadmansdraught = One of those everything-at-the-bar blends, something that will make some of the strongest stomachs turn.
 
-reagent-name-demonseed = demon seed
-reagent-desc-demonseed = Tastes like an actual demon's nethers.
+# Wayfarer: Disabled for now
+#reagent-name-demonseed = demon seed
+#reagent-desc-demonseed = Tastes like an actual demon's nethers.
+# End Wayfarer
 
 reagent-name-dirtywastelander = dirty wastelander
 reagent-desc-dirtywastelander = The last option for some tired people trapped out on the wasteland planets.
@@ -55,11 +67,15 @@ reagent-desc-dragonsbreath = A picante drink, burning all the way down like taki
 reagent-name-dragonsseed = dragon's seed
 reagent-desc-dragonsseed = Tastes like an actual dragon's nethers.
 
-reagent-name-emeraldswinger = emerald swinger
-reagent-desc-emeraldswinger = A colorful cocktail, perfect for the platter at a sex party.
+# Wayfarer: Disabled for now
+#reagent-name-emeraldswinger = emerald swinger
+#reagent-desc-emeraldswinger = A colorful cocktail, perfect for the platter at a sex party.
+# End Wayfarer
 
-reagent-name-eminence = eminence
-reagent-desc-eminence = Said to be the god's own recipe; Ratvar npprcg nyy pensg, Znl Ratvar Fnir Ibhe Fbhy.
+# Wayfarer: Disabled for now
+#reagent-name-eminence = eminence
+#reagent-desc-eminence = Said to be the god's own recipe; Ratvar npprcg nyy pensg, Znl Ratvar Fnir Ibhe Fbhy.
+# End Wayfarer
 
 reagent-name-goldbloomspecial = goldbloom special
 reagent-desc-goldbloomspecial = The tried and true method coined by a pair of brothers to get through those long, dreary shifts.
@@ -67,14 +83,18 @@ reagent-desc-goldbloomspecial = The tried and true method coined by a pair of br
 reagent-name-grandnavy = grand navy
 reagent-desc-grandnavy = The inventor of this drink said they came from the place called 'The War Seas', maybe they were going crazy.
 
-reagent-name-heartbreakmountain = heartbreak mountain
-reagent-desc-heartbreakmountain = A mix of incredible carbonation, designed to make your mouth forget whatever was in it previously.
+# Wayfarer: Disabled for now
+#reagent-name-heartbreakmountain = heartbreak mountain
+#reagent-desc-heartbreakmountain = A mix of incredible carbonation, designed to make your mouth forget whatever was in it previously.
+# End Wayfarer
 
 reagent-name-holyvice = holy vice
 reagent-desc-holyvice = Despite seeming somewhat contrary, the ingredients of this cocktail mix nicely.
 
-reagent-name-hornystallion = horny stallion
-reagent-desc-hornystallion = A drink with a strong effect on anyone stupid enough to take it. Either served as a shot or a full glass, for those who are more risky.
+# Wayfarer: Disabled for now
+#reagent-name-hornystallion = horny stallion
+#reagent-desc-hornystallion = A drink with a strong effect on anyone stupid enough to take it. Either served as a shot or a full glass, for those who are more risky.
+# End Wayfarer
 
 reagent-name-koboldkooler = kobold kooler
 reagent-desc-koboldkooler = A cool, soothing drink for the cold-blooded amongst the crew.
@@ -82,14 +102,18 @@ reagent-desc-koboldkooler = A cool, soothing drink for the cold-blooded amongst 
 reagent-name-koboldkorkscrew = kobold korkscrew
 reagent-desc-koboldkorkscrew = A fizzy, sugary drink, with an added scale-like smoothness.
 
-reagent-name-lamplight = lamplight
-reagent-desc-lamplight = This drink is known to have a very particular allure to the moffic crew. Non-Moths report nothing out of the ordinary, though.
+# Wayfarer: Disabled for now
+#reagent-name-lamplight = lamplight
+#reagent-desc-lamplight = This drink is known to have a very particular allure to the moffic crew. Non-Moths report nothing out of the ordinary, though.
+# End Wayfarer
 
 reagent-name-lemonpopsicle = lemon popsicle
 reagent-desc-lemonpopsicle = An on-the-wagon cocktail, for those who just adore sour things. It is tradition to rim the glass with citric acid.
 
-reagent-name-loverskiss = lovers kiss
-reagent-desc-loverskiss = A simple, quick spin on some wine, pleasant and fruity.
+# Wayfarer: Disabled for now
+#reagent-name-loverskiss = lovers kiss
+#reagent-desc-loverskiss = A simple, quick spin on some wine, pleasant and fruity.
+# End Wayfarer
 
 reagent-name-mariejulep = marie julep
 reagent-desc-mariejulep = A minty, sweet cocktail. For those who can't stomach their absinthe.
@@ -97,8 +121,10 @@ reagent-desc-mariejulep = A minty, sweet cocktail. For those who can't stomach t
 reagent-name-marsbar = mars bar
 reagent-desc-marsbar = Sourced from the bar itself, or maybe the bartender.
 
-reagent-name-mossbloodshot = moss' blood shot
-reagent-desc-mossbloodshot = A usual drink of a particular crewmate, well-known for its sweetness
+# Wayfarer: Disabled for now
+#reagent-name-mossbloodshot = moss' blood shot
+#reagent-desc-mossbloodshot = A usual drink of a particular crewmate, well-known for its sweetness
+# End Wayfarer
 
 reagent-name-numberone = number one
 reagent-desc-numberone = The perfect drink to help ensure that YOU stay on top of your game this shift! (And get heart disease).
@@ -109,14 +135,20 @@ reagent-desc-opsshine = A drink made for the slime personnel on board. Not meeti
 reagent-name-orgasmonthebeach = orgasm on the beach
 reagent-desc-orgasmonthebeach = A classic drink that tickles the pudendal nerve.
 
-reagent-name-pomonade = pomonade
-reagent-desc-pomonade = A spin on a classic lemonade, with a sweeter side.
+# Wayfarer: Disabled for now
+#reagent-name-pomonade = pomonade
+#reagent-desc-pomonade = A spin on a classic lemonade, with a sweeter side.
+# End Wayfarer
 
-reagent-name-pompassion = pom passion
-reagent-desc-pompassion = An incredibly fruity drink, the smell so strong it could be a perfume.
+# Wayfarer: Disabled for now
+#reagent-name-pompassion = pom passion
+#reagent-desc-pompassion = An incredibly fruity drink, the smell so strong it could be a perfume.
+# End Wayfarer
 
-reagent-name-pomtwist = pom twist
-reagent-desc-pomtwist = A citrus heavy beverage, sour enough to drink as slowly as you would a real cocktail.
+# Wayfarer: Disabled for now
+#reagent-name-pomtwist = pom twist
+#reagent-desc-pomtwist = A citrus heavy beverage, sour enough to drink as slowly as you would a real cocktail.
+# End Wayfarer
 
 reagent-name-prairieoyster = prairie oyster
 reagent-desc-prairieoyster = A supposed hangover cure traditional among space cowboys. Best consumed with your nose plugged and your face towards the ceiling.
@@ -127,11 +159,15 @@ reagent-desc-prisonwine = A quickly thrown together mixture of grapes and sugar 
 reagent-name-quadruplecreamchalice = quadruple cream chalice
 reagent-desc-quadruplecreamchalice = A mixture of the most creamy ingredients available at the bar.
 
-reagent-name-randystallion = randy stallion
-reagent-desc-randystallion = A more playful stallion, with a unique kick.
+# Wayfarer: Disabled for now
+#reagent-name-randystallion = randy stallion
+#reagent-desc-randystallion = A more playful stallion, with a unique kick.
+# End Wayfarer
 
-reagent-name-redrocket = red rocket
-reagent-desc-redrocket = A sugary drink that would be very sought after in an apocalypse. Favored by canines.
+# Wayfarer: Disabled for now
+#reagent-name-redrocket = red rocket
+#reagent-desc-redrocket = A sugary drink that would be very sought after in an apocalypse. Favored by canines.
+# End Wayfarer
 
 reagent-name-salvagersdelight = salvager's delight
 reagent-desc-salvagersdelight = Said to have originated as a hazing ritual among deep-space salvagers, this vile concoction can only be stomached by true sons of Salvonia.
@@ -151,8 +187,10 @@ reagent-desc-slimesdelight = A somewhat gross drink for many people to imagine c
 reagent-name-snowball = snowball
 reagent-desc-snowball = A sweet mix of a snowcone, with a very special kind of syrup.
 
-reagent-name-specialsundae = special sundae
-reagent-desc-specialsundae = A pleasing enouhg mix of ice cream and pomegranate-- with one extra ingredient, in place of the nuts.
+# Wayfarer: Disabled for now
+# reagent-name-specialsundae = special sundae
+# reagent-desc-specialsundae = A pleasing enouhg mix of ice cream and pomegranate-- with one extra ingredient, in place of the nuts.
+# End Wayfarer
 
 reagent-name-syndicatesoverseer = syndicate's overseer
 reagent-desc-syndicatesoverseer = This drink is menacing, you don't even know if you should be drinking this or not.
@@ -172,8 +210,10 @@ reagent-desc-watermelonginjizz = Perfect for a luncheon on a warm sunny afternoo
 reagent-name-thewaterslide = the waterslide
 reagent-desc-thewaterslide = Charcoal not included for you, o naughty one.
 
-reagent-name-yeolhandy = ye ol handy
-reagent-desc-yeolhandy = The loner's choice, cold as their bed.
+# Wayfarer: Disabled for now
+#reagent-name-yeolhandy = ye ol handy
+#reagent-desc-yeolhandy = The loner's choice, cold as their bed.
+# End Wayfarer
 
 reagent-name-the-cute-captain = The Cute Captain
 reagent-desc-the-cute-captain = Light blue liquid with a sweet floral scent and a hint of pomegranate
@@ -184,8 +224,10 @@ reagent-desc-axels-ale = Red like the color of a setting sun on a beach
 reagent-name-jenn-tonic = Jenn in Tonic
 reagent-desc-jenn-tonic = Light golden and bubbly, what could go wrong?
 
-reagent-name-hallelujah = Hallelujah
-reagent-desc-hallelujah = Exactly what you need.
+# Wayfarer: Disabled for now
+#reagent-name-hallelujah = Hallelujah
+#reagent-desc-hallelujah = Exactly what you need.
+# End Wayfarer
 
 reagent-name-syndicate-eggnog = Syndicate Eggnog
 reagent-desc-syndicate-eggnog = creamy, pale yellow and topped with a sprinkle of cinnamon and strongly alcoholic.

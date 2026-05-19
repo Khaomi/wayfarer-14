@@ -1,12 +1,16 @@
-- type: flavor
-  id: 7deadlysins
-  flavorType: Complex
-  description: flavor-complex-7deadlysins
+# Wayfarer: Disabled for now
+# - type: flavor
+#   id: 7deadlysins
+#   flavorType: Complex
+#   description: flavor-complex-7deadlysins
+# End Wayfarer
 
-- type: flavor
-  id: ablustine
-  flavorType: Complex
-  description: flavor-complex-ablustine
+# Wayfarer: Disabled for now
+# - type: flavor
+#   id: ablustine
+#   flavorType: Complex
+#   description: flavor-complex-ablustine
+# End Wayfarer
 
 - type: flavor
   id: anisette
@@ -23,25 +27,31 @@
   flavorType: Complex
   description: flavor-complex-bande
 
-- type: flavor
-  id: bethanyscumlust
-  flavorType: Complex
-  description: flavor-complex-bethanyscumlust
+# Wayfarer: Disabled for now
+# - type: flavor
+#   id: bethanyscumlust
+#   flavorType: Complex
+#   description: flavor-complex-bethanyscumlust
+# End Wayfarer
 
-- type: flavor
-  id: bethanyssluttycumlust
-  flavorType: Complex
-  description: flavor-complex-bethanyssluttycumlust
+# Wayfarer: Disabled for now
+# - type: flavor
+#   id: bethanyssluttycumlust
+#   flavorType: Complex
+#   description: flavor-complex-bethanyssluttycumlust
+# End Wayfarer
 
 - type: flavor
   id: blooddrop
   flavorType: Complex
   description: flavor-complex-blooddrop
 
-- type: flavor
-  id: blueballer
-  flavorType: Complex
-  description: flavor-complex-blueballer
+# Wayfarer: Disabled for now
+# - type: flavor
+#   id: blueballer
+#   flavorType: Complex
+#   description: flavor-complex-blueballer
+# End Wayfarer
 
 - type: flavor
   id: cafedecacao
@@ -73,10 +83,12 @@
   flavorType: Complex
   description: flavor-complex-deadmansdraught
 
-- type: flavor
-  id: demonseed
-  flavorType: Complex
-  description: flavor-complex-demonseed
+# Wayfarer: Disabled for now
+# - type: flavor
+#   id: demonseed
+#   flavorType: Complex
+#   description: flavor-complex-demonseed
+# End Wayfarer
 
 - type: flavor
   id: dirtywastelander
@@ -103,15 +115,19 @@
   flavorType: Complex
   description: flavor-complex-dragonsseed
 
-- type: flavor
-  id: emeraldswinger
-  flavorType: Complex
-  description: flavor-complex-emeraldswinger
+# Wayfarer: Disabled for now
+# - type: flavor
+#   id: emeraldswinger
+#   flavorType: Complex
+#   description: flavor-complex-emeraldswinger
+# End Wayfarer
 
-- type: flavor
-  id: eminence
-  flavorType: Complex
-  description: flavor-complex-eminence
+# Wayfarer: Disabled for now
+# - type: flavor
+#   id: eminence
+#   flavorType: Complex
+#   description: flavor-complex-eminence
+# End Wayfarer
 
 - type: flavor
   id: goldbloomspecial
@@ -123,20 +139,24 @@
   flavorType: Complex
   description: flavor-complex-grandnavy
 
-- type: flavor
-  id: heartbreakmountain
-  flavorType: Complex
-  description: flavor-complex-heartbreakmountain
+# Wayfarer: Disabled for now
+# - type: flavor
+#   id: heartbreakmountain
+#   flavorType: Complex
+#   description: flavor-complex-heartbreakmountain
+# End Wayfarer
 
 - type: flavor
   id: holyvice
   flavorType: Complex
   description: flavor-complex-holyvice
 
-- type: flavor
-  id: hornystallion
-  flavorType: Complex
-  description: flavor-complex-hornystallion
+# Wayfarer: Disabled for now
+# - type: flavor
+#   id: hornystallion
+#   flavorType: Complex
+#   description: flavor-complex-hornystallion
+# End Wayfarer
 
 - type: flavor
   id: koboldkooler
@@ -148,20 +168,24 @@
   flavorType: Complex
   description: flavor-complex-koboldkorkscrew
 
-- type: flavor
-  id: lamplight
-  flavorType: Complex
-  description: flavor-complex-lamplight
+# Wayfarer: Disabled for now
+# - type: flavor
+#   id: lamplight
+#   flavorType: Complex
+#   description: flavor-complex-lamplight
+# End Wayfarer
 
 - type: flavor
   id: lemonpopsicle
   flavorType: Complex
   description: flavor-complex-lemonpopsicle
 
-- type: flavor
-  id: loverskiss
-  flavorType: Complex
-  description: flavor-complex-loverskiss
+# Wayfarer: Disabled for now
+# - type: flavor
+#   id: loverskiss
+#   flavorType: Complex
+#   description: flavor-complex-loverskiss
+# End Wayfarer
 
 - type: flavor
   id: mariejulep
@@ -173,10 +197,12 @@
   flavorType: Complex
   description: flavor-complex-marsbar
 
-- type: flavor
-  id: mossbloodshot
-  flavorType: Complex
-  description: flavor-complex-mossbloodshot
+# Wayfarer: Disabled for now
+# - type: flavor
+#   id: mossbloodshot
+#   flavorType: Complex
+#   description: flavor-complex-mossbloodshot
+# End Wayfarer
 
 - type: flavor
   id: nikkonectar
@@ -198,20 +224,26 @@
   flavorType: Complex
   description: flavor-complex-orgasmonthebeach
 
-- type: flavor
-  id: pomonade
-  flavorType: Complex
-  description: flavor-complex-pomonade
+# Wayfarer: Disabled for now
+# - type: flavor
+#   id: pomonade
+#   flavorType: Complex
+#   description: flavor-complex-pomonade
+# End Wayfarer
 
-- type: flavor
-  id: pompassion
-  flavorType: Complex
-  description: flavor-complex-pompassion
+# Wayfarer: Disabled for now
+# - type: flavor
+#   id: pompassion
+#   flavorType: Complex
+#   description: flavor-complex-pompassion
+# End Wayfarer
 
-- type: flavor
-  id: pomtwist
-  flavorType: Complex
-  description: flavor-complex-pomtwist
+# Wayfarer: Disabled for now
+# - type: flavor
+#   id: pomtwist
+#   flavorType: Complex
+#   description: flavor-complex-pomtwist
+# End Wayfarer
 
 - type: flavor
   id: prairieoyster
@@ -228,15 +260,19 @@
   flavorType: Complex
   description: flavor-complex-quadruplecreamchalice
 
-- type: flavor
-  id: randystallion
-  flavorType: Complex
-  description: flavor-complex-randystallion
+# Wayfarer: Disabled for now
+# - type: flavor
+#   id: randystallion
+#   flavorType: Complex
+#   description: flavor-complex-randystallion
+# End Wayfarer
 
-- type: flavor
-  id: redrocket
-  flavorType: Complex
-  description: flavor-complex-redrocket
+# Wayfarer: Disabled for now
+# - type: flavor
+#   id: redrocket
+#   flavorType: Complex
+#   description: flavor-complex-redrocket
+# End Wayfarer
 
 - type: flavor
   id: salvagersdelight
@@ -263,10 +299,12 @@
   flavorType: Complex
   description: flavor-complex-snowball
 
-- type: flavor
-  id: specialsundae
-  flavorType: Complex
-  description: flavor-complex-specialsundae
+# Wayfarer: Disabled for now
+# - type: flavor
+#   id: specialsundae
+#   flavorType: Complex
+#   description: flavor-complex-specialsundae
+# End Wayfarer
 
 - type: flavor
   id: slimesdelight
@@ -313,30 +351,38 @@
   flavorType: Complex
   description: flavor-complex-whitechocolatechip
 
-- type: flavor
-  id: yeolhandy
-  flavorType: Complex
-  description: flavor-complex-yeolhandy
+# Wayfarer: Disabled for now
+# - type: flavor
+#   id: yeolhandy
+#   flavorType: Complex
+#   description: flavor-complex-yeolhandy
+# End Wayfarer
 
-- type: flavor
-  id: thecutecaptain
-  flavorType: Complex
-  description: flavor-complex-thecutecaptain
+# Wayfarer: Disabled for now
+# - type: flavor
+#   id: thecutecaptain
+#   flavorType: Complex
+#   description: flavor-complex-thecutecaptain
+# End Wayfarer
 
-- type: flavor
-  id: axelsale
-  flavorType: Complex
-  description: flavor-complex-axelsale
+# Wayfarer: Disabled for now
+# - type: flavor
+#   id: axelsale
+#   flavorType: Complex
+#   description: flavor-complex-axelsale
+# End Wayfarer
 
 - type: flavor
   id: jenntonic
   flavorType: Complex
   description: flavor-complex-jenntonic
 
-- type: flavor
-  id: hallelujah
-  flavorType: Complex
-  description: flavor-complex-hallelujah
+# Wayfarer: Disabled for now
+# - type: flavor
+#   id: hallelujah
+#   flavorType: Complex
+#   description: flavor-complex-hallelujah
+# End Wayfarer
 
 - type: flavor
   id: walnut
