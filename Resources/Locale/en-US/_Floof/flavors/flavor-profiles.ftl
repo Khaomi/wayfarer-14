@@ -4,7 +4,8 @@
 #flavor-complex-ablustine = fruity and treacly
 flavor-complex-anisette = like sweet anise
 flavor-complex-appleberryfizz = sweet and fizzy
-flavor-complex-bande = dark, devious, and sinful
+# Wayfarer: Disabled for now
+#flavor-complex-bande = dark, devious, and sinful
 # sometimes i wish i got paid compensation for psychic damage
 # Wayfarer: Disabled for now
 #flavor-complex-bethanyscumlust = like a cum slut's desires
@@ -22,10 +23,12 @@ flavor-complex-deadmansdraught = alcohol and liver failure
 # Wayfarer: Disabled for now
 #flavor-complex-demonseed =  metallic, sweet, and smooth
 flavor-complex-dirtywastelander = like a last resort
-flavor-complex-doublecreamblaster = creamy and sweet
+# Wayfarer: Disabled for now
+#flavor-complex-doublecreamblaster = creamy and sweet
 flavor-complex-dragonsblood = coppery and spicy
 flavor-complex-dragonsbreath = spicy and strong
-flavor-complex-dragonsseed = juicy and hot
+# Wayfarer: Disabled for now
+#flavor-complex-dragonsseed = juicy and hot
 # Wayfarer: Disabled for now
 #flavor-complex-emeraldswinger = fruity and colorful
 # Wayfarer: Disabled for now
@@ -38,19 +41,22 @@ flavor-complex-holyvice = refined with darker undertones
 # Wayfarer: Disabled for now
 #flavor-complex-hornystallion = like a kick in the groin
 flavor-complex-koboldkooler = tart and frothy
-flavor-complex-koboldkorkscrew = sugary and smooth
+# Wayfarer: Disabled for now
+#flavor-complex-koboldkorkscrew = sugary and smooth
 # Wayfarer: Disabled for now
 #flavor-complex-lamplight = sugary and acrid
 flavor-complex-lemonpopsicle = like an incredibly sour summer retreat
 # Wayfarer: Disabled for now
 #flavor-complex-loverskiss = pleasant and smooth
 flavor-complex-mariejulep = minty and spicy
-flavor-complex-marsbar = like a creamy mars bar
+# Wayfarer: Disabled for now
+#flavor-complex-marsbar = like a creamy mars bar
 # Wayfarer: Disabled for now
 #flavor-complex-mossbloodshot = unbelievably sweet
 flavor-complex-numberone = empowering and energizing
 flavor-complex-opsshine = like alcohol poisoning
-flavor-complex-orgasmonthebeach = like a tart infection
+# Wayfarer: Disabled for now
+#flavor-complex-orgasmonthebeach = like a tart infection
 # Wayfarer: Disabled for now
 #flavor-complex-pomonade = sweet and tangy
 # Wayfarer: Disabled for now
@@ -59,17 +65,22 @@ flavor-complex-orgasmonthebeach = like a tart infection
 #flavor-complex-pomtwist = citrussy and sour
 flavor-complex-prairieoyster = like fermented oysters
 flavor-complex-prisonwine = like wine, sans regret
-flavor-complex-quadruplecreamchalice = creamy and thick
+# Wayfarer: Disabled for now
+#flavor-complex-quadruplecreamchalice = creamy and thick
 # Wayfarer: Disabled for now
 #flavor-complex-randystallion = bittersweet, with a good fizzy feeling
 # Wayfarer: Disabled for now
 #flavor-complex-redrocket = incredibly sweet, like a rocket pop
 flavor-complex-salvagersdelight = like hoarding contraband
-flavor-complex-semenbomb = bitter and oleogustus
-flavor-complex-semenhemorrhage = clumpy and sweet
-flavor-complex-silverstallion = like graying hair and an aging soul
+# Wayfarer: Disabled for now
+#flavor-complex-semenbomb = bitter and oleogustus
+# Wayfarer: Disabled for now
+#flavor-complex-semenhemorrhage = clumpy and sweet
+# Wayfarer: Disabled for now
+#flavor-complex-silverstallion = like graying hair and an aging soul
 flavor-complex-slimesdelight = like war crimes
-flavor-complex-snowball = cold, sweet, and salty
+# Wayfarer: Disabled for now
+#flavor-complex-snowball = cold, sweet, and salty
 # Wayfarer: Disabled for now
 # flavor-complex-specialsundae = like ice cream and pomegranates
 flavor-complex-strawberry = strawberry
@@ -77,8 +88,10 @@ flavor-complex-syndicatesoverseer = like blood and assassination
 flavor-complex-triplecitrus = extremely bitter
 flavor-complex-voltage = like drinking an alcoholic battery
 flavor-complex-wakeupjuice = chunky, thick, and utterly disgusting
-flavor-complex-watermelonginjizz = bubbly and fruity
-flavor-complex-thewaterslide = like unsanitary depravity
+# Wayfarer: Disabled for now
+#flavor-complex-watermelonginjizz = bubbly and fruity
+# Wayfarer: Disabled for now
+#flavor-complex-thewaterslide = like unsanitary depravity
 flavor-complex-whitechocolatechip = like white chocolate chips
 # Wayfarer: Disabled for now
 #flavor-complex-yeolhandy = like oranges and solitude
@@ -92,8 +105,10 @@ flavor-complex-jenntonic = sweet with a hidden bite
 flavor-complex-walnut = like walnuts
 flavor-complex-despair = despair
 flavor-complex-syndicate-eggnog = like eggnog, and war profiteering
-flavor-complex-ginandpussy = like wet pussy, with extra gin
-flavor-complex-pussytonic = like pussy, but with tonic
+# Wayfarer: Disabled for now
+#flavor-complex-ginandpussy = like wet pussy, with extra gin
+# Wayfarer: Disabled for now
+#flavor-complex-pussytonic = like pussy, but with tonic
 
 # This would go in a different file but it's being used for just drinks
 reagent-physical-desc-earthy = earthy

@@ -14,8 +14,10 @@ reagent-desc-anisette = Liquor made of anise and sugar, typically used as a swee
 reagent-name-appleberryfizz = appleberry fizz
 reagent-desc-appleberryfizz = A sweet, delightful little drink.
 
-reagent-name-bande = b&e
-reagent-desc-bande = A mischevious, dark drink, with a splash of bodily fluids.
+# Wayfarer: Disabled for now
+#reagent-name-bande = b&e
+#reagent-desc-bande = A mischevious, dark drink, with a splash of bodily fluids.
+# End Wayfarer
 
 # Wayfarer: Disabled for now
 #reagent-name-bethanyscumlust = bethany's cum-lust
@@ -55,8 +57,10 @@ reagent-desc-deadmansdraught = One of those everything-at-the-bar blends, someth
 reagent-name-dirtywastelander = dirty wastelander
 reagent-desc-dirtywastelander = The last option for some tired people trapped out on the wasteland planets.
 
-reagent-name-doublecreamblaster = double cream blaster
-reagent-desc-doublecreamblaster = For twice the creaminess and twice the fun.
+# Wayfarer: Disabled for now
+#reagent-name-doublecreamblaster = double cream blaster
+#reagent-desc-doublecreamblaster = For twice the creaminess and twice the fun.
+# End Wayfarer
 
 reagent-name-dragonsblood = dragon's blood
 reagent-desc-dragonsblood = Legend says this is what gives the space dragons their firey mouth.
@@ -64,8 +68,10 @@ reagent-desc-dragonsblood = Legend says this is what gives the space dragons the
 reagent-name-dragonsbreath = dragon's breath
 reagent-desc-dragonsbreath = A picante drink, burning all the way down like taking a breath of pure plasma fire.
 
-reagent-name-dragonsseed = dragon's seed
-reagent-desc-dragonsseed = Tastes like an actual dragon's nethers.
+# Wayfarer: Disabled for now
+#reagent-name-dragonsseed = dragon's seed
+#reagent-desc-dragonsseed = Tastes like an actual dragon's nethers.
+# End Wayfarer
 
 # Wayfarer: Disabled for now
 #reagent-name-emeraldswinger = emerald swinger
@@ -99,8 +105,10 @@ reagent-desc-holyvice = Despite seeming somewhat contrary, the ingredients of th
 reagent-name-koboldkooler = kobold kooler
 reagent-desc-koboldkooler = A cool, soothing drink for the cold-blooded amongst the crew.
 
-reagent-name-koboldkorkscrew = kobold korkscrew
-reagent-desc-koboldkorkscrew = A fizzy, sugary drink, with an added scale-like smoothness.
+# Wayfarer: Disabled for now
+#reagent-name-koboldkorkscrew = kobold korkscrew
+#reagent-desc-koboldkorkscrew = A fizzy, sugary drink, with an added scale-like smoothness.
+# End Wayfarer
 
 # Wayfarer: Disabled for now
 #reagent-name-lamplight = lamplight
@@ -118,8 +126,10 @@ reagent-desc-lemonpopsicle = An on-the-wagon cocktail, for those who just adore 
 reagent-name-mariejulep = marie julep
 reagent-desc-mariejulep = A minty, sweet cocktail. For those who can't stomach their absinthe.
 
-reagent-name-marsbar = mars bar
-reagent-desc-marsbar = Sourced from the bar itself, or maybe the bartender.
+# Wayfarer: Disabled for now
+#reagent-name-marsbar = mars bar
+#reagent-desc-marsbar = Sourced from the bar itself, or maybe the bartender.
+# End Wayfarer
 
 # Wayfarer: Disabled for now
 #reagent-name-mossbloodshot = moss' blood shot
@@ -132,8 +142,10 @@ reagent-desc-numberone = The perfect drink to help ensure that YOU stay on top o
 reagent-name-opsshine = ops' shine
 reagent-desc-opsshine = A drink made for the slime personnel on board. Not meeting the criteria may include a trip to the Medical Bay.
 
-reagent-name-orgasmonthebeach = orgasm on the beach
-reagent-desc-orgasmonthebeach = A classic drink that tickles the pudendal nerve.
+# Wayfarer: Disabled for now
+#reagent-name-orgasmonthebeach = orgasm on the beach
+#reagent-desc-orgasmonthebeach = A classic drink that tickles the pudendal nerve.
+# End Wayfarer
 
 # Wayfarer: Disabled for now
 #reagent-name-pomonade = pomonade
@@ -156,8 +168,10 @@ reagent-desc-prairieoyster = A supposed hangover cure traditional among space co
 reagent-name-prisonwine = prison wine
 reagent-desc-prisonwine = A quickly thrown together mixture of grapes and sugar in soda water. Probably wouldn't actually turn into wine, but you can put it in your loo nonetheless.
 
-reagent-name-quadruplecreamchalice = quadruple cream chalice
-reagent-desc-quadruplecreamchalice = A mixture of the most creamy ingredients available at the bar.
+# Wayfarer: Disabled for now
+#reagent-name-quadruplecreamchalice = quadruple cream chalice
+#reagent-desc-quadruplecreamchalice = A mixture of the most creamy ingredients available at the bar.
+# End Wayfarer
 
 # Wayfarer: Disabled for now
 #reagent-name-randystallion = randy stallion
@@ -172,20 +186,28 @@ reagent-desc-quadruplecreamchalice = A mixture of the most creamy ingredients av
 reagent-name-salvagersdelight = salvager's delight
 reagent-desc-salvagersdelight = Said to have originated as a hazing ritual among deep-space salvagers, this vile concoction can only be stomached by true sons of Salvonia.
 
-reagent-name-semenbomb = semen bomb
-reagent-desc-semenbomb = A drink that will make one feel like they have a full stomach, one way or another.
+# Wayfarer: Disabled for now
+#reagent-name-semenbomb = semen bomb
+#reagent-desc-semenbomb = A drink that will make one feel like they have a full stomach, one way or another.
+# End Wayfarer
 
-reagent-name-semenhemorrhage = semen hemorrhage
-reagent-desc-semenhemorrhage = A succubi spin on a classic spooky shot.
+# Wayfarer: Disabled for now
+#reagent-name-semenhemorrhage = semen hemorrhage
+#reagent-desc-semenhemorrhage = A succubi spin on a classic spooky shot.
+# End Wayfarer
 
-reagent-name-silverstallion = silver stallion
-reagent-desc-silverstallion = A strong drink that'll put hair on your chest.
+# Wayfarer: Disabled for now
+#reagent-name-silverstallion = silver stallion
+#reagent-desc-silverstallion = A strong drink that'll put hair on your chest.
+# End Wayfarer
 
 reagent-name-slimesdelight = slime's delight
 reagent-desc-slimesdelight = A somewhat gross drink for many people to imagine consuming. Most end up ordering something else.
 
-reagent-name-snowball = snowball
-reagent-desc-snowball = A sweet mix of a snowcone, with a very special kind of syrup.
+# Wayfarer: Disabled for now
+#reagent-name-snowball = snowball
+#reagent-desc-snowball = A sweet mix of a snowcone, with a very special kind of syrup.
+# End Wayfarer
 
 # Wayfarer: Disabled for now
 # reagent-name-specialsundae = special sundae
@@ -204,11 +226,15 @@ reagent-desc-voltage = A strong, electric drink, overloading the senses in both 
 reagent-name-wakeupjuice = wake up juice
 reagent-desc-wakeupjuice = A drink that'll bring your cloudy mind right back to the thinking about the future.
 
-reagent-name-watermelonginjizz = watermelon gin jizz
-reagent-desc-watermelonginjizz = Perfect for a luncheon on a warm sunny afternoon.
+# Wayfarer: Disabled for now
+#reagent-name-watermelonginjizz = watermelon gin jizz
+#reagent-desc-watermelonginjizz = Perfect for a luncheon on a warm sunny afternoon.
+# End Wayfarer
 
-reagent-name-thewaterslide = the waterslide
-reagent-desc-thewaterslide = Charcoal not included for you, o naughty one.
+# Wayfarer: Disabled for now
+#reagent-name-thewaterslide = the waterslide
+#reagent-desc-thewaterslide = Charcoal not included for you, o naughty one.
+# End Wayfarer
 
 # Wayfarer: Disabled for now
 #reagent-name-yeolhandy = ye ol handy
@@ -232,10 +258,13 @@ reagent-desc-jenn-tonic = Light golden and bubbly, what could go wrong?
 reagent-name-syndicate-eggnog = Syndicate Eggnog
 reagent-desc-syndicate-eggnog = creamy, pale yellow and topped with a sprinkle of cinnamon and strongly alcoholic.
 
-reagent-name-gin-and-pussy = Gin and Pussy
-reagent-desc-gin-and-pussy = A Sapphic twist on the classic Gin and Tonic, featuring locally sourced Natural Lubricant as a replacement for Tonic, A favorite of Maintenance Bars everywhere.
+# Wayfarer: Disabled for now
+#reagent-name-gin-and-pussy = Gin and Pussy
+#reagent-desc-gin-and-pussy = A Sapphic twist on the classic Gin and Tonic, featuring locally sourced Natural Lubricant as a replacement for Tonic, A favorite of Maintenance Bars everywhere.
+# End Wayfarer
 
-reagent-name-pussytonic = Pussy Tonic
-reagent-desc-pussytonic = Natural Lubrican with some tonic, for pussy lovers.
-
+# Wayfarer: Disabled for now
+#reagent-name-pussytonic = Pussy Tonic
+#reagent-desc-pussytonic = Natural Lubrican with some tonic, for pussy lovers.
+# End Wayfarer
 

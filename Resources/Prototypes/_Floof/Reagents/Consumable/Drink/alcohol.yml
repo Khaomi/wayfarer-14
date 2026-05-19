@@ -89,31 +89,33 @@
       - !type:SatiateThirst
         factor: 3
 
-- type: reagent
-  id: BandE
-  name: reagent-name-bande
-  parent: BaseAlcohol
-  desc: reagent-desc-bande
-  physicalDesc: reagent-physical-desc-enigmatic
-  flavor: bande
-  color: "#4d646b"
-  metamorphicSprite:
-    sprite: _Floof/Objects/Consumable/Drinks/bande.rsi
-    state: icon_empty
-  metamorphicMaxFillLevels: 4
-  metamorphicFillBaseName: fill-
-  metamorphicChangeColor: false
-  metabolisms:
-    Drink:
-      effects:
-      - !type:SatiateThirst
-        factor: 2
-      - !type:AdjustReagent
-        reagent: Ethanol
-        amount: 0.06
-      - !type:AdjustReagent
-        reagent: Cum
-        amount: 0.15
+# Wayfarer: Disabled for now
+# - type: reagent
+#   id: BandE
+#   name: reagent-name-bande
+#   parent: BaseAlcohol
+#   desc: reagent-desc-bande
+#   physicalDesc: reagent-physical-desc-enigmatic
+#   flavor: bande
+#   color: "#4d646b"
+#   metamorphicSprite:
+#     sprite: _Floof/Objects/Consumable/Drinks/bande.rsi
+#     state: icon_empty
+#   metamorphicMaxFillLevels: 4
+#   metamorphicFillBaseName: fill-
+#   metamorphicChangeColor: false
+#   metabolisms:
+#     Drink:
+#       effects:
+#       - !type:SatiateThirst
+#         factor: 2
+#       - !type:AdjustReagent
+#         reagent: Ethanol
+#         amount: 0.06
+#       - !type:AdjustReagent
+#         reagent: Cum
+#         amount: 0.15
+# End Wayfarer
 
 # Wayfarer: Disabled for now
 # - type: reagent
@@ -371,28 +373,30 @@
         reagent: Ethanol
         amount: 0.07
 
-- type: reagent
-  id: DoubleCreamBlaster
-  name: reagent-name-doublecreamblaster
-  parent: BaseAlcohol
-  desc: reagent-desc-doublecreamblaster
-  physicalDesc: reagent-physical-desc-fizzy-and-creamy
-  flavor: doublecreamblaster
-  color: "#532104"
-  metamorphicSprite:
-    sprite: _Floof/Objects/Consumable/Drinks/doublecreamblaster.rsi
-    state: icon_empty
-  metamorphicMaxFillLevels: 5
-  metamorphicFillBaseName: fill-
-  metamorphicChangeColor: false
-  metabolisms:
-    Drink:
-      effects:
-      - !type:SatiateThirst
-        factor: 3
-      - !type:AdjustReagent
-        reagent: Cum
-        amount: 0.15
+# Wayfarer: Disabled for now
+# - type: reagent
+#   id: DoubleCreamBlaster
+#   name: reagent-name-doublecreamblaster
+#   parent: BaseAlcohol
+#   desc: reagent-desc-doublecreamblaster
+#   physicalDesc: reagent-physical-desc-fizzy-and-creamy
+#   flavor: doublecreamblaster
+#   color: "#532104"
+#   metamorphicSprite:
+#     sprite: _Floof/Objects/Consumable/Drinks/doublecreamblaster.rsi
+#     state: icon_empty
+#   metamorphicMaxFillLevels: 5
+#   metamorphicFillBaseName: fill-
+#   metamorphicChangeColor: false
+#   metabolisms:
+#     Drink:
+#       effects:
+#       - !type:SatiateThirst
+#         factor: 3
+#       - !type:AdjustReagent
+#         reagent: Cum
+#         amount: 0.15
+# End Wayfarer
 
 - type: reagent
   id: DragonsBlood
@@ -443,31 +447,33 @@
         reagent: Ethanol
         amount: 0.07
 
-- type: reagent
-  id: DragonsSeed
-  name: reagent-name-dragonsseed
-  parent: BaseAlcohol
-  desc: reagent-desc-dragonsseed
-  physicalDesc: reagent-physical-desc-shiny
-  flavor: dragonsseed
-  color: "#ed5a5a"
-  metamorphicSprite:
-    sprite: _Floof/Objects/Consumable/Drinks/dragonsseed.rsi
-    state: icon_empty
-  metamorphicMaxFillLevels: 5
-  metamorphicFillBaseName: fill-
-  metamorphicChangeColor: false
-  metabolisms:
-    Drink:
-      effects:
-      - !type:SatiateThirst
-        factor: 2
-      - !type:AdjustReagent
-        reagent: Ethanol
-        amount: 0.07
-      - !type:AdjustReagent
-        reagent: Cum
-        amount: 0.12
+# Wayfarer: Disabled for now
+# - type: reagent
+#   id: DragonsSeed
+#   name: reagent-name-dragonsseed
+#   parent: BaseAlcohol
+#   desc: reagent-desc-dragonsseed
+#   physicalDesc: reagent-physical-desc-shiny
+#   flavor: dragonsseed
+#   color: "#ed5a5a"
+#   metamorphicSprite:
+#     sprite: _Floof/Objects/Consumable/Drinks/dragonsseed.rsi
+#     state: icon_empty
+#   metamorphicMaxFillLevels: 5
+#   metamorphicFillBaseName: fill-
+#   metamorphicChangeColor: false
+#   metabolisms:
+#     Drink:
+#       effects:
+#       - !type:SatiateThirst
+#         factor: 2
+#       - !type:AdjustReagent
+#         reagent: Ethanol
+#         amount: 0.07
+#       - !type:AdjustReagent
+#         reagent: Cum
+#         amount: 0.12
+# End Wayfarer
 
 # Wayfarer: Disabled for now
 # - type: reagent
@@ -664,28 +670,30 @@
       - !type:SatiateThirst
         factor: 3
 
-- type: reagent
-  id: KoboldKorkscrew
-  name: reagent-name-koboldkorkscrew
-  parent: BaseAlcohol
-  desc: reagent-desc-koboldkorkscrew
-  physicalDesc: reagent-physical-desc-fizzy-and-creamy
-  flavor: koboldkorkscrew
-  color: "#e67409"
-  metamorphicSprite:
-    sprite: _Floof/Objects/Consumable/Drinks/koboldkorkscrew.rsi
-    state: icon_empty
-  metamorphicMaxFillLevels: 5
-  metamorphicFillBaseName: fill-
-  metamorphicChangeColor: false
-  metabolisms:
-    Drink:
-      effects:
-      - !type:SatiateThirst
-        factor: 3
-      - !type:AdjustReagent
-        reagent: Cum
-        amount: 0.15
+# Wayfarer: Disabled for now
+# - type: reagent
+#   id: KoboldKorkscrew
+#   name: reagent-name-koboldkorkscrew
+#   parent: BaseAlcohol
+#   desc: reagent-desc-koboldkorkscrew
+#   physicalDesc: reagent-physical-desc-fizzy-and-creamy
+#   flavor: koboldkorkscrew
+#   color: "#e67409"
+#   metamorphicSprite:
+#     sprite: _Floof/Objects/Consumable/Drinks/koboldkorkscrew.rsi
+#     state: icon_empty
+#   metamorphicMaxFillLevels: 5
+#   metamorphicFillBaseName: fill-
+#   metamorphicChangeColor: false
+#   metabolisms:
+#     Drink:
+#       effects:
+#       - !type:SatiateThirst
+#         factor: 3
+#       - !type:AdjustReagent
+#         reagent: Cum
+#         amount: 0.15
+# End Wayfarer
 
 # Wayfarer: Disabled for now
 # - type: reagent
@@ -798,31 +806,33 @@
         reagent: Ethanol
         amount: 0.06
 
-- type: reagent
-  id: MarsBar
-  name: reagent-name-marsbar
-  parent: BaseAlcohol
-  desc: reagent-desc-marsbar
-  physicalDesc: reagent-physical-desc-smooth
-  flavor: marsbar
-  color: "#be9b7b"
-  metamorphicSprite:
-    sprite: _Floof/Objects/Consumable/Drinks/marsbar.rsi
-    state: icon_empty
-  metamorphicMaxFillLevels: 5
-  metamorphicFillBaseName: fill-
-  metamorphicChangeColor: false
-  metabolisms:
-    Drink:
-      effects:
-      - !type:SatiateThirst
-        factor: 2
-      - !type:AdjustReagent
-        reagent: Ethanol
-        amount: 0.06
-      - !type:AdjustReagent
-        reagent: Cum
-        amount: 0.15
+# Wayfarer: Disabled for now
+# - type: reagent
+#   id: MarsBar
+#   name: reagent-name-marsbar
+#   parent: BaseAlcohol
+#   desc: reagent-desc-marsbar
+#   physicalDesc: reagent-physical-desc-smooth
+#   flavor: marsbar
+#   color: "#be9b7b"
+#   metamorphicSprite:
+#     sprite: _Floof/Objects/Consumable/Drinks/marsbar.rsi
+#     state: icon_empty
+#   metamorphicMaxFillLevels: 5
+#   metamorphicFillBaseName: fill-
+#   metamorphicChangeColor: false
+#   metabolisms:
+#     Drink:
+#       effects:
+#       - !type:SatiateThirst
+#         factor: 2
+#       - !type:AdjustReagent
+#         reagent: Ethanol
+#         amount: 0.06
+#       - !type:AdjustReagent
+#         reagent: Cum
+#         amount: 0.15
+# End Wayfarer
 
 # Wayfarer: Disabled for now
 # - type: reagent
@@ -905,31 +915,33 @@
         reagent: Ethanol
         amount: 0.5
 
-- type: reagent
-  id: OrgasmOnTheBeach
-  name: reagent-name-orgasmonthebeach
-  parent: BaseAlcohol
-  desc: reagent-desc-orgasmonthebeach
-  physicalDesc: reagent-physical-desc-tart
-  flavor: orgasmonthebeach
-  color: "#b5693a"
-  metamorphicSprite:
-    sprite: _Floof/Objects/Consumable/Drinks/orgasmonthebeach.rsi
-    state: icon_empty
-  metamorphicMaxFillLevels: 5
-  metamorphicFillBaseName: fill-
-  metamorphicChangeColor: false
-  metabolisms:
-    Drink:
-      effects:
-      - !type:SatiateThirst
-        factor: 2
-      - !type:AdjustReagent
-        reagent: Ethanol
-        amount: 0.05
-      - !type:AdjustReagent
-        reagent: Cum
-        amount: 0.1
+# Wayfarer: Disabled for now
+# - type: reagent
+#   id: OrgasmOnTheBeach
+#   name: reagent-name-orgasmonthebeach
+#   parent: BaseAlcohol
+#   desc: reagent-desc-orgasmonthebeach
+#   physicalDesc: reagent-physical-desc-tart
+#   flavor: orgasmonthebeach
+#   color: "#b5693a"
+#   metamorphicSprite:
+#     sprite: _Floof/Objects/Consumable/Drinks/orgasmonthebeach.rsi
+#     state: icon_empty
+#   metamorphicMaxFillLevels: 5
+#   metamorphicFillBaseName: fill-
+#   metamorphicChangeColor: false
+#   metabolisms:
+#     Drink:
+#       effects:
+#       - !type:SatiateThirst
+#         factor: 2
+#       - !type:AdjustReagent
+#         reagent: Ethanol
+#         amount: 0.05
+#       - !type:AdjustReagent
+#         reagent: Cum
+#         amount: 0.1
+# End Wayfarer
 
 # Wayfarer: Disabled for now
 # - type: reagent
@@ -1046,28 +1058,30 @@
       - !type:SatiateThirst
         factor: 3
 
-- type: reagent
-  id: QuadrupleCreamChalice
-  name: reagent-name-quadruplecreamchalice
-  parent: BaseAlcohol
-  desc: reagent-desc-quadruplecreamchalice
-  physicalDesc: reagent-physical-desc-creamy
-  flavor: quadruplecreamchalice
-  color: "#b36868"
-  metamorphicSprite:
-    sprite: _Floof/Objects/Consumable/Drinks/quadruplecreamchalice.rsi
-    state: icon_empty
-  metamorphicMaxFillLevels: 4
-  metamorphicFillBaseName: fill-
-  metamorphicChangeColor: false
-  metabolisms:
-    Drink:
-      effects:
-      - !type:SatiateThirst
-        factor: 3
-      - !type:AdjustReagent
-        reagent: Cum
-        amount: 0.12
+# Wayfarer: Disabled for now
+# - type: reagent
+#   id: QuadrupleCreamChalice
+#   name: reagent-name-quadruplecreamchalice
+#   parent: BaseAlcohol
+#   desc: reagent-desc-quadruplecreamchalice
+#   physicalDesc: reagent-physical-desc-creamy
+#   flavor: quadruplecreamchalice
+#   color: "#b36868"
+#   metamorphicSprite:
+#     sprite: _Floof/Objects/Consumable/Drinks/quadruplecreamchalice.rsi
+#     state: icon_empty
+#   metamorphicMaxFillLevels: 4
+#   metamorphicFillBaseName: fill-
+#   metamorphicChangeColor: false
+#   metabolisms:
+#     Drink:
+#       effects:
+#       - !type:SatiateThirst
+#         factor: 3
+#       - !type:AdjustReagent
+#         reagent: Cum
+#         amount: 0.12
+# End Wayfarer
 
 # Wayfarer: Disabled for now
 # - type: reagent
@@ -1145,83 +1159,89 @@
         reagent: Ethanol
         amount: 0.4
 
-- type: reagent
-  id: SemenBomb
-  name: reagent-name-semenbomb
-  parent: BaseAlcohol
-  desc: reagent-desc-semenbomb
-  physicalDesc: reagent-physical-desc-foamy
-  flavor: semenbomb
-  color: "#fbb117"
-  metamorphicSprite:
-    sprite: _Floof/Objects/Consumable/Drinks/semenbomb.rsi
-    state: icon_empty
-  metamorphicMaxFillLevels: 5
-  metamorphicFillBaseName: fill-
-  metamorphicChangeColor: false
-  metabolisms:
-    Drink:
-      effects:
-      - !type:SatiateThirst
-        factor: 2
-      - !type:AdjustReagent
-        reagent: Ethanol
-        amount: 0.04
-      - !type:AdjustReagent
-        reagent: Cum
-        amount: 0.15
+# Wayfarer: Disabled for now
+# - type: reagent
+#   id: SemenBomb
+#   name: reagent-name-semenbomb
+#   parent: BaseAlcohol
+#   desc: reagent-desc-semenbomb
+#   physicalDesc: reagent-physical-desc-foamy
+#   flavor: semenbomb
+#   color: "#fbb117"
+#   metamorphicSprite:
+#     sprite: _Floof/Objects/Consumable/Drinks/semenbomb.rsi
+#     state: icon_empty
+#   metamorphicMaxFillLevels: 5
+#   metamorphicFillBaseName: fill-
+#   metamorphicChangeColor: false
+#   metabolisms:
+#     Drink:
+#       effects:
+#       - !type:SatiateThirst
+#         factor: 2
+#       - !type:AdjustReagent
+#         reagent: Ethanol
+#         amount: 0.04
+#       - !type:AdjustReagent
+#         reagent: Cum
+#         amount: 0.15
+# End Wayfarer
 
-- type: reagent
-  id: SemenHemorrhage
-  name: reagent-name-semenhemorrhage
-  parent: BaseAlcohol
-  desc: reagent-desc-semenhemorrhage
-  physicalDesc: reagent-physical-desc-heterogeneous
-  flavor: semenhemorrhage
-  color: "#c83341"
-  metamorphicSprite:
-    sprite: _Floof/Objects/Consumable/Drinks/semenhemorrhage.rsi
-    state: icon_empty
-  metamorphicMaxFillLevels: 5
-  metamorphicFillBaseName: fill-
-  metamorphicChangeColor: false
-  metabolisms:
-    Drink:
-      effects:
-      - !type:SatiateThirst
-        factor: 2
-      - !type:AdjustReagent
-        reagent: Ethanol
-        amount: 0.03
-      - !type:AdjustReagent
-        reagent: Cum
-        amount: 0.15
+# Wayfarer: Disabled for now
+# - type: reagent
+#   id: SemenHemorrhage
+#   name: reagent-name-semenhemorrhage
+#   parent: BaseAlcohol
+#   desc: reagent-desc-semenhemorrhage
+#   physicalDesc: reagent-physical-desc-heterogeneous
+#   flavor: semenhemorrhage
+#   color: "#c83341"
+#   metamorphicSprite:
+#     sprite: _Floof/Objects/Consumable/Drinks/semenhemorrhage.rsi
+#     state: icon_empty
+#   metamorphicMaxFillLevels: 5
+#   metamorphicFillBaseName: fill-
+#   metamorphicChangeColor: false
+#   metabolisms:
+#     Drink:
+#       effects:
+#       - !type:SatiateThirst
+#         factor: 2
+#       - !type:AdjustReagent
+#         reagent: Ethanol
+#         amount: 0.03
+#       - !type:AdjustReagent
+#         reagent: Cum
+#         amount: 0.15
+# End Wayfarer
 
-- type: reagent
-  id: SilverStallion
-  name: reagent-name-silverstallion
-  parent: BaseAlcohol
-  desc: reagent-desc-silverstallion
-  physicalDesc: reagent-physical-desc-aromatic
-  flavor: silverstallion
-  color: "#a19a9a"
-  metamorphicSprite:
-    sprite: _Floof/Objects/Consumable/Drinks/silverstallion.rsi
-    state: icon_empty
-  metamorphicMaxFillLevels: 5
-  metamorphicFillBaseName: fill-
-  metamorphicChangeColor: false
-  metabolisms:
-    Drink:
-      effects:
-      - !type:SatiateThirst
-        factor: 2
-      - !type:AdjustReagent
-        reagent: Ethanol
-        amount: 0.05
-      - !type:AdjustReagent
-        reagent: Cum
-        amount: 0.15
+# Wayfarer: Disabled for now
+# - type: reagent
+#   id: SilverStallion
+#   name: reagent-name-silverstallion
+#   parent: BaseAlcohol
+#   desc: reagent-desc-silverstallion
+#   physicalDesc: reagent-physical-desc-aromatic
+#   flavor: silverstallion
+#   color: "#a19a9a"
+#   metamorphicSprite:
+#     sprite: _Floof/Objects/Consumable/Drinks/silverstallion.rsi
+#     state: icon_empty
+#   metamorphicMaxFillLevels: 5
+#   metamorphicFillBaseName: fill-
+#   metamorphicChangeColor: false
+#   metabolisms:
+#     Drink:
+#       effects:
+#       - !type:SatiateThirst
+#         factor: 2
+#       - !type:AdjustReagent
+#         reagent: Ethanol
+#         amount: 0.05
+#       - !type:AdjustReagent
+#         reagent: Cum
+#         amount: 0.15
+# End Wayfarer
 
 - type: reagent
   id: SlimesDelight
@@ -1262,28 +1282,30 @@
           types:
             Bloodloss: -0.5
 
-- type: reagent
-  id: Snowball
-  name: reagent-name-snowball
-  parent: BaseAlcohol
-  desc: reagent-desc-snowball
-  physicalDesc: reagent-physical-desc-cold-crunchy-sticky
-  flavor: snowball
-  color: "#e3dded"
-  metamorphicSprite:
-    sprite: _Floof/Objects/Consumable/Drinks/snowball.rsi
-    state: icon_empty
-  metamorphicMaxFillLevels: 4
-  metamorphicFillBaseName: fill-
-  metamorphicChangeColor: false
-  metabolisms:
-    Drink:
-      effects:
-      - !type:SatiateThirst
-        factor: 3
-      - !type:AdjustReagent
-        reagent: Cum
-        amount: 0.12
+# Wayfarer: Disabled for now
+# - type: reagent
+#   id: Snowball
+#   name: reagent-name-snowball
+#   parent: BaseAlcohol
+#   desc: reagent-desc-snowball
+#   physicalDesc: reagent-physical-desc-cold-crunchy-sticky
+#   flavor: snowball
+#   color: "#e3dded"
+#   metamorphicSprite:
+#     sprite: _Floof/Objects/Consumable/Drinks/snowball.rsi
+#     state: icon_empty
+#   metamorphicMaxFillLevels: 4
+#   metamorphicFillBaseName: fill-
+#   metamorphicChangeColor: false
+#   metabolisms:
+#     Drink:
+#       effects:
+#       - !type:SatiateThirst
+#         factor: 3
+#       - !type:AdjustReagent
+#         reagent: Cum
+#         amount: 0.12
+# End Wayfarer
 
 # Wayfarer: Disabled for now
 # - type: reagent
@@ -1402,57 +1424,61 @@
       - !type:SatiateThirst
         factor: 3
 
-- type: reagent
-  id: WatermelonGinJizz
-  name: reagent-name-watermelonginjizz
-  parent: BaseAlcohol
-  desc: reagent-desc-watermelonginjizz
-  physicalDesc: reagent-physical-desc-fizzy
-  flavor: watermelonginjizz
-  color: "#c79081"
-  metamorphicSprite:
-    sprite: _Floof/Objects/Consumable/Drinks/watermelonginjizz.rsi
-    state: icon_empty
-  metamorphicMaxFillLevels: 3
-  metamorphicFillBaseName: fill-
-  metamorphicChangeColor: false
-  metabolisms:
-    Drink:
-      effects:
-      - !type:SatiateThirst
-        factor: 2
-      - !type:AdjustReagent
-        reagent: Ethanol
-        amount: 0.07
-      - !type:AdjustReagent
-        reagent: Cum
-        amount: 0.1
+# Wayfarer: Disabled for now
+# - type: reagent
+#   id: WatermelonGinJizz
+#   name: reagent-name-watermelonginjizz
+#   parent: BaseAlcohol
+#   desc: reagent-desc-watermelonginjizz
+#   physicalDesc: reagent-physical-desc-fizzy
+#   flavor: watermelonginjizz
+#   color: "#c79081"
+#   metamorphicSprite:
+#     sprite: _Floof/Objects/Consumable/Drinks/watermelonginjizz.rsi
+#     state: icon_empty
+#   metamorphicMaxFillLevels: 3
+#   metamorphicFillBaseName: fill-
+#   metamorphicChangeColor: false
+#   metabolisms:
+#     Drink:
+#       effects:
+#       - !type:SatiateThirst
+#         factor: 2
+#       - !type:AdjustReagent
+#         reagent: Ethanol
+#         amount: 0.07
+#       - !type:AdjustReagent
+#         reagent: Cum
+#         amount: 0.1
+# End Wayfarer
 
-- type: reagent
-  id: TheWaterslide
-  name: reagent-name-thewaterslide
-  parent: BaseAlcohol
-  desc: reagent-desc-thewaterslide
-  physicalDesc: reagent-physical-desc-putrid
-  flavor: thewaterslide
-  color: "#4f3e18"
-  metamorphicSprite:
-    sprite: _Floof/Objects/Consumable/Drinks/thewaterslide.rsi
-    state: icon_empty
-  metamorphicMaxFillLevels: 4
-  metamorphicFillBaseName: fill-
-  metamorphicChangeColor: false
-  metabolisms:
-    Drink:
-      effects:
-      - !type:SatiateThirst
-        factor: 2
-      - !type:AdjustReagent
-        reagent: Ethanol
-        amount: 0.07
-      - !type:AdjustReagent
-        reagent: Cum
-        amount: 0.15
+# Wayfarer: Disabled for now
+# - type: reagent
+#   id: TheWaterslide
+#   name: reagent-name-thewaterslide
+#   parent: BaseAlcohol
+#   desc: reagent-desc-thewaterslide
+#   physicalDesc: reagent-physical-desc-putrid
+#   flavor: thewaterslide
+#   color: "#4f3e18"
+#   metamorphicSprite:
+#     sprite: _Floof/Objects/Consumable/Drinks/thewaterslide.rsi
+#     state: icon_empty
+#   metamorphicMaxFillLevels: 4
+#   metamorphicFillBaseName: fill-
+#   metamorphicChangeColor: false
+#   metabolisms:
+#     Drink:
+#       effects:
+#       - !type:SatiateThirst
+#         factor: 2
+#       - !type:AdjustReagent
+#         reagent: Ethanol
+#         amount: 0.07
+#       - !type:AdjustReagent
+#         reagent: Cum
+#         amount: 0.15
+# End Wayfarer
 
 # Wayfarer: Disabled for now
 # - type: reagent
@@ -1619,48 +1645,52 @@
     sprite: _Floof/Objects/Consumable/Drinks/syndicate_eggnog.rsi
     state: icon
 
-- type: reagent
-  id: GinandPussy
-  name: reagent-name-gin-and-pussy
-  parent: BaseAlcohol
-  desc: reagent-desc-gin-and-pussy
-  physicalDesc: reagent-physical-desc-strong-smelling
-  flavor: ginandpussy
-  color: "#fcf0f9"
-  metamorphicSprite:
-    sprite: _Floof/Objects/Consumable/Drinks/ginandpussy.rsi
-    state: icon_empty
-  metamorphicMaxFillLevels: 6
-  metamorphicFillBaseName: fill-
-  metamorphicChangeColor: false
-  metabolisms:
-    Drink:
-      effects:
-      - !type:SatiateThirst
-        factor: 2
-      - !type:AdjustReagent
-        reagent: Ethanol
-        amount: 0.15
+# Wayfarer: Disabled for now
+# - type: reagent
+#   id: GinandPussy
+#   name: reagent-name-gin-and-pussy
+#   parent: BaseAlcohol
+#   desc: reagent-desc-gin-and-pussy
+#   physicalDesc: reagent-physical-desc-strong-smelling
+#   flavor: ginandpussy
+#   color: "#fcf0f9"
+#   metamorphicSprite:
+#     sprite: _Floof/Objects/Consumable/Drinks/ginandpussy.rsi
+#     state: icon_empty
+#   metamorphicMaxFillLevels: 6
+#   metamorphicFillBaseName: fill-
+#   metamorphicChangeColor: false
+#   metabolisms:
+#     Drink:
+#       effects:
+#       - !type:SatiateThirst
+#         factor: 2
+#       - !type:AdjustReagent
+#         reagent: Ethanol
+#         amount: 0.15
+# End Wayfarer
 
-- type: reagent
-  id: PussyTonic
-  name: reagent-name-pussytonic
-  parent: BaseAlcohol
-  desc: reagent-desc-pussytonic
-  physicalDesc: reagent-physical-desc-fizzy
-  flavor: pussytonic
-  color: "#dec0f6"
-  metamorphicSprite:
-    sprite: _Floof/Objects/Consumable/Drinks/pussytonicglass.rsi
-    state: icon_empty
-  metamorphicMaxFillLevels: 6
-  metamorphicFillBaseName: fill-
-  metamorphicChangeColor: false
-  metabolisms:
-    Drink:
-      effects:
-      - !type:SatiateThirst
-        factor: 2
+# Wayfarer: Disabled for now
+# - type: reagent
+#   id: PussyTonic
+#   name: reagent-name-pussytonic
+#   parent: BaseAlcohol
+#   desc: reagent-desc-pussytonic
+#   physicalDesc: reagent-physical-desc-fizzy
+#   flavor: pussytonic
+#   color: "#dec0f6"
+#   metamorphicSprite:
+#     sprite: _Floof/Objects/Consumable/Drinks/pussytonicglass.rsi
+#     state: icon_empty
+#   metamorphicMaxFillLevels: 6
+#   metamorphicFillBaseName: fill-
+#   metamorphicChangeColor: false
+#   metabolisms:
+#     Drink:
+#       effects:
+#       - !type:SatiateThirst
+#         factor: 2
+# End Wayfarer
 
 
 

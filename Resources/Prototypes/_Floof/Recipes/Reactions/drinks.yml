@@ -48,19 +48,21 @@
   products:
     AppleberryFizz: 3
 
-- type: reaction
-  id: BandE
-  requiredMixerCategories:
-  - Stir
-  reactants:
-    BlackRussian:
-      amount: 1
-    BlueCuracao:
-      amount: 1
-    Cum:
-      amount: 1
-  products:
-    BandE: 3
+# Wayfarer: Disabled for now
+# - type: reaction
+#   id: BandE
+#   requiredMixerCategories:
+#   - Stir
+#   reactants:
+#     BlackRussian:
+#       amount: 1
+#     BlueCuracao:
+#       amount: 1
+#     Cum:
+#       amount: 1
+#   products:
+#     BandE: 3
+# End Wayfarer
 
 # Wayfarer: Disabled for now
 # - type: reaction
@@ -220,19 +222,21 @@
   products:
     DirtyWastelander: 3
 
-- type: reaction
-  id: DoubleCreamBlaster
-  requiredMixerCategories:
-  - Shake
-  reactants:
-    Cream:
-      amount: 1
-    Cum:
-      amount: 1
-    RootBeer:
-      amount: 1
-  products:
-    DoubleCreamBlaster: 3
+# Wayfarer: Disabled for now
+# - type: reaction
+#   id: DoubleCreamBlaster
+#   requiredMixerCategories:
+#   - Shake
+#   reactants:
+#     Cream:
+#       amount: 1
+#     Cum:
+#       amount: 1
+#     RootBeer:
+#       amount: 1
+#   products:
+#     DoubleCreamBlaster: 3
+# End Wayfarer
 
 - type: reaction
   id: DragonsBlood
@@ -262,21 +266,23 @@
   products:
     DragonsBreath: 3
 
-- type: reaction
-  id: DragonsSeed
-  requiredMixerCategories:
-  - Shake
-  reactants:
-    CapsaicinOil:
-      amount: 1
-    Cum:
-      amount: 1
-    JuiceOrange:
-      amount: 1
-    JuiceTomato:
-      amount: 1
-  products:
-    DragonsSeed: 4
+# Wayfarer: Disabled for now
+# - type: reaction
+#   id: DragonsSeed
+#   requiredMixerCategories:
+#   - Shake
+#   reactants:
+#     CapsaicinOil:
+#       amount: 1
+#     Cum:
+#       amount: 1
+#     JuiceOrange:
+#       amount: 1
+#     JuiceTomato:
+#       amount: 1
+#   products:
+#     DragonsSeed: 4
+# End Wayfarer
 
 # Wayfarer: Disabled for now
 # - type: reaction
@@ -395,19 +401,21 @@
   products:
     KoboldKooler: 15
 
-- type: reaction
-  id: KoboldKorkscrew
-  requiredMixerCategories:
-  - Shake
-  reactants:
-    Cum:
-      amount: 1
-    JuiceOrange:
-      amount: 1
-    SodaWater:
-      amount: 1
-  products:
-    KoboldKorkscrew: 3
+# Wayfarer: Disabled for now
+# - type: reaction
+#   id: KoboldKorkscrew
+#   requiredMixerCategories:
+#   - Shake
+#   reactants:
+#     Cum:
+#       amount: 1
+#     JuiceOrange:
+#       amount: 1
+#     SodaWater:
+#       amount: 1
+#   products:
+#     KoboldKorkscrew: 3
+# End Wayfarer
 
 # Wayfarer: Disabled for now
 # - type: reaction
@@ -471,19 +479,21 @@
   products:
     MarieJulep: 4
 
-- type: reaction
-  id: MarsBar
-  requiredMixerCategories:
-  - Shake
-  reactants:
-    Cum:
-      amount: 1
-    HotCocoa:
-      amount: 1
-    Whiskey:
-      amount: 1
-  products:
-    MarsBar: 3
+# Wayfarer: Disabled for now
+# - type: reaction
+#   id: MarsBar
+#   requiredMixerCategories:
+#   - Shake
+#   reactants:
+#     Cum:
+#       amount: 1
+#     HotCocoa:
+#       amount: 1
+#     Whiskey:
+#       amount: 1
+#   products:
+#     MarsBar: 3
+# End Wayfarer
 
 # Wayfarer: Disabled for now
 # - type: reaction
@@ -529,21 +539,23 @@
   products:
     OpsShine: 3
 
-- type: reaction
-  id: OrgasmOnTheBeach
-  requiredMixerCategories:
-  - Shake
-  reactants:
-    Cum:
-      amount: 1
-    JuiceOrange:
-      amount: 2
-    JuiceWatermelon:
-      amount: 2
-    Vodka:
-      amount: 1
-  products:
-    OrgasmOnTheBeach: 5
+# Wayfarer: Disabled for now
+# - type: reaction
+#   id: OrgasmOnTheBeach
+#   requiredMixerCategories:
+#   - Shake
+#   reactants:
+#     Cum:
+#       amount: 1
+#     JuiceOrange:
+#       amount: 2
+#     JuiceWatermelon:
+#       amount: 2
+#     Vodka:
+#       amount: 1
+#   products:
+#     OrgasmOnTheBeach: 5
+# End Wayfarer
 
 # Wayfarer: Disabled for now
 # - type: reaction
@@ -625,21 +637,23 @@
   products:
     PrisonWine: 4
 
-- type: reaction
-  id: QuadrupleCreamChalice
-  requiredMixerCategories:
-  - Shake
-  reactants:
-    Cream:
-      amount: 1
-    Cum:
-      amount: 1
-    IceCream:
-      amount: 1
-    Milk:
-      amount: 1
-  products:
-    QuadrupleCreamChalice: 4
+# Wayfarer: Disabled for now
+# - type: reaction
+#   id: QuadrupleCreamChalice
+#   requiredMixerCategories:
+#   - Shake
+#   reactants:
+#     Cream:
+#       amount: 1
+#     Cum:
+#       amount: 1
+#     IceCream:
+#       amount: 1
+#     Milk:
+#       amount: 1
+#   products:
+#     QuadrupleCreamChalice: 4
+# End Wayfarer
 
 # Wayfarer: Disabled for now
 # - type: reaction
@@ -689,45 +703,51 @@
   products:
     SalvagersDelight: 10
 
-- type: reaction
-  id: SemenBomb
-  requiredMixerCategories:
-  - Shake
-  reactants:
-    Ale:
-      amount: 2
-    Cum:
-      amount: 1
-  products:
-    SemenBomb: 3
+# Wayfarer: Disabled for now
+# - type: reaction
+#   id: SemenBomb
+#   requiredMixerCategories:
+#   - Shake
+#   reactants:
+#     Ale:
+#       amount: 2
+#     Cum:
+#       amount: 1
+#   products:
+#     SemenBomb: 3
+# End Wayfarer
 
-- type: reaction
-  id: SemenHemorrhage
-  requiredMixerCategories:
-  - Shake
-  reactants:
-    Cum:
-      amount: 1
-    Grenadine:
-      amount: 1
-    JuiceApple:
-      amount: 2
-  products:
-    SemenHemorrhage: 5
+# Wayfarer: Disabled for now
+# - type: reaction
+#   id: SemenHemorrhage
+#   requiredMixerCategories:
+#   - Shake
+#   reactants:
+#     Cum:
+#       amount: 1
+#     Grenadine:
+#       amount: 1
+#     JuiceApple:
+#       amount: 2
+#   products:
+#     SemenHemorrhage: 5
+# End Wayfarer
 
-- type: reaction
-  id: SilverStallion
-  requiredMixerCategories:
-  - Shake
-  reactants:
-    Coffee:
-      amount: 1
-    Cum:
-      amount: 1
-    SodaWater:
-      amount: 1
-  products:
-    SilverStallion: 3
+# Wayfarer: Disabled for now
+# - type: reaction
+#   id: SilverStallion
+#   requiredMixerCategories:
+#   - Shake
+#   reactants:
+#     Coffee:
+#       amount: 1
+#     Cum:
+#       amount: 1
+#     SodaWater:
+#       amount: 1
+#   products:
+#     SilverStallion: 3
+# End Wayfarer
 
 - type: reaction
   id: SlimesDelight
@@ -743,20 +763,21 @@
   products:
     SlimesDelight: 3
 
-
-- type: reaction
-  id: Snowball
-  requiredMixerCategories:
-  - Shake
-  reactants:
-    Cum:
-      amount: 1
-    Ice:
-      amount: 2
-    Sugar:
-      amount: 1
-  products:
-    Snowball: 4
+# Wayfarer: Disabled for now
+# - type: reaction
+#   id: Snowball
+#   requiredMixerCategories:
+#   - Shake
+#   reactants:
+#     Cum:
+#       amount: 1
+#     Ice:
+#       amount: 2
+#     Sugar:
+#       amount: 1
+#   products:
+#     Snowball: 4
+# End Wayfarer
 
 # Wayfarer: Disabled for now
 # - type: reaction
@@ -848,35 +869,39 @@
   products:
     WakeUpJuice: 4
 
-- type: reaction
-  id: WatermelonGinJizz
-  requiredMixerCategories:
-  - Shake
-  reactants:
-    Cum:
-      amount: 1
-    JuiceWatermelon:
-      amount: 2
-    SodaWater:
-      amount: 1
-    Vodka:
-      amount: 1
-  products:
-    WatermelonGinJizz: 5
+# Wayfarer: Disabled for now
+# - type: reaction
+#   id: WatermelonGinJizz
+#   requiredMixerCategories:
+#   - Shake
+#   reactants:
+#     Cum:
+#       amount: 1
+#     JuiceWatermelon:
+#       amount: 2
+#     SodaWater:
+#       amount: 1
+#     Vodka:
+#       amount: 1
+#   products:
+#     WatermelonGinJizz: 5
+# End Wayfarer
 
-- type: reaction
-  id: TheWaterslide
-  requiredMixerCategories:
-  - Stir
-  reactants:
-    Beer:
-      amount: 1
-    Cum:
-      amount: 1
-    Water:
-      amount: 1
-  products:
-    TheWaterslide: 3
+# Wayfarer: Disabled for now
+# - type: reaction
+#   id: TheWaterslide
+#   requiredMixerCategories:
+#   - Stir
+#   reactants:
+#     Beer:
+#       amount: 1
+#     Cum:
+#       amount: 1
+#     Water:
+#       amount: 1
+#   products:
+#     TheWaterslide: 3
+# End Wayfarer
 
 # Wayfarer: Disabled for now
 # - type: reaction
@@ -968,29 +993,33 @@
 #   products:
 #     Hallelujah : 6
 
-- type: reaction
-  id: GinandPussy
-  requiredMixerCategories:
-  - Shake
-  reactants:
-    Gin:
-      amount: 1
-    NaturalLubricant:
-      amount: 2
-  products:
-    GinandPussy: 3
+# Wayfarer: Disabled for now
+# - type: reaction
+#   id: GinandPussy
+#   requiredMixerCategories:
+#   - Shake
+#   reactants:
+#     Gin:
+#       amount: 1
+#     NaturalLubricant:
+#       amount: 2
+#   products:
+#     GinandPussy: 3
+# End Wayfarer
 
-- type: reaction
-  id: PussyTonic
-  requiredMixerCategories:
-  - Shake
-  reactants:
-    TonicWater:
-      amount: 1
-    NaturalLubricant:
-      amount: 1
-  products:
-    PussyTonic: 2
+# Wayfarer: Disabled for now
+# - type: reaction
+#   id: PussyTonic
+#   requiredMixerCategories:
+#   - Shake
+#   reactants:
+#     TonicWater:
+#       amount: 1
+#     NaturalLubricant:
+#       amount: 1
+#   products:
+#     PussyTonic: 2
+# End Wayfarer
 
 
 
