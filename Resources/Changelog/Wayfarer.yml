@@ -3913,3 +3913,98 @@ Entries:
   id: 6947
   time: '2026-05-27T02:36:04.0000000+00:00'
   url: https://github.com/project-wayfarer/wayfarer-14/pull/1007
+- author: TheSlapper
+  changes:
+    - type: Add
+      message: (Miles) Added manual crew management to the crew records console.
+  id: 6948
+  time: '2026-05-28T23:34:32.0000000+00:00'
+  url: https://github.com/project-wayfarer/wayfarer-14/pull/1014
+- author: Rellu225
+  changes:
+    - type: Tweak
+      message: Changed the color of the community goal pallets.
+  id: 6949
+  time: '2026-05-28T23:35:26.0000000+00:00'
+  url: https://github.com/project-wayfarer/wayfarer-14/pull/1018
+- author: Khaomi
+  changes:
+    - type: Add
+      message: Added prefix for Ship OOC
+  id: 6950
+  time: '2026-05-28T23:35:44.0000000+00:00'
+  url: https://github.com/project-wayfarer/wayfarer-14/pull/1021
+- author: DevArchwave
+  changes:
+    - type: Add
+      message: >-
+        Added IC guidebooks for crafting adept-level and master-level staves,
+        lootable from wizard and cultist NPCs.
+    - type: Tweak
+      message: Increased the damage output of activated wizard and cultist staves.
+    - type: Tweak
+      message: >-
+        Spell scrolls, coin trees and staff recharging altars are now classified
+        as contraband.
+    - type: Tweak
+      message: Staves are now "oni-friendly".
+    - type: Fix
+      message: Fixed scroll of shade summoning the wrong mob.
+  id: 6951
+  time: '2026-05-28T23:36:43.0000000+00:00'
+  url: https://github.com/project-wayfarer/wayfarer-14/pull/1024
+- author: BlueSushii
+  changes:
+    - type: Tweak
+      message: Two long term narcolepsy meds
+  id: 6952
+  time: '2026-05-28T23:44:00.0000000+00:00'
+  url: https://github.com/project-wayfarer/wayfarer-14/pull/1031
+- author: Rellu225
+  changes:
+    - type: Add
+      message: Community goal computers and pallets.
+    - type: Tweak
+      message: Position of sell pallets and computer.
+    - type: Fix
+      message: Unpowered light at Dusk
+  id: 6953
+  time: '2026-05-28T23:53:52.0000000+00:00'
+  url: https://github.com/project-wayfarer/wayfarer-14/pull/1017
+- author: Luweth
+  changes:
+    - type: Add
+      message: Added more avox glove variants.
+    - type: Add
+      message: Adjusted Vox hair variant.
+    - type: Fix
+      message: Fixed species.yml location.
+  id: 6954
+  time: '2026-05-28T23:54:17.0000000+00:00'
+  url: https://github.com/project-wayfarer/wayfarer-14/pull/1032
+- author: Luweth
+  changes:
+    - type: Add
+      message: Added the ability to use WF marking system to Vox tails.
+    - type: Fix
+      message: Fixed localization for missing Vox markings to WF standards.
+  id: 6955
+  time: '2026-05-28T23:58:34.0000000+00:00'
+  url: https://github.com/project-wayfarer/wayfarer-14/pull/1033
+- author: VVersengt
+  changes:
+    - type: Add
+      message: Added pre-loaded magazines, weapons and new equipment to the CGP Techfab
+    - type: Add
+      message: Shuttle weapons and radar console to CGP Uplink
+    - type: Remove
+      message: >-
+        Removed laser cannon, xray cannon, temperature gun blueprints from loot,
+        pending one-use techprint.
+    - type: Tweak
+      message: Adjusted CGP gas mask to have flash immunity like the syndicate one.
+    - type: Fix
+      message: Fixed small exploits with printable weapons and grenades.
+  id: 6956
+  time: '2026-05-30T00:52:15.0000000+00:00'
+  url: https://github.com/project-wayfarer/wayfarer-14/pull/1035
