@@ -40,7 +40,7 @@
   id: CrateServiceReplacementLights
   parent: CrateGenericSteel
   name: replacement lights crate
-  description: May the light of Aether shine upon this station! Includes two boxes of twelve lights in both bulbs and tubes. #Wayfarer-14
+  description: May the light of Aether shine upon this station! Or at least, the light of twelve light tubes and twelve light bulbs. # Frontier: use correct quantities
   components:
   - type: StorageFill
     contents:
@@ -58,7 +58,7 @@
       - id: BoxLighttubeHoliday
       - id: BoxLighttubeHoliday
 
-#Start Wayfarer-14
+# Wayfarer
 - type: entity
   id: CrateServiceNavigationLights
   parent: CrateServiceHolidayLights
@@ -69,7 +69,7 @@
     contents:
     - id: BoxLighttubeNavRed
     - id: BoxLighttubeNavGreen
-#End Wayfarer-14
+# End Wayfarer
 
 - type: entity
   id: CrateMousetrapBoxes
@@ -259,7 +259,7 @@
       - id: DrinkCreamCartonXL
       - id: DrinkDrGibbJug
       - id: DrinkEnergyDrinkJug
-      - id: DrinkGreenTeaJug
+      - id: DrinkGreenTeaJug # Frontier This is the stand in for safe tea.
       - id: DrinkIceJug
       - id: DrinkJuiceLimeCartonXL
       - id: DrinkJuiceOrangeCartonXL
@@ -269,7 +269,6 @@
       - id: DrinkSpaceMountainWindBottleFull
       - id: DrinkSpaceUpBottleFull
       - id: DrinkSugarJug
-      - id: DrinkTeaJug
       - id: DrinkTonicWaterBottleFull
       - id: DrinkWaterMelonJuiceJug
       - id: JugCaramexinin # Frontier: Caramexinin<JugCaramexinin

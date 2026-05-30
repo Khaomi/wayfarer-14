@@ -6,6 +6,8 @@ using Robust.Shared.GameStates;
 
 namespace Content.Client.Salvage;
 
+// Wayfarer: Note to future rebase, we switch to Mono Ambience system
+
 public sealed class SalvageSystem : SharedSalvageSystem
 {
     [Dependency] private readonly IPlayerManager _playerManager = default!;

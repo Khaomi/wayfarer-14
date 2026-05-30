@@ -50,7 +50,6 @@ using Content.Shared._NF.Bank.BUI; // Frontier
 using Content.Shared._NF.Bank.Components; // Frontier
 using Robust.Server.Player; // Frontier
 using Robust.Shared.Enums; // Frontier
-
 using Robust.Shared.Timing; // Coyote
 
 namespace Content.Server._DV.Mail.EntitySystems

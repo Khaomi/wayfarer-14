@@ -1,45 +1,44 @@
-// Wayfarer: Added character resume from cryosleep feature - multiple stored characters per user, station name storage
 using System.Diagnostics.CodeAnalysis;
+using System.Linq;
 using System.Numerics;
-using Content.Server._NF.Bank;
 using Content.Server._NF.Shipyard.Systems;
-using Content.Server.Administration.Logs;
 using Content.Server.DoAfter;
 using Content.Server.EUI;
 using Content.Server.Ghost;
+using Content.Server.Hands.Systems;
 using Content.Server.Interaction;
 using Content.Server.Mind;
 using Content.Server.Popups;
 using Content.Server.GameTicking; // Wayfarer
 using Content.Server.Players.PlayTimeTracking; // Wayfarer
-using Content.Server.Station.Systems;
+using Content.Server.Station.Systems; // Wayfarer
 using Content.Shared._NF.CCVar;
 using Content.Shared._NF.CryoSleep;
 using Content.Shared._NF.CryoSleep.Events;
-using Content.Shared._WF.CryoSleep; // Wayfarer: Resume character messages
-using Content.Shared._NF.Bank.Components;
-using Content.Server.Preferences.Managers;
+using Content.Shared._WF.CryoSleep; // Wayfarer
+using Content.Shared._NF.Bank.Components; // Wayfarer
+using Content.Server.Preferences.Managers; // Wayfarer
 using Content.Shared._NF.Shipyard.Components;
 using Content.Shared.Access.Components;
 using Content.Shared.ActionBlocker;
-using Content.Shared.Bed.Sleep;
-using Content.Shared.Database;
+using Content.Shared.Bed.Sleep; // Wayfarer
+using Content.Shared.Database; // Wayfarer
 using Content.Shared.Destructible;
 using Content.Shared.DoAfter;
 using Content.Shared.DragDrop;
 using Content.Shared.Examine;
+using Content.Shared.FixedPoint;
 using Content.Shared.GameTicking;
 using Content.Shared.Hands.Components;
 using Content.Shared.Interaction.Events;
 using Content.Shared.Inventory;
-using Content.Shared.Mind;
+using Content.Shared.Mind; // Wayfarer
 using Content.Shared.Mind.Components;
 using Content.Shared.Mobs.Components;
-using Content.Shared.Roles.Components;
+using Content.Shared.Roles.Components; // Wayfarer
 using Content.Shared.Mobs.Systems;
 using Content.Shared.Movement.Events;
 using Content.Shared.PDA;
-using Content.Shared.Players;
 using Content.Shared.Popups;
 using Content.Shared.Storage;
 using Content.Shared.Store.Components;
@@ -48,7 +47,6 @@ using Robust.Server.Containers;
 using Robust.Server.GameObjects;
 using Robust.Server.Player;
 using Robust.Shared.Audio.Systems;
-using Robust.Shared.Configuration;
 using Robust.Shared.Containers;
 using Robust.Shared.Enums;
 using Robust.Shared.Map;
@@ -75,14 +73,17 @@ public sealed partial class CryoSleepSystem : EntitySystem
     [Dependency] private readonly TransformSystem _transform = default!;
     [Dependency] private readonly IGameTiming _timing = default!;
     [Dependency] private readonly IPlayerManager _player = default!;
-    [Dependency] private readonly IServerPreferencesManager _prefsManager = default!;
     [Dependency] private readonly InventorySystem _inventory = default!; //For cryosleep warnings
+    [Dependency] private readonly HandsSystem _hands = default!;
+    // Wayfarer
+    [Dependency] private readonly IServerPreferencesManager _prefsManager = default!;
     [Dependency] private readonly Shared.Roles.SharedRoleSystem _roles = default!;
     [Dependency] private readonly StationSystem _station = default!;
-    [Dependency] private readonly GameTicker _gameTicker = default!; // Wayfarer
-    [Dependency] private readonly PlayTimeTrackingManager _playTimeTracking = default!; // Wayfarer
+    [Dependency] private readonly GameTicker _gameTicker = default!;
+    [Dependency] private readonly PlayTimeTrackingManager _playTimeTracking = default!;
+    // End Wayfarer
 
-    private readonly Dictionary<NetUserId, List<StoredBody>> _storedBodies = new();
+    private readonly Dictionary<NetUserId, List<StoredBody>> _storedBodies = new(); // Wayfarer: Instead of single body, store multiple
     private EntityUid? _storageMap;
 
     public override void Initialize()
@@ -100,9 +101,11 @@ public sealed partial class CryoSleepSystem : EntitySystem
         SubscribeLocalEvent<CryoSleepComponent, DragDropTargetEvent>(OnEntityDragDropped);
         SubscribeLocalEvent<RoundRestartCleanupEvent>(OnRoundRestart);
 
+        // Wayfarer
         SubscribeNetworkEvent<GetStoredCharactersRequestMessage>(OnGetStoredCharactersRequest);
         SubscribeNetworkEvent<ResumeCharacterRequestMessage>(OnResumeCharacterRequest);
-        SubscribeNetworkEvent<RemoveStoredCharacterRequestMessage>(OnRemoveStoredCharacterRequest); // Wayfarer
+        SubscribeNetworkEvent<RemoveStoredCharacterRequestMessage>(OnRemoveStoredCharacterRequest);
+        // End Wayfarer
 
         InitReturning();
     }
@@ -316,7 +319,7 @@ public sealed partial class CryoSleepSystem : EntitySystem
     }
 
     /// <summary>
-    /// Scans the inventory of an entity about to cryo in order to contrusct a warning message of all appropriate items.
+    /// Scans the inventory of an entity about to cryo in order to construct a warning message of all appropriate items.
     /// </summary>
     /// <returns>A warning message to be used with CryoSleepEui</returns>
     private CryoSleepWarningMessage? GetWarningMessages(EntityUid entity)
@@ -324,31 +327,46 @@ public sealed partial class CryoSleepSystem : EntitySystem
         if (!TryComp<InventoryComponent>(entity, out var inventoryComp))
             return null;
         //Items check
-        SlotDefinition[] slotsToCheck = inventoryComp.Slots;
+        var slotsToCheck = inventoryComp.Slots;
         List<WarningItem> warningItemsList = [];
         //Doing the conversion to WarningItem all at once makes more sense to me
-        List<StorageHelper.FoundItem> unconvertedFoundItem = [];
+        List<StorageHelper.FoundItem> unconvertedFoundItems = [];
         foreach (var slotDefinition in slotsToCheck)
         {
             //The ID is manually checked for a shuttle deed later, and since your PDA *technically* has an uplink in it, this has to be skipped manually.
             if (slotDefinition.Name == "id")
                 continue;
-            //TODO: Check hand slots for important items
             if (_inventory.TryGetSlotEntity(entity, slotDefinition.Name, out var slotItem))
             {
                 if (ShouldItemWarnOnCryo(slotItem.Value))
-                    warningItemsList.Add(new WarningItem(slotDefinition.Name, null, slotItem.Value));
+                    warningItemsList.Add(new WarningItem(slotDefinition.Name, null, null, slotItem.Value));
                 else if (_entityManager.HasComponent<StorageComponent>(slotItem.Value))
-                    StorageHelper.ScanStorageForCondition(slotItem.Value, ShouldItemWarnOnCryo, ref unconvertedFoundItem);
+                    StorageHelper.ScanStorageForCondition(slotItem.Value, ShouldItemWarnOnCryo, ref unconvertedFoundItems);
             }
         }
-        //Convert all FoundItem to a WarningItem
-        foreach (var found in unconvertedFoundItem)
+        //Check hands (Thank you Alkheemist for the original form of this code)
+        if (TryComp<HandsComponent>(entity, out var handsComp))
         {
-            warningItemsList.Add(new WarningItem(null, found.Container, found.Item));
+            foreach (var hand in handsComp.Hands)
+            {
+                if (!_hands.TryGetHeldItem(entity, hand.Key, out var heldEntity))
+                    continue;
+
+                if (ShouldItemWarnOnCryo(heldEntity.Value))
+                    warningItemsList.Add(new WarningItem(null, null, hand.Key, heldEntity.Value));
+                else if (_entityManager.HasComponent<StorageComponent>(heldEntity))
+                    StorageHelper.ScanStorageForCondition(heldEntity.Value, ShouldItemWarnOnCryo, ref unconvertedFoundItems);
+            }
+        }
+
+        //Convert all FoundItem to a WarningItem
+        foreach (var found in unconvertedFoundItems)
+        {
+            warningItemsList.Add(new WarningItem(null, found.Container, null, found.Item));
         }
         //Now, we extract the uplinks and shuttle deeds.
         WarningItem? uplink = null;
+        FixedPoint2 currencyAmount = 0;
         WarningItem? backpackShuttleDeed = null;
         //Listing every point where a shuttle deed was found runs you out of space very fast.
         var foundMoreShuttles = false;
@@ -368,10 +386,13 @@ public sealed partial class CryoSleepSystem : EntitySystem
 
                 warningItemsList.RemoveAt(i);
             }
-            else if (HasComp<StoreComponent>(itemStruct.Item) && !uplink.HasValue)
+            else if (TryComp<StoreComponent>(itemStruct.Item, out var uplinkComp) && !uplink.HasValue)
             {
                 uplink = itemStruct;
                 warningItemsList.RemoveAt(i);
+                var currencyProtoId = uplinkComp.Balance.Keys.First();
+                currencyAmount = uplinkComp.Balance[currencyProtoId];
+
             }
         }
 
@@ -385,6 +406,7 @@ public sealed partial class CryoSleepSystem : EntitySystem
             nwBackpackShuttleDeed,
             foundMoreShuttles,
             nwUplink,
+            currencyAmount,
             networkedWarningItems);
     }
 
@@ -411,11 +433,12 @@ public sealed partial class CryoSleepSystem : EntitySystem
         return false;
     }
 
-    private readonly struct WarningItem(string? slotId, EntityUid? container, EntityUid item)
+    private readonly struct WarningItem(string? slotId, EntityUid? container, string? handId, EntityUid item)
     {
-        //Exactly one of these two values should be null
+        //Exactly one of these three values should not be null
         public readonly string? SlotId = slotId;
         public readonly EntityUid? Container = container;
+        public readonly string? HandId = handId;
 
         public readonly EntityUid Item = item;
 
@@ -423,6 +446,7 @@ public sealed partial class CryoSleepSystem : EntitySystem
         {
             return new CryoSleepWarningMessage.NetworkedWarningItem(SlotId,
                 manager.GetNetEntity(Container),
+                HandId,
                 manager.GetNetEntity(Item));
         }
     }
@@ -441,18 +465,26 @@ public sealed partial class CryoSleepSystem : EntitySystem
         if (!TryComp<CryoSleepComponent>(cryopod, out var cryo))
             return;
 
+        // var deleteEntity = false; // Wayfarer: Always store bodies
         NetUserId? id = null;
         if (_mind.TryGetMind(bodyId, out var mindEntity, out var mind) && mind.CurrentEntity is { Valid: true } body)
         {
             var argMind = mind;
             var ev = new CryosleepBeforeMindRemovedEvent(cryopod, argMind?.UserId);
             RaiseLocalEvent(bodyId, ev, true);
+            // deleteEntity = ev.DeleteEntity; // Wayfarer: Always store bodies
 
             // Note: must update stored bodies before ghosting to ensure cryo state is accurate.
-            // Always store bodies - never delete on cryo entry
+            // Wayfarer: Always store bodies - never delete on cryo entry
             id = mind.UserId;
             if (id != null)
             {
+                // Wayfarer: Always store body
+                // if (deleteEntity)
+                //     _storedBodies.Remove(id.Value);
+                // else
+                //     _storedBodies[id.Value] = new StoredBody() { Body = body, Cryopod = cryopod };
+
                 if (!_storedBodies.ContainsKey(id.Value))
                     _storedBodies[id.Value] = new List<StoredBody>();
 
@@ -477,6 +509,7 @@ public sealed partial class CryoSleepSystem : EntitySystem
 
                 // Add the new body
                 _storedBodies[id.Value].Add(newBody);
+                // End Wayfarer
             }
 
             _ghost.OnGhostAttempt(mindEntity, false, true, mind: mind);
@@ -493,6 +526,13 @@ public sealed partial class CryoSleepSystem : EntitySystem
         if (cryo.CryosleepDoAfter != null && _doAfter.GetStatus(cryo.CryosleepDoAfter) == DoAfterStatus.Running)
             _doAfter.Cancel(cryo.CryosleepDoAfter);
 
+        // Wayfarer: Always delete entity after timer only
+        // if (deleteEntity)
+        // {
+        //     QueueDel(bodyId);
+        // }
+        // else
+        // {
         // Start a timer. When it ends, the body needs to be deleted.
         Timer.Spawn(TimeSpan.FromSeconds(_configurationManager.GetCVar(NFCCVars.CryoExpirationTime)), () =>
         {
@@ -502,6 +542,8 @@ public sealed partial class CryoSleepSystem : EntitySystem
             if (!Deleted(bodyId) && Transform(bodyId).ParentUid == _storageMap)
                 QueueDel(bodyId);
         });
+        // }
+        // End Wayfarer
     }
 
     /// <param name="body">If not null, will not eject if the stored body is different from that parameter.</param>
@@ -590,7 +632,6 @@ public sealed partial class CryoSleepSystem : EntitySystem
         }
         RaiseNetworkEvent(new GetStoredCharactersResponseMessage(characters), args.SenderSession);
     }
-    // End Wayfarer
 
     private void OnGetStoredCharactersRequest(GetStoredCharactersRequestMessage msg, EntitySessionEventArgs args)
     {
@@ -623,7 +664,7 @@ public sealed partial class CryoSleepSystem : EntitySystem
                         characterName,
                         jobName,
                         storedBody.StationName,
-                        storedBody.CharacterSlot // Wayfarer
+                        storedBody.CharacterSlot
                     ));
                 }
             }
@@ -695,7 +736,6 @@ public sealed partial class CryoSleepSystem : EntitySystem
                 return;
         }
 
-        // Begin Wayfarer
         // Remove from stored bodies and transfer control to the player
         storedBodies.Remove(storedBody.Value);
         if (storedBodies.Count == 0)
@@ -710,15 +750,13 @@ public sealed partial class CryoSleepSystem : EntitySystem
             bankComp.CharacterSlot = storedBody.Value.CharacterSlot;
         }
 
-        // Wayfarer: Properly transition the player from lobby to game state and refresh playtime tracking.
+        // Properly transition the player from lobby to game state and refresh playtime tracking.
         if (_player.TryGetSessionById(userId, out var session))
         {
             _gameTicker.PlayerJoinGame(session, silent: true);
             _playTimeTracking.QueueRefreshTrackers(session);
             _playTimeTracking.QueueSendTimers(session);
         }
-
-        // End Wayfarer
 
         // Force the mob to sleep
         var sleep = EnsureComp<SleepingComponent>(body);
@@ -729,13 +767,14 @@ public sealed partial class CryoSleepSystem : EntitySystem
 
         _adminLogger.Add(LogType.LateJoin, LogImpact.Medium, $"{userId} has returned from cryosleep!");
     }
+    // End Wayfarer
 
     private struct StoredBody
     {
         public EntityUid Body;
         public EntityUid Cryopod;
-        public EntityUid Mind;
-        public string StationName;
-        public int CharacterSlot; // Which prefs slot the player was using when they entered cryo
+        public EntityUid Mind; // Wayfarer
+        public string StationName; // Wayfarer
+        public int CharacterSlot; // Wayfarer: Which prefs slot the player was using when they entered cryo
     }
 }

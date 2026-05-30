@@ -9,7 +9,7 @@ using Robust.Server.GameObjects;
 using Robust.Shared.Prototypes;
 using Content.Shared.Roles;
 using System.Diagnostics.CodeAnalysis;
-using Content.Shared._DeltaV.NanoChat; // DeltaV
+// using Content.Shared._DeltaV.NanoChat; // DeltaV // Wayfarer: Disabled access copying
 using Content.Server.Clothing.Systems;
 using Content.Server.Implants;
 using Content.Shared.Implants;
@@ -43,6 +43,7 @@ namespace Content.Server.Access.Systems
             SubscribeLocalEvent<AgentIDCardComponent, InventoryRelayedEvent<ChameleonControllerOutfitSelectedEvent>>(OnChameleonControllerOutfitChangedItem);
         }
 
+        // Wayfarer: Disabled access copying
         // // DeltaV - Add number change handler // Wayfarer: Disabled
         // private void OnNumberChanged(Entity<AgentIDCardComponent> ent, ref AgentIDCardNumberChangedMessage args)
         // {
@@ -52,6 +53,7 @@ namespace Content.Server.Access.Systems
         //     _nanoChat.SetNumber((ent, comp), args.Number);
         //     Dirty(ent, comp);
         // }
+        // End Wayfarer
 
         private void OnChameleonControllerOutfitChangedItem(Entity<AgentIDCardComponent> ent, ref InventoryRelayedEvent<ChameleonControllerOutfitSelectedEvent> args)
         {
@@ -98,19 +100,14 @@ namespace Content.Server.Access.Systems
             // if (args.Target == null || !args.CanReach || _lock.IsLocked(uid) ||
             //     !TryComp<AccessComponent>(args.Target, out var targetAccess) || !HasComp<IdCardComponent>(args.Target))
             //     return;
-            // Wayfarer: Disabled access copying
-
-            // Wayfarer: Disabled access copying
+            //
             // if (!TryComp<AccessComponent>(uid, out var access) || !HasComp<IdCardComponent>(uid))
             //     return;
-            // Wayfarer: Disabled access copying
-
-            // Wayfarer: Disabled access copying
+            //
             // var beforeLength = access.Tags.Count;
             // access.Tags.UnionWith(targetAccess.Tags);
             // var addedLength = access.Tags.Count - beforeLength;
-            // Wayfarer end
-
+            //
             // // DeltaV - Copy NanoChat data if available // Wayfarer: Disabled
             // if (TryComp<NanoChatCardComponent>(args.Target, out var targetNanoChat) &&
             //     TryComp<NanoChatCardComponent>(uid, out var agentNanoChat))
@@ -138,26 +135,11 @@ namespace Content.Server.Access.Systems
             //     }
             // }
             // // End DeltaV
-
-            // Wayfarer: Disabled access copying
-            // if (addedLength == 0)
-            // {
-            //     _popupSystem.PopupEntity(Loc.GetString("agent-id-no-new", ("card", args.Target)), args.Target.Value, args.User);
-            //     return;
-            // }
-            // Wayfarer end
-
-            // Dirty(uid, access); // Wayfarer: Disabled access copying
-
-            // Wayfarer: Disabled access copying
-            // if (addedLength == 1)
-            // {
-            //     _popupSystem.PopupEntity(Loc.GetString("agent-id-new-1", ("card", args.Target)), args.Target.Value, args.User);
-            //     return;
-            // }
-            // Wayfarer end
-
-            // _popupSystem.PopupEntity(Loc.GetString("agent-id-new", ("number", addedLength), ("card", args.Target)), args.Target.Value, args.User); Wayfarer: disabled access copying
+            //
+            // _popupSystem.PopupEntity(Loc.GetString("agent-id-new", ("number", addedLength), ("card", args.Target)), args.Target.Value, args.User);
+            // if (addedLength > 0)
+            //     Dirty(uid, access);
+            // End Wayfarer
         }
 
         private void AfterUIOpen(EntityUid uid, AgentIDCardComponent component, AfterActivatableUIOpenEvent args)
@@ -168,6 +150,7 @@ namespace Content.Server.Access.Systems
             if (!TryComp<IdCardComponent>(uid, out var idCard))
                 return;
 
+            // Wayfarer: Disabled access copying
             // // DeltaV - Get current number if it exists // Wayfarer: Disabled
             // uint? currentNumber = null;
             // if (TryComp<NanoChatCardComponent>(uid, out var comp))
@@ -178,6 +161,7 @@ namespace Content.Server.Access.Systems
             //     idCard.LocalizedJobTitle ?? "",
             //     idCard.JobIcon,
             //     currentNumber); // DeltaV - Pass current number
+            // End Wayfarer
             var state = new AgentIDCardBoundUserInterfaceState(idCard.FullName ?? "", idCard.LocalizedJobTitle ?? "", idCard.JobIcon);
             _uiSystem.SetUiState(uid, AgentIDCardUiKey.Key, state);
         }

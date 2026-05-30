@@ -2,7 +2,6 @@ using Content.Server.Access.Systems;
 using Content.Server.AlertLevel;
 using Content.Server.CartridgeLoader;
 using Content.Server.Chat.Managers;
-using Content.Server.GameTicking;
 using Content.Server.Instruments;
 using Content.Server.PDA.Ringer;
 using Content.Server.Station.Systems;
@@ -24,12 +23,12 @@ using Robust.Server.GameObjects;
 using Robust.Shared.Configuration; // DeltaV - PDA date
 using Robust.Shared.Containers;
 using Robust.Shared.Player;
-using Robust.Shared.Timing;
 using Robust.Shared.Utility;
 using Content.Shared._NF.Bank.Components; // Frontier
 using Content.Shared._NF.Shipyard.Components; // Frontier
 using Content.Server._NF.Shipyard.Systems; // Frontier
 using Content.Server._NF.SectorServices; // Frontier
+using Content.Server.RoundEnd; // Frontier
 
 namespace Content.Server.PDA
 {
@@ -49,8 +48,7 @@ namespace Content.Server.PDA
 
         private static DateTime ServerDate; // DeltaV - PDA
         [Dependency] private readonly SectorServiceSystem _sectorService = default!;
-        [Dependency] private readonly IGameTiming _timing = default!;
-        [Dependency] private readonly GameTicker _gameTicker = default!;
+        [Dependency] private readonly RoundEndSystem _roundEndSystem = default!; // Frontier
 
         public override void Initialize()
         {
@@ -80,7 +78,6 @@ namespace Content.Server.PDA
                 value => ServerDate = DateTime.Today.AddYears(value),
                 true);
             // End DeltaV additions
-            SubscribeLocalEvent<PlayerAttachedEvent>(OnPlayerAttached);
         }
 
         private void ChameleonControllerOutfitItemSelected(Entity<PdaComponent> ent, ref InventoryRelayedEvent<ChameleonControllerOutfitSelectedEvent> args)
@@ -88,20 +85,6 @@ namespace Content.Server.PDA
             // Relay it to your ID so it can update as well.
             if (ent.Comp.ContainedId != null)
                 RaiseLocalEvent(ent.Comp.ContainedId.Value, args);
-        }
-
-        private void OnPlayerAttached(PlayerAttachedEvent args)
-        {
-            // When a player reconnects, update all PDAs that have open UIs for this player.
-            // This ensures the shift remaining timer and other dynamic data are refreshed.
-            var query = EntityQueryEnumerator<PdaComponent>();
-            while (query.MoveNext(out var uid, out var pda))
-            {
-                if (_ui.IsUiOpen(uid, PdaUiKey.Key, args.Entity))
-                {
-                    UpdatePdaUi(uid, pda, args.Entity);
-                }
-            }
         }
 
         private void OnEntityRenamed(ref EntityRenamedEvent ev)
@@ -225,7 +208,6 @@ namespace Content.Server.PDA
             var hasInstrument = HasComp<InstrumentComponent>(uid);
             var showUplink = HasComp<UplinkComponent>(uid) && IsUnlocked(uid);
 
-            pda.CurrentDate = pda.DateOverride ?? ServerDate; // DeltaV - PDA date
             UpdateStationName(uid, pda);
             UpdateAlertLevel(uid, pda);
             // TODO: Update the level and name of the station with each call to UpdatePdaUi is only needed for latejoin players.
@@ -247,19 +229,6 @@ namespace Content.Server.PDA
                 ownedShipName = ShipyardSystem.GetFullName(shuttleDeedComp);
             // End Frontier: balance & ship deeds
 
-            // Send the absolute UTC wall-clock time when the shift ends.
-            // Using DateTime.UtcNow (OS time) avoids any game-tick drift that occurs
-            // when the server runs slower than real-time under heavy load.
-            DateTime? shiftEndTime = null;
-            if (_gameTicker.ShiftEndTime.HasValue)
-            {
-                var timeRemaining = _gameTicker.ShiftEndTime.Value - _timing.RealTime;
-                if (timeRemaining > TimeSpan.Zero)
-                {
-                    shiftEndTime = DateTime.UtcNow + timeRemaining;
-                }
-            }
-
             var state = new PdaUpdateState(
                 programs,
                 GetNetEntity(loader.ActiveProgram),
@@ -278,11 +247,11 @@ namespace Content.Server.PDA
                 },
                 balance, // Frontier
                 ownedShipName, // Frontier
+                _roundEndSystem.GetAutoCallTime(), // Frontier
                 pda.StationName,
                 showUplink,
                 hasInstrument,
-                address,
-                shiftEndTime);
+                address);
 
             _ui.SetUiState(uid, PdaUiKey.Key, state);
         }

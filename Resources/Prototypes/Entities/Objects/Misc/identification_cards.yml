@@ -604,13 +604,13 @@
     listNumber: false
 
 - type: entity
-  name: wayfarer ID card # WF Contractor to Wayfarer, Remove Contraband ( add back post contra rework )
+  name: wayfarer ID card # Wayfarer: Contractor to Wayfarer, Remove Contraband ( add back post contra rework )
   parent: [ IDCardStandard, BaseChameleon ]
   id: AgentIDCard
   suffix: Agent
   components:
   - type: PresetIdCard
-    job: Wayfarer # WF
+    job: Wayfarer # Wayfarer
   - type: Access
     tags:
     - Maintenance
@@ -652,7 +652,7 @@
     tags:
     - Maintenance
     - SyndicateAgent
-#    - NuclearOperative
+#    - NuclearOperative # Wayfarer
 
 - type: entity
   parent: IDCardStandard

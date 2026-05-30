@@ -1,9 +1,12 @@
 # Base entries
 guide-entry-nf14 = Frontier Guide
 guide-entry-bank = Galactic Bank
+# Wayfarer
 guide-entry-shifts-and-persistence = Shifts and Persistence
+# Wayfarer
 guide-entry-safety-deposit-box = Safety Deposit Box System
 guide-entry-piloting = Piloting
+# Wayfarer
 guide-entry-autopilot = Autopilot
 guide-entry-startinggear = Starting Equipment
 guide-entry-hiring = Hiring Crew
@@ -14,7 +17,6 @@ guide-entry-cargo-hauling = Cargo Hauling
 guide-entry-shipyard = Shipyard
 guide-entry-frontier-definitions = Definitions
 guide-entry-preflightchecklist = Preflight Checklist
-# Wayfarer: removed NT from guide-entry-bank
 
 # Engineering entries
 guide-entry-offshore-gas-mining = Offshore Gas Mining
@@ -29,7 +31,7 @@ guide-entry-medical-doc = Director of Care
 # Reference entries
 guide-entry-medicalrecipes = Medical Recipes
 guide-entry-weapons-ranged-archetypes = Ranged Weapon Archetypes
-guide-entry-weapons-color-codes-ammo = Ammmunition Color Codes
+guide-entry-weapons-color-codes-ammo = Ammunition Color Codes
 
 # Expedition faction entries
 guide-entry-expedition-aberrant-flesh = Aberrant Flesh
@@ -49,6 +51,7 @@ guide-entry-shipyard-adder = Adder
 guide-entry-shipyard-aegis = Aegis
 guide-entry-shipyard-akupara = Akupara
 guide-entry-shipyard-ambition = Ambition
+guide-entry-shipyard-anchor = Anchor
 guide-entry-shipyard-apothecary = Apothecary
 guide-entry-shipyard-barge = Barge
 guide-entry-shipyard-baroness = Baroness
@@ -56,6 +59,7 @@ guide-entry-shipyard-bocadillo = Bocadillo
 guide-entry-shipyard-bodkin = Bodkin
 guide-entry-shipyard-bookworm = Bookworm
 guide-entry-shipyard-brigand = Brigand
+guide-entry-shipyard-broom = Broom
 guide-entry-shipyard-bulker = Bulker
 guide-entry-shipyard-caladrius = Caladrius
 guide-entry-shipyard-camper = Camper
@@ -68,9 +72,12 @@ guide-entry-shipyard-construct = Construct
 guide-entry-shipyard-copperhead = Copperhead
 guide-entry-shipyard-crescent = Crescent
 guide-entry-shipyard-crossroads = Crossroads
+guide-entry-shipyard-dove = Dove
 guide-entry-shipyard-dragoon = Dragoon
+guide-entry-shipyard-dragonfly = Dragonfly
 guide-entry-shipyard-druid = Druid
 guide-entry-shipyard-eagle = Eagle
+guide-entry-shipyard-firefighter = Firefighter
 guide-entry-shipyard-garden = Garden
 guide-entry-shipyard-gasbender = Gasbender
 guide-entry-shipyard-gaslight = Gaslight
@@ -79,11 +86,12 @@ guide-entry-shipyard-hammer = Hammer
 guide-entry-shipyard-hauler = Hauler
 guide-entry-shipyard-harbormaster = Harbormaster
 guide-entry-shipyard-honker = Honker
+guide-entry-shipyard-hound = Hound
 guide-entry-shipyard-investigator = Investigator
 guide-entry-shipyard-izakaya = Izakaya
 guide-entry-shipyard-kestrel = Kestrel
 guide-entry-shipyard-kilderkin = Kilderkin
-guide-entry-shipyard-lantern = Lantern
+guide-entry-shipyard-lantern-mk2 = Lantern Mk2
 guide-entry-shipyard-stringer = Stringer
 guide-entry-shipyard-stronghold = Stronghold
 guide-entry-shipyard-liquidator = Liquidator
@@ -105,7 +113,9 @@ guide-entry-shipyard-sparrow = Sparrow
 guide-entry-shipyard-skipper = Skipper
 guide-entry-shipyard-spirit = Spirit
 guide-entry-shipyard-stasis = Stasis
+guide-entry-shipyard-stellaris = Stellaris
 guide-entry-shipyard-surveyor = Surveyor
 guide-entry-shipyard-tide = Tide
+guide-entry-shipyard-tyne = Tyne
 guide-entry-shipyard-vagabond = Vagabond
 guide-entry-shipyard-vitalis = Vitalis

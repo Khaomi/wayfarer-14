@@ -13,6 +13,7 @@ using Content.Shared.CrewManifest;
 using Content.Shared.GameTicking;
 using Content.Shared.Roles;
 using Content.Shared.Station.Components;
+using Content.Shared.StationRecords;
 using Content.Shared.SSDIndicator; // Coyote
 using Robust.Shared.Configuration;
 using Robust.Shared.Console;
@@ -123,6 +124,10 @@ public sealed class CrewManifestSystem : EntitySystem
     /// <returns>The name and crew manifest entries (unordered) of the station.</returns>
     public CrewManifestEntries GetCrewManifest() // Coyote: remove args, remove name
     {
+        // Coyote: use the one below
+        // var valid = _cachedEntries.TryGetValue(station, out var manifest);
+        // return (valid ? MetaData(station).EntityName : string.Empty, valid ? manifest : null);
+        // End Coyote
         return BuildCrewManifest(); // Coyote
     }
 
@@ -223,11 +228,28 @@ public sealed class CrewManifestSystem : EntitySystem
         }
     }
 
+    // Coyote: Chop off the station param
     /// <summary>
     ///     Builds the crew manifest for a station. Stores it in the cache afterwards.
     /// </summary>
     private CrewManifestEntries BuildCrewManifest()
     {
+        // Coyote: Use the logic below
+        // var iter = _recordsSystem.GetRecordsOfType<GeneralStationRecord>(station);
+        //
+        // var entries = new CrewManifestEntries();
+        //
+        // var entriesSort = new List<(JobPrototype? job, CrewManifestEntry entry)>();
+        // foreach (var recordObject in iter)
+        // {
+        //     var record = recordObject.Item2;
+        //     var entry = new CrewManifestEntry(record.Name, record.JobTitle, record.JobIcon, record.JobPrototype);
+        //
+        //     _prototypeManager.TryIndex(record.JobPrototype, out JobPrototype? job);
+        //     entriesSort.Add((job, entry));
+        // }
+        // End Coyote
+
         var sensors = EntityQueryEnumerator<SuitSensorComponent>(); // Coyote
 
         var entries = new CrewManifestEntries();
@@ -275,6 +297,7 @@ public sealed class CrewManifestSystem : EntitySystem
 
             return string.Compare(a.entry.Name, b.entry.Name, StringComparison.CurrentCultureIgnoreCase);
         });
+
 
         entries.Entries = entriesSort.Select(x => x.entry).ToArray();
         // _cachedEntries[station] = entries; // Coyote: causes problems

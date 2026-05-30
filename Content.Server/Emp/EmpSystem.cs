@@ -1,7 +1,7 @@
-using Content.Server.Power.EntitySystems;
-using Content.Server.Radio;
-using Content.Server.Station.Components;
-using Content.Server.SurveillanceCamera;
+// using Content.Server.Power.EntitySystems; // Wayfarer: Stop EMP disabling radio
+// using Content.Server.Radio; // Wayfarer: Stop EMP disabling radio
+// using Content.Server.Station.Components; // Wayfarer: Stop EMP disabling radio
+// using Content.Server.SurveillanceCamera; // Wayfarer: Stop EMP disabling radio
 using Content.Shared.Emp;
 using Robust.Shared.Map;
 using Content.Server.Examine; // Frontier: examine verb
@@ -36,7 +36,6 @@ public sealed class EmpSystem : SharedEmpSystem
         // SubscribeLocalEvent<EmpDisabledComponent, RadioSendAttemptEvent>(OnRadioSendAttempt);
         // SubscribeLocalEvent<EmpDisabledComponent, RadioReceiveAttemptEvent>(OnRadioReceiveAttempt);
         // End Wayfarer
-
         //SubscribeLocalEvent<EmpDisabledComponent, ApcToggleMainBreakerAttemptEvent>(OnApcToggleMainBreaker); // Frontier: Upstream - #28984
         //SubscribeLocalEvent<EmpDisabledComponent, SurveillanceCameraSetActiveAttemptEvent>(OnCameraSetActive); // Frontier: Upstream - #28984
     }

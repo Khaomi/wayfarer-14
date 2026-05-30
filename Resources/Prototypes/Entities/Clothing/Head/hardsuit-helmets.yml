@@ -437,6 +437,8 @@
       head-dog:
       - state: equipped-head-light-dog
         shader: unshaded
+      head-cat:
+      - state: equipped-head-light-cat
       # Starlight - Start
       head-avali:
       - state: equipped-head-light-avali
@@ -447,6 +449,10 @@
       head:
       - state: equipped-head
       - state: equipped-head-unshaded
+        shader: unshaded
+      head-cat:
+      - state: equipped-head-cat
+      - state: equipped-head-unshaded-cat
         shader: unshaded
       head-vox:
       - state: equipped-head-vox
@@ -472,6 +478,7 @@
     tags:
     - CorgiWearable
     - WhitelistChameleon
+  - type: CatWearable # Frontier
 
 #Chief Medical Officer's Hardsuit
 - type: entity
@@ -570,7 +577,7 @@
     sprite: Clothing/Head/Hardsuits/syndicate.rsi
   - type: Clothing
     sprite: Clothing/Head/Hardsuits/syndicate.rsi
-  - type: ToggleableVisuals # WF - Looks way better with an overlaid light sprite
+  - type: ToggleableVisuals # Wayfarer: Looks way better with an overlaid light sprite
     spriteLayer: light
     clothingVisuals:
       head:
@@ -591,8 +598,8 @@
         shader: unshaded
   - type: PointLight
     color: green
-    energy: 10 # WF - make the light actually useable
-    radius: 6 # WF - make the light actually useable
+    energy: 10 # Wayfarer: make the light actually useable
+    radius: 6 # Wayfarer: make the light actually useable
   - type: PressureProtection
     highPressureMultiplier: 0.08
     lowPressureMultiplier: 1000
@@ -619,7 +626,7 @@
     sprite: Clothing/Head/Hardsuits/syndiemedic.rsi
   - type: Clothing
     sprite: Clothing/Head/Hardsuits/syndiemedic.rsi
-  - type: ToggleableVisuals # WF - Looks way better with an overlaid light sprite
+  - type: ToggleableVisuals # Wayfarer: Looks way better with an overlaid light sprite
     spriteLayer: light
     clothingVisuals:
       head:
@@ -636,8 +643,8 @@
         shader: unshaded
   - type: PointLight
     color: green
-    energy: 10 # WF - make the light actually useable
-    radius: 6 # WF - make the light actually useable
+    energy: 10 # Wayfarer: make the light actually useable
+    radius: 6 # Wayfarer: make the light actually useable
   - type: PressureProtection
     highPressureMultiplier: 0.08
     lowPressureMultiplier: 1000
@@ -660,7 +667,7 @@
     sprite: Clothing/Head/Hardsuits/syndieelite.rsi
   - type: Clothing
     sprite: Clothing/Head/Hardsuits/syndieelite.rsi
-  - type: ToggleableVisuals # WF - Looks way better with an overlaid light sprite
+  - type: ToggleableVisuals # Wayfarer: Looks way better with an overlaid light sprite
     spriteLayer: light
     clothingVisuals:
       head:
@@ -681,8 +688,8 @@
         shader: unshaded
   - type: PointLight
     color: red
-    energy: 10 # WF - make the light actually useable
-    radius: 6 # WF - make the light actually useable
+    energy: 10 # Wayfarer: make the light actually useable
+    radius: 6 # Wayfarer: make the light actually useable
   - type: PressureProtection
     highPressureMultiplier: 0.08
     lowPressureMultiplier: 1000
@@ -714,7 +721,7 @@
     sprite: Clothing/Head/Hardsuits/syndiecommander.rsi
   - type: Clothing
     sprite: Clothing/Head/Hardsuits/syndiecommander.rsi
-  - type: ToggleableVisuals # WF - Looks way better with an overlaid light sprite
+  - type: ToggleableVisuals # Wayfarer: Looks way better with an overlaid light sprite
     spriteLayer: light
     clothingVisuals:
       head:
@@ -735,8 +742,8 @@
         shader: unshaded
   - type: PointLight
     color: green
-    energy: 10 # WF - make the light actually useable
-    radius: 6 # WF - make the light actually useable
+    energy: 10 # Wayfarer: make the light actually useable
+    radius: 6 # Wayfarer: make the light actually useable
   - type: PressureProtection
     highPressureMultiplier: 0.08
     lowPressureMultiplier: 1000

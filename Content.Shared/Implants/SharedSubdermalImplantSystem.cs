@@ -1,14 +1,10 @@
 using Content.Shared.Actions;
 using Content.Shared.Implants.Components;
+using Content.Shared.Verbs; // Coyote
 using Robust.Shared.Containers;
 using Robust.Shared.Network;
 using Robust.Shared.Prototypes;
 using Robust.Shared.Timing;
-using System.Linq;
-using Content.Shared.Interaction;
-using Content.Shared.Interaction.Events;
-using Content.Shared.Mobs;
-using Content.Shared.Verbs;
 
 namespace Content.Shared.Implants;
 
@@ -27,7 +23,7 @@ public abstract partial class SharedSubdermalImplantSystem : EntitySystem
         SubscribeLocalEvent<SubdermalImplantComponent, EntGotInsertedIntoContainerMessage>(OnInsert);
         SubscribeLocalEvent<SubdermalImplantComponent, ContainerGettingRemovedAttemptEvent>(OnRemoveAttempt);
         SubscribeLocalEvent<SubdermalImplantComponent, EntGotRemovedFromContainerMessage>(OnRemove);
-
+        SubscribeLocalEvent<ImplantedComponent, GetVerbsEvent<Verb>>(RelayToImplantEvent); // Coyote
     }
 
     private void OnInsert(Entity<SubdermalImplantComponent> ent, ref EntGotInsertedIntoContainerMessage args)
@@ -112,8 +108,7 @@ public abstract partial class SharedSubdermalImplantSystem : EntitySystem
         }
         else
         {
-            Log.Warning(
-                $"Tried to inject implant '{implantId}' without SubdermalImplantComponent into {ToPrettyString(target):implanted}");
+            Log.Warning($"Tried to inject implant '{implantId}' without SubdermalImplantComponent into {ToPrettyString(target):implanted}");
             Del(implant);
             return null;
         }
@@ -161,6 +156,7 @@ public abstract partial class SharedSubdermalImplantSystem : EntitySystem
     {
         if (!Resolve(target, ref target.Comp, false))
             return;
+
         _container.CleanContainer(target.Comp.ImplantContainer);
     }
 }

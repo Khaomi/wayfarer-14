@@ -989,7 +989,7 @@
     solutions:
       food:
         reagents:
-        - ReagentId: Ichor # WF - Omnizine > Ichor replacement
+        - ReagentId: Ichor # Wayfarer: Omnizine<Ichor
           Quantity: 30
         - ReagentId: Nutriment
           Quantity: 10

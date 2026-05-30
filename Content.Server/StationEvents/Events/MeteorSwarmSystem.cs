@@ -39,7 +39,7 @@ public sealed class MeteorSwarmSystem : GameRuleSystem<MeteorSwarmComponent>
             return;
 
         // we don't want to send to players who aren't in game (i.e. in the lobby)
-        var allPlayersInGame = Filter.Empty().AddWhere(GameTicker.UserHasJoinedGame);
+        Filter allPlayersInGame = Filter.Empty().AddWhere(GameTicker.UserHasJoinedGame);
 
         if (component.Announcement is { } locId)
             _chat.DispatchFilteredAnnouncement(allPlayersInGame, Loc.GetString(locId), playSound: false, colorOverride: Color.Gold);
@@ -54,9 +54,20 @@ public sealed class MeteorSwarmSystem : GameRuleSystem<MeteorSwarmComponent>
 
         component.NextWaveTime += TimeSpan.FromSeconds(component.WaveCooldown.Next(RobustRandom));
 
+
+        // Wayfarer
+        // if (_station.GetStations().Count == 0)
+        //     return;
+        //
+        // var station = RobustRandom.Pick(_station.GetStations());
+        // if (_station.GetLargestGrid(station) is not { } grid)
+        //     return;
+        // End Wayfarer
+
         // Wayfarer: Nothing to hit this wave, so skip it.
         if (!TryPickTargetGrid(component, out var grid))
             return;
+        // End Wayfarer
 
         var mapId = Transform(grid).MapID;
         var playableArea = _physics.GetWorldAABB(grid);
@@ -104,6 +115,7 @@ public sealed class MeteorSwarmSystem : GameRuleSystem<MeteorSwarmComponent>
             return;
         component.TargetGrid = targetGrid;
     }
+    // End Wayfarer
 
     // Wayfarer: Prevents the server announcement when a meteor event is called manually.
     public void SetSilent(EntityUid ruleEntity, MeteorSwarmComponent? component = null)
@@ -112,6 +124,7 @@ public sealed class MeteorSwarmSystem : GameRuleSystem<MeteorSwarmComponent>
             return;
         component.Silent = true;
     }
+    // End Wayfarer
 
     // Wayfarer: Every grid a meteor swarm can hit. That is every POI and station, plus active player ships.
     public IEnumerable<EntityUid> GetTargetableGrids()
@@ -134,6 +147,7 @@ public sealed class MeteorSwarmSystem : GameRuleSystem<MeteorSwarmComponent>
             if (status.HasActiveCrew && seen.Add(ship))
                 yield return ship;
     }
+    // End Wayfarer
 
     // Wayfarer: Picks the grid the meteors hit. The target if one was set, otherwise a random valid target.
     private bool TryPickTargetGrid(MeteorSwarmComponent component, out EntityUid grid)
@@ -153,4 +167,5 @@ public sealed class MeteorSwarmSystem : GameRuleSystem<MeteorSwarmComponent>
         grid = RobustRandom.Pick(pool);
         return true;
     }
+    // End Wayfarer
 }

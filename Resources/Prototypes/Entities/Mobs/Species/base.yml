@@ -9,10 +9,10 @@
   id: BaseMobSpecies
   abstract: true
   components:
-  - type: Carriable # Wayfarer, makes all mobs carriable. Weight still applies.
+  - type: Carriable # Wayfarer: makes all mobs carriable. Weight still applies.
   - type: Sprite
     layers:
-    - map: [ "enum.HumanoidVisualLayers.TailBehind" ]
+    - map: [ "enum.HumanoidVisualLayers.TailBehind" ] # Uknown
     - map: [ "enum.HumanoidVisualLayers.Chest" ]
     - map: [ "enum.HumanoidVisualLayers.Head" ]
     - map: [ "enum.HumanoidVisualLayers.Snout" ]
@@ -22,7 +22,7 @@
     - map: [ "enum.HumanoidVisualLayers.RLeg" ]
     - map: [ "enum.HumanoidVisualLayers.LLeg" ]
     - map: [ "enum.HumanoidVisualLayers.UndergarmentBottom" ]
-    - map: [ "enum.HumanoidVisualLayers.Genital" ]
+    - map: [ "enum.HumanoidVisualLayers.Genital" ] # Uknown
     - map: [ "enum.HumanoidVisualLayers.UndergarmentTop" ]
     - map: ["jumpsuit"]
     - map: ["enum.HumanoidVisualLayers.LFoot"]
@@ -32,14 +32,14 @@
     - map: [ "gloves" ]
     - map: [ "shoes" ]
     - map: [ "ears" ]
-    - map: [ "enum.HumanoidVisualLayers.TailOversuit" ]
+    - map: [ "enum.HumanoidVisualLayers.TailOversuit" ] # Uknown
     - map: [ "eyes" ]
     - map: [ "belt" ]
     - map: [ "id" ]
     - map: [ "outerClothing" ]
     - map: [ "back" ]
     - map: [ "neck" ]
-    - map: [ "enum.HumanoidVisualLayers.SnoutCover" ]
+    - map: [ "enum.HumanoidVisualLayers.SnoutCover" ] # Uknown
     - map: [ "enum.HumanoidVisualLayers.FacialHair" ]
     - map: [ "enum.HumanoidVisualLayers.Hair" ]
     - map: [ "enum.HumanoidVisualLayers.HeadSide" ]
@@ -175,6 +175,7 @@
     interactSuccessString: hugging-success-generic
     interactSuccessSound: /Audio/Effects/thudswoosh.ogg
     messagePerceivedByOthers: hugging-success-generic-others
+  # Wayfarer
   - type: InteractionVerbs
     allowedVerbs:
     - Lick
@@ -185,6 +186,7 @@
     - Pet
     - LookAt
     - ForceDown
+  # End Wayfarer
   - type: CanHostGuardian
   - type: NpcFactionMember
     factions:
@@ -254,7 +256,7 @@
         Brute: -0.07
   - type: Fingerprint
   - type: Blindable
-  - type: Vore
+  - type: Vore # Uknown: Kinky
   # Other
   - type: Temperature
     heatDamageThreshold: 325
@@ -316,7 +318,7 @@
     noRot: true
     # TODO BODY Turn these into individual body parts?
     layers:
-    - map: [ "enum.HumanoidVisualLayers.TailBehind" ]
+    - map: [ "enum.HumanoidVisualLayers.TailBehind" ] # Uknown
     - map: [ "enum.HumanoidVisualLayers.Chest" ]
     - map: [ "enum.HumanoidVisualLayers.Head" ]
     - map: [ "enum.HumanoidVisualLayers.Snout" ]
@@ -326,7 +328,7 @@
     - map: [ "enum.HumanoidVisualLayers.RLeg" ]
     - map: [ "enum.HumanoidVisualLayers.LLeg" ]
     - map: [ "enum.HumanoidVisualLayers.UndergarmentBottom" ]
-    - map: [ "enum.HumanoidVisualLayers.Genital" ]
+    - map: [ "enum.HumanoidVisualLayers.Genital" ] # Uknown
     - map: [ "enum.HumanoidVisualLayers.UndergarmentTop" ]
     - map: ["jumpsuit"]
     - map: ["enum.HumanoidVisualLayers.LFoot"]
@@ -348,7 +350,7 @@
     - map: [ "neck" ]
     - map: [ "back" ]
     - map: [ "enum.HumanoidVisualLayers.SnoutCover" ]
-    - map: [ "enum.HumanoidVisualLayers.TailOversuit" ]
+    - map: [ "enum.HumanoidVisualLayers.TailOversuit" ] # Uknown
     - map: [ "enum.HumanoidVisualLayers.FacialHair" ]
     - map: [ "enum.HumanoidVisualLayers.Hair" ]
     - map: [ "enum.HumanoidVisualLayers.HeadSide" ]
