@@ -1,4 +1,5 @@
 using Robust.Shared.GameStates;
+using Robust.Shared.Serialization.TypeSerializers.Implementations.Custom; // Unknown
 
 namespace Content.Shared.Trigger.Components.Effects;
 
@@ -7,6 +8,7 @@ namespace Content.Shared.Trigger.Components.Effects;
 /// If TargetUser is true it will electrocute the user instead.
 /// </summary>
 [RegisterComponent, NetworkedComponent, AutoGenerateComponentState]
+[AutoGenerateComponentPause] // Unknown
 public sealed partial class ShockOnTriggerComponent : BaseXOnTriggerComponent
 {
     /// <summary>
@@ -31,4 +33,19 @@ public sealed partial class ShockOnTriggerComponent : BaseXOnTriggerComponent
     /// </summary>
     [DataField, AutoNetworkedField]
     public TimeSpan Duration = TimeSpan.FromSeconds(2);
+
+    // Unknown start
+    /// <summary>
+    /// The minimum delay between repeating triggers.
+    /// </summary>
+    [DataField]
+    public TimeSpan Cooldown = TimeSpan.FromSeconds(4);
+
+    /// <summary>
+    /// When can the trigger run again?
+    /// </summary>
+    [DataField(customTypeSerializer: typeof(TimeOffsetSerializer))]
+    [AutoPausedField]
+    public TimeSpan NextTrigger = TimeSpan.Zero;
+    // End Unknown
 }

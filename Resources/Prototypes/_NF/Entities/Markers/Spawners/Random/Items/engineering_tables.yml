@@ -38,9 +38,11 @@
     - !type:NestedSelector
       tableId: TableDungeonLootEngineeringClutter
       weight: 0.95
-    - !type:NestedSelector
-      tableId: TableDungeonLootEngineeringToolboxesMines
-      weight: 0.05
+    # Wayfarer: Let's not
+    # - !type:NestedSelector
+    #   tableId: TableDungeonLootEngineeringToolboxesMines
+    #   weight: 0.05
+    # End Wayfarer
 
 #region Tools
 - type: entityTable

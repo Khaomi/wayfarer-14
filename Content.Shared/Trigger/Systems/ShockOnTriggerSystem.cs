@@ -1,6 +1,7 @@
 using Content.Shared.Electrocution;
 using Content.Shared.Trigger.Components.Effects;
 using Robust.Shared.Containers;
+using Robust.Shared.Timing; // Unknown
 
 namespace Content.Shared.Trigger.Systems;
 
@@ -8,6 +9,7 @@ public sealed class ShockOnTriggerSystem : EntitySystem
 {
     [Dependency] private readonly SharedContainerSystem _container = default!;
     [Dependency] private readonly SharedElectrocutionSystem _electrocution = default!;
+    [Dependency] private readonly IGameTiming _timing = default!; // Unknown
 
     public override void Initialize()
     {
@@ -20,6 +22,14 @@ public sealed class ShockOnTriggerSystem : EntitySystem
     {
         if (args.Key != null && !ent.Comp.KeysIn.Contains(args.Key))
             return;
+
+        // Unknown Start
+        var now = _timing.CurTime;
+        if (now < ent.Comp.NextTrigger)
+            return;
+
+        ent.Comp.NextTrigger = now + ent.Comp.Cooldown;
+        // End Unknown
 
         EntityUid? target;
         if (ent.Comp.TargetContainer)
