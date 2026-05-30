@@ -133,7 +133,7 @@ namespace Content.Client.PDA
             StationTimeButton.OnPressed += _ =>
             {
                 var stationTime = _gameTiming.CurTime.Subtract(_gameTicker.RoundStartTimeSpan);
-                _clipboard.SetText((stationTime.ToString("d\\d hh\\h mm\\m ss\\s"))); // Wayfarer: hh\\:mm\\:ss<d\\d hh\\h mm\\m ss\\s
+                _clipboard.SetText((stationTime.ToString(@"d\d\ hh\h\ mm\m\ ss\s"))); // Wayfarer: hh\\:mm\\:ss<d\d\ hh\h\ mm\m\ ss\s
             };
 
             StationAlertLevelInstructionsButton.OnPressed += _ =>
@@ -199,7 +199,7 @@ namespace Content.Client.PDA
             var stationTime = _gameTiming.CurTime.Subtract(_gameTicker.RoundStartTimeSpan);
 
             StationTimeLabel.SetMarkup(Loc.GetString("comp-pda-ui-station-time",
-                ("time", stationTime.ToString("d\\d hh\\h mm\\m ss\\s")))); // Wayfarer: hh\\:mm\\:ss<d\\d hh\\h mm\\m ss\\s
+                ("time", $"{stationTime.Days}d {stationTime.Hours:D2}h {stationTime.Minutes:D2}m {stationTime.Seconds:D2}s"))); // Wayfarer
 
             // Frontier
             if (state.RoundEndTime is not null)
@@ -210,7 +210,7 @@ namespace Content.Client.PDA
 
                 var remainingTime = _roundEndTime.Value.Subtract(_gameTiming.CurTime);
                 RemainingTimeLabel.SetMarkup(Loc.GetString("comp-pda-ui-remaining-time",
-                    ("time", remainingTime.ToString("hh\\:mm\\:ss"))));
+                    ("time", $"{remainingTime.Days}d {remainingTime.Hours:D2}h {remainingTime.Minutes:D2}m {remainingTime.Seconds:D2}s"))); // Wayfarer
             }
             else
             {
@@ -400,14 +400,14 @@ namespace Content.Client.PDA
             var stationTime = _gameTiming.CurTime.Subtract(_gameTicker.RoundStartTimeSpan);
 
             StationTimeLabel.SetMarkup(Loc.GetString("comp-pda-ui-station-time",
-                ("time", stationTime.ToString("hh\\:mm\\:ss"))));
+                ("time", $"{stationTime.Days}d {stationTime.Hours:D2}h {stationTime.Minutes:D2}m {stationTime.Seconds:D2}s"))); // Wayfarer
 
             // Frontier
             if (_roundEndTime is not null)
             {
                 var remainingTime = _roundEndTime.Value.Subtract(_gameTiming.CurTime);
                 RemainingTimeLabel.SetMarkup(Loc.GetString("comp-pda-ui-remaining-time",
-                    ("time", remainingTime.ToString("hh\\:mm\\:ss"))));
+                    ("time", $"{remainingTime.Days}d {remainingTime.Hours:D2}h {remainingTime.Minutes:D2}m {remainingTime.Seconds:D2}s"))); // Wayfarer
                 if (remainingTime < TimeSpan.Zero){
                     RemainingTimeLabel.Visible = false;
                     _roundEndTime = null;

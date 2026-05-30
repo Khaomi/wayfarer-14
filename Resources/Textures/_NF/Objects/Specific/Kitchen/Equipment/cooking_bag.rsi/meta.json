@@ -1,11 +1,7 @@
 {
   "version": 1,
   "license": "CC-BY-SA-3.0",
-<<<<<<<< HEAD:Resources/Textures/_Starlight/Clothing/Uniforms/Jumpskirt/alt_purplebartender.rsi/meta.json
-  "copyright": "Made by @mishutka09 (discord:1152277579206774854)",
-========
   "copyright": "Sprites done by Zalindae",
->>>>>>>> 7cf39bd158757d3b6ef47e60151b17768ac3523b:Resources/Textures/_NF/Objects/Specific/Kitchen/Equipment/cooking_bag.rsi/meta.json
   "size": {
     "x": 32,
     "y": 32
@@ -16,10 +12,6 @@
     },
     {
       "name": "equipped-BELT",
-      "directions": 4
-    },
-    {
-      "name": "equipped-INNERCLOTHING-monkey",
       "directions": 4
     },
     {
