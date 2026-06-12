@@ -35,5 +35,11 @@
 #            NFPirateFirstMate: [ -1, -1]  #Wayfarer
             NFPirate: [ -1, -1]
             Prisoner: [ -1, -1]
+            # Wayfarer: Add Borgs
+            MedicalQuadBorg: [ -1, -1 ]
+            ServiceQuadBorg: [ -1, -1 ]
+            SalvageQuadBorg: [ -1, -1 ]
+            SecurityQuadBorg: [ -1, -1 ]
+            # End Wayfarer
         - type: StationDeadDrop
           maxDeadDrops: 20 # Testing

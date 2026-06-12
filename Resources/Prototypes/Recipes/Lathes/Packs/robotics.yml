@@ -7,6 +7,7 @@
   - PositronicBrain
   - SciFlash
   - CyborgEndoskeleton
+  - Quadborgendoskeleton # Hardlight
 
 - type: latheRecipePack
   id: BorgModulesStatic

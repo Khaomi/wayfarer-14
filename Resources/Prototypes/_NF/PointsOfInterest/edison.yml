@@ -47,3 +47,4 @@
           availableJobs:
             PlantManager: [ 1, 1 ]
             PlantTechnician: [ 2, 4 ]
+            EngineeringQuadBorg: [ 3, 3 ] # Wayfarer

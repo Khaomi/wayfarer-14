@@ -50,6 +50,7 @@
             Brigmedic: [ 1, 2 ]
             NFDetective: [ 1, 1 ]
             Deputy: [ 3, 3 ]
+            SecurityQuadBorg: [ 3, 3 ] # Wayfarer
             Cadet: [ 0, 0 ]
             Prisoner: [ 0, 0 ]
           tags:

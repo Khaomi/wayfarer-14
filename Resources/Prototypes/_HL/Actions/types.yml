@@ -1,0 +1,16 @@
+
+# Generic toggle for sprite-state swapping via SpriteStateToggleComponent
+- type: entity
+  id: ActionToggleSpriteState
+  name: Toggle Balls
+  description: Deploy if boy
+  categories: [ HideSpawnMenu ]
+  # Wayfarer: TODO: Fix this, Migrate to Action + InstantAction instead of Action
+  # components:
+  # - type: InstantAction
+  #   # Keep a short delay to avoid rapid spam while still feeling responsive
+  #   useDelay: 1
+  #   # Generic toggle icons; override per-item if you want custom art
+  #   icon: _HL/Interface/Actions/nuts/nuts.png
+  #   iconOn: _HL/Interface/Actions/nuts/nuts.png
+  #   event: !type:SpriteStateToggleActionEvent

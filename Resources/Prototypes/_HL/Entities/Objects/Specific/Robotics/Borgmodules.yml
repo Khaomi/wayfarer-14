@@ -1,0 +1,84 @@
+- type: entity
+  id: BaseBorgModuleSecurity
+  parent: BaseBorgModule
+  abstract: true
+  components:
+  - type: Tag
+    tags:
+    - BorgModuleSecurity
+
+- type: entity
+  id: BorgModuleStun
+  parent: [ BaseBorgModuleSecurity, BaseProviderBorgModule ]
+  name: Disabler cyborg Module
+  description: A Module "incapable of causing harm if used correctly"
+  components:
+  - type: Sprite
+    sprite: _HL/Objects/Specific/Robotics/borgmodule.rsi
+    layers:
+    - state: security
+    - state: icon-stun
+  - type: ItemBorgModule
+    moduleId: Stun
+    # Wayfarer: use hands
+    hands:
+      - item: WeaponBorgDisabler
+      - item: BorgStunbaton
+      - item: BorgFlash
+    # - BorgZipties
+    # End Wayfarer
+
+- type: entity
+  id: BorgModuleKill
+  parent: [ BaseBorgModuleSecurity, BaseProviderBorgModule ]
+  name: Combat cyborg module
+  components:
+  - type: Sprite
+    sprite: _HL/Objects/Specific/Robotics/borgmodule.rsi
+    layers:
+    - state: security
+    - state: icon-kill
+  - type: ItemBorgModule
+    moduleId: Combat
+    # Wayfarer: use hands
+    hands:
+      # - item: WeaponAdvancedLaser # Wayfarer: broken
+      - item: WeaponborgPistolMk58
+      - item: CombatKnife
+    # End Wayfarer
+
+- type: entity
+  id: BorgModuleInvestigation
+  parent: [ BaseBorgModuleSecurity, BaseProviderBorgModule ]
+  name: Investigation cyborg module
+  components:
+  - type: Sprite
+    sprite: _HL/Objects/Specific/Robotics/borgmodule.rsi
+    layers:
+    - state: security
+    - state: icon-investigation
+  - type: ItemBorgModule
+    moduleId: Investigation
+    # Wayfarer: use hands
+    hands:
+    - item: ForensicScanner
+    - item: SecurityWhistle
+    # End Wayfarer
+
+- type: entity
+  id: BorgModuleadvancedmeasures
+  parent: [ BaseBorgModuleSecurity, BaseProviderBorgModule ]
+  name: advanced combat cyborg module
+  components:
+  - type: Sprite
+    sprite: _HL/Objects/Specific/Robotics/borgmodule.rsi
+    layers:
+    - state: security
+    - state: icon-Advmeasures
+  - type: ItemBorgModule
+    moduleId: AdvancedMeasures
+    # Wayfarer: use hands
+    hands:
+     - item: WeaponBorgEnergyShotgun
+     - item: BorgWeaponXrayCannon
+    # End Wayfarer

@@ -1,0 +1,125 @@
+- type: job
+  id: MedicalQuadBorg
+  name: job-name-medical-quadborg
+  description: job-description-medical-quadborg
+  playTimeTracker: JobMedicalQuadBorg
+  requirements:
+  # Wayfarer: Removed requirements
+  # requirements:
+  #   - !type:OverallPlaytimeRequirement
+  #     time: 21600 # Floof: 6 hrs
+  #   - !type:DepartmentTimeRequirement
+  #     department: Medical
+  #     time: 3600 # Floof: 1 hrs
+  # End Wayfarer
+  canBeAntag: false
+  weight: -20
+  startingGear: MedicalQuadBorgGear
+  icon: JobIconMedicalBorg
+  supervisors: job-supervisors-cmo
+  jobEntity: PlayerBorgQuadmed
+  # Wayfarer: Not Shitmed (sad)
+  # special:
+  # - !type:AddComponentSpecial
+  #   components:
+  #   - type: SurgerySpeedModifier # Shitmed
+  #     SpeedModifier: 1.75
+  # End Wayfarer
+
+- type: job
+  id: ServiceQuadBorg
+  name: job-name-service-quadborg
+  description: job-description-service-quadborg
+  playTimeTracker: JobServiceQuadBorg
+  # Wayfarer: Removed requirements
+  # requirements:
+  #   - !type:OverallPlaytimeRequirement
+  #     time: 21600 # Floof: 6 hrs
+  # End Wayfarer
+  canBeAntag: false
+  weight: -50 # HardLight
+  startingGear: ServiceQuadBorgGear
+  icon: JobIconServiceBorg
+  supervisors: job-supervisors-hop
+  jobEntity: PlayerBorgQuadserv
+
+- type: job
+  id: SalvageQuadBorg
+  name: job-name-salvage-quadborg
+  description: job-description-salvage-quadborg
+  playTimeTracker: JobSalvageQuadBorg
+  # Wayfarer: Removed requirements
+  # requirements:
+  #   - !type:OverallPlaytimeRequirement
+  #     time: 21600 # Floof: 6 hrs
+  #   - !type:DepartmentTimeRequirement
+  #     department: Cargo
+  #     time: 3600 # Floof: 1 hrs
+  # End Wayfarer
+  canBeAntag: false
+  weight: -20
+  startingGear: SalvageQuadBorgGear
+  icon: JobIconSalvageBorg
+  supervisors: job-supervisors-Quartermaster
+  jobEntity: PlayerBorgQuadsalv
+
+- type: job
+  id: SecurityQuadBorg
+  name: job-name-security-quadborg
+  description: job-description-security-quadborg
+  playTimeTracker: JobSecurityQuadBorg
+  # Wayfarer: Modified requirements
+  requirements:
+    - !type:RoleTimeRequirement
+      role: JobSecurityCadet
+      time: 21600 # 6 hours as Cadet
+  # End Wayfarer
+  canBeAntag: false
+  startingGear: SecurityQuadBorgGear
+  icon: JobIconSecurityBorg
+  supervisors: job-supervisors-hos
+  jobEntity: PlayerBorgQuad
+
+- type: job
+  id: EngineeringQuadBorg
+  name: job-name-engineering-quadborg
+  description: job-description-engineering-quadborg
+  playTimeTracker: JobEngineeringQuadBorg
+  # Wayfarer: Removed requirements
+  # requirements:
+  #   - !type:OverallPlaytimeRequirement
+  #     time: 21600 # Floof: 6 hrs
+  #   - !type:DepartmentTimeRequirement
+  #     department: Engineering
+  #     time: 3600 # Floof: 1 hrs
+  # End Wayfarer
+  canBeAntag: false
+  startingGear: EngineeringQuadBorgGear
+  icon: JobIconEngineeringBorg
+  supervisors: job-supervisors-ChiefEngineer
+  jobEntity: PlayerBorgQuadEngineer
+
+- type: startingGear
+  id: MedicalQuadBorgGear
+  equipment:
+    id: MedicalPDA
+
+- type: startingGear
+  id: ServiceQuadBorgGear
+  equipment:
+    id: ServiceWorkerPDA
+
+- type: startingGear
+  id: SalvageQuadBorgGear
+  equipment:
+    id: SalvagePDA
+
+- type: startingGear
+  id: SecurityQuadBorgGear
+  equipment:
+    id: SecurityPDA
+
+- type: startingGear
+  id: EngineeringQuadBorgGear
+  equipment:
+    id: EngineerPDA

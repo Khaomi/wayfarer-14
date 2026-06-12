@@ -1,0 +1,77 @@
+- type: Tag
+  id: BorgWearable
+
+- type: Tag
+  id: BorgModuleSecurity
+
+- type: Tag
+  id: BorgSecurityLLeg
+
+- type: Tag
+  id: BorgSecurityRLeg
+
+- type: Tag
+  id: BorgSecurityHead
+
+- type: Tag
+  id: BorgSecurityTorso
+
+- type: Tag
+  id: BorgEngineerHead
+
+- type: Tag
+  id: BorgEngineerLLeg
+
+- type: Tag
+  id: BorgEngineerRLeg
+
+- type: Tag
+  id: BorgEngineerTorso
+
+- type: Tag
+  id: BorgJanitorHead
+
+- type: Tag
+  id: BorgJanitorLLeg
+
+- type: Tag
+  id: BorgJanitorRLeg
+
+- type: Tag
+  id: BorgJanitorTorso
+
+- type: Tag
+  id: BorgMedicalHead
+
+- type: Tag
+  id: BorgMedicalLLeg
+
+- type: Tag
+  id: BorgMedicalRLeg
+
+- type: Tag
+  id: BorgMedicalTorso
+
+- type: Tag
+  id: BorgMiningHead
+
+- type: Tag
+  id: BorgMiningLLeg
+
+- type: Tag
+  id: BorgMiningRLeg
+
+- type: Tag
+  id: BorgMiningTorso
+
+- type: Tag
+  id: BorgServiceHead
+
+- type: Tag
+  id: BorgServiceLLeg
+
+- type: Tag
+  id: BorgServiceRLeg
+
+- type: Tag
+  id: BorgServiceTorso

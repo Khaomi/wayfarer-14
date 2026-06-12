@@ -1,0 +1,56 @@
+- type: entity
+  id: Quadborgendoskeleton
+  name: Quad endoskeleton
+  parent: CyborgEndoskeleton
+  description: A frame that cyborgs are built on. Significantly less spooky than expected.
+  components:
+  - type: Sprite
+    noRot: true
+    drawdepth: Items
+    sprite: _HL/Objects/Specific/Robotics/parts.rsi
+    scale: 0.7, 0.7
+    state: quad_suit
+  - type: ItemMapper
+    sprite: _HL/Objects/Specific/Robotics/parts.rsi
+    mapLayers:
+      borg_l_arm+o:
+        whitelist:
+          tags:
+          - BorgLLeg
+      borg_r_arm+o:
+        whitelist:
+          tags:
+          - BorgRLeg
+      borg_l_leg+o:
+        whitelist:
+          tags:
+          - BorgLLeg
+      borg_r_leg+o:
+        whitelist:
+          tags:
+          - BorgRLeg
+      borg_head+o:
+        whitelist:
+          tags:
+          - BorgHead
+      borg_chest+o:
+        whitelist:
+          tags:
+          - BorgTorso
+
+  - type: PartAssembly
+    parts:
+      quadborg:
+      - BorgLLeg
+      - BorgRLeg
+      - BorgLLeg
+      - BorgRLeg
+      - BorgHead
+      - BorgTorso
+  - type: Construction
+    graph: Cyborg
+    node: start
+    defaultTarget: Quadborg
+    containers:
+    - part-container
+    - cell_slot

@@ -32,6 +32,224 @@
       - tool: Screwing
         doAfter: 0.5
 
+    # Hardlight
+    - to: Quadborg
+      steps:
+      - assemblyId: quadborg
+        guideString: borg-construction-guide-string
+
+      - material: Cable
+        amount: 1
+        doAfter: 1
+        store: part-container
+
+      - component: Flash
+        name: construction-graph-component-flash
+        store: part-container
+        icon:
+          sprite: Objects/Weapons/Melee/flash.rsi
+          state: flash
+
+      - component: Flash
+        name: construction-graph-component-second-flash
+        store: part-container
+        icon:
+          sprite: Objects/Weapons/Melee/flash.rsi
+          state: flash
+
+      - tool: Screwing
+        doAfter: 0.5
+
+    - to: Quadsec
+      steps:
+      - assemblyId: quadsec
+        guideString: borg-construction-guide-string
+
+      - material: Cable
+        amount: 1
+        doAfter: 1
+        store: part-container
+
+      - component: Flash
+        name: construction-graph-component-flash
+        store: part-container
+        icon:
+          sprite: Objects/Weapons/Melee/flash.rsi
+          state: flash
+
+      - component: Flash
+        name: construction-graph-component-second-flash
+        store: part-container
+        icon:
+          sprite: Objects/Weapons/Melee/flash.rsi
+          state: flash
+
+      - tool: Screwing
+        doAfter: 0.5
+
+    - to: Quadsalv
+      steps:
+      - assemblyId: quadsalv
+        guideString: borg-construction-guide-string
+
+      - material: Cable
+        amount: 1
+        doAfter: 1
+        store: part-container
+
+      - component: Flash
+        name: construction-graph-component-flash
+        store: part-container
+        icon:
+          sprite: Objects/Weapons/Melee/flash.rsi
+          state: flash
+
+      - component: Flash
+        name: construction-graph-component-second-flash
+        store: part-container
+        icon:
+          sprite: Objects/Weapons/Melee/flash.rsi
+          state: flash
+
+      - tool: Screwing
+        doAfter: 0.5
+
+    - to: Quadserv
+      steps:
+      - assemblyId: quadserv
+        guideString: borg-construction-guide-string
+
+      - material: Cable
+        amount: 1
+        doAfter: 1
+        store: part-container
+
+      - component: Flash
+        name: construction-graph-component-flash
+        store: part-container
+        icon:
+          sprite: Objects/Weapons/Melee/flash.rsi
+          state: flash
+
+      - component: Flash
+        name: construction-graph-component-second-flash
+        store: part-container
+        icon:
+          sprite: Objects/Weapons/Melee/flash.rsi
+          state: flash
+
+      - tool: Screwing
+        doAfter: 0.5
+
+    - to: Quadmed
+      steps:
+      - assemblyId: quadmed
+        guideString: borg-construction-guide-string
+
+      - material: Cable
+        amount: 1
+        doAfter: 1
+        store: part-container
+
+      - component: Flash
+        name: construction-graph-component-flash
+        store: part-container
+        icon:
+          sprite: Objects/Weapons/Melee/flash.rsi
+          state: flash
+
+      - component: Flash
+        name: construction-graph-component-second-flash
+        store: part-container
+        icon:
+          sprite: Objects/Weapons/Melee/flash.rsi
+          state: flash
+
+      - tool: Screwing
+        doAfter: 0.5
+
+    - to: Quadengi
+      steps:
+      - assemblyId: quadengi
+        guideString: borg-construction-guide-string
+
+      - material: Cable
+        amount: 1
+        doAfter: 1
+        store: part-container
+
+      - component: Flash
+        name: construction-graph-component-flash
+        store: part-container
+        icon:
+          sprite: Objects/Weapons/Melee/flash.rsi
+          state: flash
+
+      - component: Flash
+        name: construction-graph-component-second-flash
+        store: part-container
+        icon:
+          sprite: Objects/Weapons/Melee/flash.rsi
+          state: flash
+
+      - tool: Screwing
+        doAfter: 0.5
+    # End Hardlight
+
+    # Wayfarer
+    - to: Quadsyndi
+      steps:
+      - assemblyId: quadsyndi
+        guideString: borg-construction-guide-string
+
+      - material: Cable
+        amount: 1
+        doAfter: 1
+        store: part-container
+
+      - component: Flash
+        name: construction-graph-component-flash
+        store: part-container
+        icon:
+          sprite: Objects/Weapons/Melee/flash.rsi
+          state: flash
+
+      - component: Flash
+        name: construction-graph-component-second-flash
+        store: part-container
+        icon:
+          sprite: Objects/Weapons/Melee/flash.rsi
+          state: flash
+
+      - tool: Screwing
+        doAfter: 0.5
+    # End Wayfarer
+
+  # Hardlight
+  - node: Quadborg
+    entity: BorgChassisQuad
+
+  - node: Quadsec
+    entity: BorgChassisQuadSec
+
+  - node: Quadengi
+    entity: BorgChassisQuadEngineer
+
+  - node: Quadsalv
+    entity: BorgChassisQuadsalv
+
+  - node: Quadserv
+    entity: BorgChassisQuadserv
+
+  - node: Quadmed
+    entity: BorgChassisQuadmed
+  # End Hardlight
+
+  # Wayfarer
+  - node: Quadsyndi
+    entity: SyndiQuad
+  # End Wayfarer
+
   - node: cyborg
     entity: BorgChassisSelectable
 

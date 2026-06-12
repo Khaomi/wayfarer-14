@@ -1,0 +1,30 @@
+
+# Civillian
+- type: roleLoadout
+  id: JobServiceQuadBorg
+  nameDataset: NFNamesBorg
+  canCustomizeName: true
+
+# Cargo
+- type: roleLoadout
+  id: JobSalvageQuadBorg
+  nameDataset: NFNamesBorg
+  canCustomizeName: true
+
+# Engineering
+- type: roleLoadout
+  id: JobEngineeringQuadBorg
+  nameDataset: NFNamesBorg
+  canCustomizeName: true
+
+# Security
+- type: roleLoadout
+  id: JobSecurityQuadBorg
+  nameDataset: NFNamesBorg
+  canCustomizeName: true
+
+# Medical
+- type: roleLoadout
+  id: JobMedicalQuadBorg
+  nameDataset: NFNamesBorg
+  canCustomizeName: true
