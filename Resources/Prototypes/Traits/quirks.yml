@@ -24,3 +24,10 @@
   category: Quirks
   components:
   - type: Snoring
+  # Starlight
+  requirements:
+    - !type:SpeciesRequirement
+      species:
+        - Shadekin # Shadekins does not breathe... HOW DO THEY SNORE?
+        - IPC
+  # End Starlight
