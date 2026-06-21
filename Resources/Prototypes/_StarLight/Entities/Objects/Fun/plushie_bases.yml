@@ -1,4 +1,13 @@
 - type: entity
+  parent: BasePlushie
+  id: BasePlushieVocalizer
+  abstract: true
+  components:
+    - type: Vocalizer
+      minVocalizeInterval: 120
+      maxVocalizeInterval: 240
+
+- type: entity
   parent: BasePlushieVocalizer
   id: BaseAvaliPlushie
   abstract: true
