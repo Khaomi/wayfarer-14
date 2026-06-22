@@ -217,6 +217,10 @@ public sealed partial class ShadekinSystem : EntitySystem
             if (light.Comp.MaskPath is not null)
             {
                 var angleToTarget = GetAngle(light, light.Comp, uid);
+                // Wayfarer
+                if (!lightMasks.ContainsKey(light.Comp.MaskPath))
+                    continue;
+                // End Wayfarer
                 foreach (var cone in lightMasks[light.Comp.MaskPath])
                 {
                     var coneLight = 0f;
