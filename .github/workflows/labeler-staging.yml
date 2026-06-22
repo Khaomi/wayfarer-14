@@ -7,14 +7,15 @@ on:
     branches:
       - 'staging'
 
+# Wayfarer
+permissions:
+  pull-requests: write
+  issues: write
+# End Wayfarer
+
 jobs:
   add_label:
     runs-on: ubuntu-latest
-    # Wayfarer
-    permissions:
-      pull-requests: write
-      issues: write
-    # End Wayfarer
     steps:
     - uses: actions-ecosystem/action-add-labels@v1
       with:
