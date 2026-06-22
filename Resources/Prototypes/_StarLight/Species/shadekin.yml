@@ -8,7 +8,7 @@
   markingLimits: MobShadekinMarkingLimits
   dollPrototype: AppearanceShadekin
   skinColoration: Hues
-  eyeColoration: Shadekin
+  # eyeColoration: Shadekin # Wayfarer
   maleFirstNames: names_shadekin
   femaleFirstNames: names_shadekin
   naming: First
@@ -16,7 +16,7 @@
   maxAge: 300
   youngAge: 100
   oldAge: 200
-  # customName: true # Wayfarer: Removed this
+  # customName: true # Wayfarer
 
 - type: speciesBaseSprites
   id: MobShadekinSprites

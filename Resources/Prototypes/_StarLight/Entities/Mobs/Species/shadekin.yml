@@ -72,10 +72,12 @@
       bloodlossHealDamage:
         types:
           Bloodloss: -0.25
-      bloodReferenceSolution:
-        reagents:
-          - ReagentId: DarkBlood
-            Quantity: 300
+      bloodReagent: DarkBlood # Wayfarer: Wait for upstream to use bloodReferenceSolution
+      # Wayfarer
+        # reagents:
+        #   - ReagentId: DarkBlood
+        #     Quantity: 300
+      # End Wayfarer
     - type: Flammable
       damage:
         types:
@@ -90,32 +92,34 @@
         groups:
           Brute: -0.07
           Burn: -0.07
-    - type: Destructible
-      thresholds:
-        - trigger: !type:DamageTypeTrigger
-            damageType: Blunt
-            damage: 400
-          behaviors:
-            - !type:GibBehavior {}
-            - !type:SpawnEntitiesBehavior
-              spawn:
-                ShadekinShadow:
-                  min: 1
-                  max: 1
-        - trigger: !type:DamageTypeTrigger
-            damageType: Heat
-            damage: 1500
-          behaviors:
-            - !type:SpawnEntitiesBehavior
-              spawnInContainer: true
-              spawn:
-                Ash:
-                  min: 1
-                  max: 1
-                ShadekinShadow:
-                  min: 1
-                  max: 1
-            - !type:BurnBodyBehavior {}
+    # Wayfarer
+    # - type: Destructible
+    #   thresholds:
+    #     - trigger: !type:DamageTypeTrigger
+    #         damageType: Blunt
+    #         damage: 400
+    #       behaviors:
+    #         - !type:GibBehavior {}
+    #         - !type:SpawnEntitiesBehavior
+    #           spawn:
+    #             ShadekinShadow:
+    #               min: 1
+    #               max: 1
+    #     - trigger: !type:DamageTypeTrigger
+    #         damageType: Heat
+    #         damage: 1500
+    #       behaviors:
+    #         - !type:SpawnEntitiesBehavior
+    #           spawnInContainer: true
+    #           spawn:
+    #             Ash:
+    #               min: 1
+    #               max: 1
+    #             ShadekinShadow:
+    #               min: 1
+    #               max: 1
+    #         - !type:BurnBodyBehavior {}
+    # End Wayfarer
 
     # BaseMobSpeciesOrganic // Because we dont want respirator to be used.
     - type: Barotrauma
