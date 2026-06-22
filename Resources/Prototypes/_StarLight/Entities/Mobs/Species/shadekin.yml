@@ -51,7 +51,7 @@
       damageContainer: Biological
       damageModifierSet: Shadekin
     - type: Deathgasp
-      damageType: Bloodloss
+      # damageType: Bloodloss # Wayfarer: No damageType
     - type: Reactive
       groups:
         Flammable: [Touch]
