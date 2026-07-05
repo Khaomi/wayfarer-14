@@ -1,12 +1,16 @@
 using Content.Client.Movement.Systems;
+<<<<<<< HEAD
 using Content.Client.UserInterface.Systems.Ghost.Widgets;
 using Content.Shared.Actions;
 using Content.Shared.Ghost;
 using Content.Shared.Mind;
 using Content.Shared.Popups;
 using Content.Client.Overlays;
+=======
+>>>>>>> 554726c4f0 (Nightvision fixes (#44501))
 using Content.Shared.Actions;
 using Content.Shared.Ghost;
+using Content.Shared.NightVision;
 using Content.Shared.Overlays;
 using Robust.Client.Console;
 using Robust.Client.GameObjects;
@@ -27,8 +31,7 @@ namespace Content.Client.Ghost
         [Dependency] private readonly PointLightSystem _pointLightSystem = default!;
         [Dependency] private readonly ContentEyeSystem _contentEye = default!;
         [Dependency] private readonly SpriteSystem _sprite = default!;
-        [Dependency] private NightVisionOverlaySystem _nv = default!;
-        // Frontier: respawn, separate ghost UI
+        [Dependency] private SharedNightVisionSystem _nv = default!;
         [Dependency] private readonly IUserInterfaceManager _uiManager = default!;
         [Dependency] private readonly IGameTiming _gameTiming = default!;
         [Dependency] private readonly RespawnSystem _respawn = default!;
