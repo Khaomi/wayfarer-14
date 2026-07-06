@@ -91,6 +91,9 @@
   - NFPouchNfsd # Wayfarer
   - WFClothingOuterStraightjacket # Wayfarer
   - WFClothingMaskGasSheriff # Wayfarer
+  - ClothingMaskGasSecurity # Wayfarer
+  - WFContrabandForensicsModule # Wayfarer
+  - WFForensicScanner # Wayfarer
 
 - type: latheRecipePack
   id: NfsdTargetsStatic
@@ -154,6 +157,7 @@
   recipes:
   - GyroscopeNfsdMachineCircuitboard
   - ThrusterNfsdMachineCircuitboard
+  - WFLargeThrusterMachineCircuitboardNfsd # Wayfarer
 
 - type: latheRecipePack
   id: NfsdReportingStatic
