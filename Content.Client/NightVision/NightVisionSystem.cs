@@ -20,28 +20,36 @@ public sealed partial class NightVisionSystem : SharedNightVisionSystem
     {
         base.Initialize();
 
+        // Wayfarer: Old style SubscribeLocalEvent and SubscribeNetworkEvent
+        SubscribeLocalEvent<LocalPlayerAttachedEvent>(OnPlayerAttached);
+        SubscribeLocalEvent<LocalPlayerDetachedEvent>(OnPlayerDetached);
+        SubscribeLocalEvent<NightVisionComponent, AfterAutoHandleStateEvent>(OnHandleState);
+        SubscribeNetworkEvent<RoundRestartCleanupEvent>(OnRoundRestart);
+        // End Wayfarer
+
+
         _overlay = new NightVisionOverlay();
     }
 
-    [SubscribeLocalEvent]
+    // Wayfarer: Attribute SubscribeLocalEvent is not implemented yet
     private void OnPlayerAttached(LocalPlayerAttachedEvent args)
     {
         RefreshOverlay(args.Entity);
     }
 
-    [SubscribeLocalEvent]
+    // Wayfarer: Attribute SubscribeLocalEvent is not implemented yet
     private void OnPlayerDetached(LocalPlayerDetachedEvent args)
     {
         Deactivate(_player.LocalEntity);
     }
 
-    [SubscribeLocalEvent]
+    // Wayfarer: Attribute SubscribeLocalEvent is not implemented yet
     private void OnHandleState(Entity<NightVisionComponent> ent, ref AfterAutoHandleStateEvent args)
     {
         RefreshOverlay(ent);
     }
 
-    [SubscribeNetworkEvent]
+    // Wayfarer: Attribute SubscribeNetworkEvent is not implemented yet
     private void OnRoundRestart(RoundRestartCleanupEvent args)
     {
         var localPlayer = _player.LocalSession?.AttachedEntity;

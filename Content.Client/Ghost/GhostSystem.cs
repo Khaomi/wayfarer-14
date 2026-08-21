@@ -1,15 +1,9 @@
 using Content.Client.Movement.Systems;
-<<<<<<< HEAD
-using Content.Client.UserInterface.Systems.Ghost.Widgets;
 using Content.Shared.Actions;
 using Content.Shared.Ghost;
 using Content.Shared.Mind;
 using Content.Shared.Popups;
 using Content.Client.Overlays;
-=======
->>>>>>> 554726c4f0 (Nightvision fixes (#44501))
-using Content.Shared.Actions;
-using Content.Shared.Ghost;
 using Content.Shared.NightVision;
 using Content.Shared.Overlays;
 using Robust.Client.Console;
@@ -20,6 +14,7 @@ using Robust.Shared.GameStates;
 using Robust.Shared.Timing;
 using Robust.Shared.Player;
 using Content.Client._Corvax.Respawn; // Frontier
+using Content.Client.UserInterface.Systems.Ghost.Widgets; // Frontier
 
 namespace Content.Client.Ghost
 {

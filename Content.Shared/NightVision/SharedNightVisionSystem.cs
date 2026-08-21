@@ -13,7 +13,22 @@ public abstract partial class SharedNightVisionSystem : EntitySystem
 {
     [Dependency] private SharedActionsSystem _actions = default!;
 
-    [SubscribeLocalEvent]
+    // Wayfarer: Old style SubscribeLocalEvent
+    public override void Initialize()
+    {
+        base.Initialize();
+
+        SubscribeLocalEvent<NightVisionComponent, ComponentStartup>(OnStartup);
+        SubscribeLocalEvent<NightVisionComponent, ComponentRemove>(OnRemove);
+        SubscribeLocalEvent<NightVisionComponent, GotEquippedEvent>(OnCompEquip);
+        SubscribeLocalEvent<NightVisionComponent, GotUnequippedEvent>(OnCompUnequip);
+        SubscribeLocalEvent<NightVisionComponent, InventoryRelayedEvent<RefreshNightVisionEvent>>(OnRefreshEquipmentHud);
+        SubscribeLocalEvent<NightVisionComponent, RefreshNightVisionEvent>(OnRefreshComponentHud);
+        SubscribeLocalEvent<ToggleNightVisionEvent>(OnToggleNightVisionEvent);
+    }
+    // End Wayfarer
+
+    // Wayfarer: Attribute SubscribeLocalEvent is not implemented yet
     private void OnStartup(Entity<NightVisionComponent> ent, ref ComponentStartup args)
     {
         if (ent.Comp.RelayOverlay)
@@ -23,7 +38,7 @@ public abstract partial class SharedNightVisionSystem : EntitySystem
         _actions.AddAction(ent, ref ent.Comp.ActionEntity, ent.Comp.Action);
     }
 
-    [SubscribeLocalEvent]
+    // Wayfarer: Attribute SubscribeLocalEvent is not implemented yet
     private void OnRemove(Entity<NightVisionComponent> ent, ref ComponentRemove args)
     {
         if (ent.Comp.RelayOverlay)
@@ -33,32 +48,32 @@ public abstract partial class SharedNightVisionSystem : EntitySystem
         _actions.RemoveAction(ent.Owner, ent.Comp.ActionEntity);
     }
 
-    [SubscribeLocalEvent]
+    // Wayfarer: Attribute SubscribeLocalEvent is not implemented yet
     private void OnCompEquip(Entity<NightVisionComponent> ent, ref GotEquippedEvent args)
     {
         if (!ent.Comp.RelayOverlay)
             return;
 
-        RefreshOverlay(args.EquipTarget);
-        _actions.AddAction(args.EquipTarget, ref ent.Comp.ActionEntity, ent.Comp.Action, ent);
+        RefreshOverlay(args.Equipee); // Wayfarer: EquipTarget<Equipee
+        _actions.AddAction(args.Equipee, ref ent.Comp.ActionEntity, ent.Comp.Action, ent); // Wayfarer: EquipTarget<Equipee
     }
 
-    [SubscribeLocalEvent]
+    // Wayfarer: Attribute SubscribeLocalEvent is not implemented yet
     private void OnCompUnequip(Entity<NightVisionComponent> ent, ref GotUnequippedEvent args)
     {
         if (!ent.Comp.RelayOverlay)
             return;
 
-        RefreshOverlay(args.EquipTarget);
+        RefreshOverlay(args.Equipee); // Wayfarer: EquipTarget<Equipee
     }
 
-    [SubscribeLocalEvent]
+    // Wayfarer: Attribute SubscribeLocalEvent is not implemented yet
     protected virtual void OnRefreshEquipmentHud(Entity<NightVisionComponent> ent, ref InventoryRelayedEvent<RefreshNightVisionEvent> args)
     {
         OnRefreshComponentHud(ent, ref args.Args);
     }
 
-    [SubscribeLocalEvent]
+    // Wayfarer: Attribute SubscribeLocalEvent is not implemented yet
     protected virtual void OnRefreshComponentHud(Entity<NightVisionComponent> ent, ref RefreshNightVisionEvent args)
     {
         if (!ent.Comp.Enabled)
@@ -67,7 +82,7 @@ public abstract partial class SharedNightVisionSystem : EntitySystem
         args.Entities.Add(ent);
     }
 
-    [SubscribeLocalEvent]
+    // Wayfarer: Attribute SubscribeLocalEvent is not implemented yet
     private void OnToggleNightVisionEvent(ToggleNightVisionEvent args)
     {
         var ent = args.Action.Comp.Container;
