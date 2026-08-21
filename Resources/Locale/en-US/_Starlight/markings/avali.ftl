@@ -194,7 +194,7 @@ marking-AvaliBicoloredTipsRightHand-r_hand_back = Under Side
 marking-AvaliBicoloredTipsRightHand-r_hand_right = Outer Side
 marking-AvaliBicoloredTipsRightHand-r_hand_isolated = Hand
 # Wayfarer
-marking-AvaliBicoloredTipsLeftHand-l_hand_front = Front feathers
+marking-AvaliBicoloredTipsLeftHand-r_hand_front = Front feathers
 marking-AvaliBicoloredTipsRightHand-r_hand_wingtips = Feather Tips
 # End Wayfarer
 
