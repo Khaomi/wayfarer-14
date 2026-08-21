@@ -344,11 +344,7 @@
 
 - type: entity # TODO: figure out how to make these guys gib when stepped on
   name: cockroach
-<<<<<<< HEAD
-  parent: SimpleMobBase
-=======
-  parent: [SolutionFood, SolutionTiny, SimpleMobBase, BaseSlicingRefinable, MobNightVision]
->>>>>>> cfd14314dd (Spider and Spacemobs Night Vision (#39403))
+  parent: [ SimpleMobBase, MobNightVision ]
   id: MobCockroach
   description: This station is just crawling with bugs.
   components:
@@ -1705,11 +1701,7 @@
 
 - type: entity
   name: mouse
-<<<<<<< HEAD
-  parent: SimpleMobBase
-=======
-  parent: [SimpleMobBase, BaseMobAnimal, SolutionVermin, BaseSlicingRefinable, MobNightVision]
->>>>>>> cfd14314dd (Spider and Spacemobs Night Vision (#39403))
+  parent: [ SimpleMobBase, MobNightVision ]
   id: MobMouse
   description: Squeak!
   components:
@@ -2471,11 +2463,7 @@
 # Code unique spider prototypes or combine them all into one spider and get a
 # random sprite state when you spawn it.
 - type: entity
-<<<<<<< HEAD
-  parent: [SimpleMobBase, MobCombat]
-=======
-  parent: [ SimpleMobBase, BaseMobHemocyanin, MobCombat, BaseSlicingRefinable, MobNightVision ]
->>>>>>> cfd14314dd (Spider and Spacemobs Night Vision (#39403))
+  parent: [SimpleMobBase, MobCombat, MobNightVision]
   id: MobSpiderBase
   abstract: true
   components:
@@ -3424,11 +3412,7 @@
 
 - type: entity
   name: hamster
-<<<<<<< HEAD
-  parent: [SimpleMobBase, MobCombat, StripableInventoryBase]
-=======
-  parent: [ SimpleMobBase, MobCombat, StripableInventoryBase, BaseSlicingRefinable, MobNightVision]
->>>>>>> cfd14314dd (Spider and Spacemobs Night Vision (#39403))
+  parent: [SimpleMobBase, MobCombat, StripableInventoryBase, MobNightVision]
   id: MobHamster
   description: A cute, fluffy, robust hamster.
   components:
