@@ -344,7 +344,7 @@
 
 - type: entity # TODO: figure out how to make these guys gib when stepped on
   name: cockroach
-  parent: [ SimpleMobBase, MobNightVision ]
+  parent: [SimpleMobBase, MobNightVision]
   id: MobCockroach
   description: This station is just crawling with bugs.
   components:
@@ -1701,7 +1701,7 @@
 
 - type: entity
   name: mouse
-  parent: [ SimpleMobBase, MobNightVision ]
+  parent: [SimpleMobBase, MobNightVision]
   id: MobMouse
   description: Squeak!
   components:
