@@ -1,4 +1,5 @@
 using Content.Client.Movement.Systems;
+using Content.Client.UserInterface.Systems.Ghost.Widgets;
 using Content.Shared.Actions;
 using Content.Shared.Ghost;
 using Content.Shared.Mind;
@@ -14,7 +15,6 @@ using Robust.Shared.GameStates;
 using Robust.Shared.Timing;
 using Robust.Shared.Player;
 using Content.Client._Corvax.Respawn; // Frontier
-using Content.Client.UserInterface.Systems.Ghost.Widgets; // Frontier
 
 namespace Content.Client.Ghost
 {
