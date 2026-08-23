@@ -27,6 +27,7 @@ namespace Content.Client.Ghost
         [Dependency] private readonly ContentEyeSystem _contentEye = default!;
         [Dependency] private readonly SpriteSystem _sprite = default!;
         [Dependency] private SharedNightVisionSystem _nv = default!;
+        // Frontier: respawn, separate ghost UI
         [Dependency] private readonly IUserInterfaceManager _uiManager = default!;
         [Dependency] private readonly IGameTiming _gameTiming = default!;
         [Dependency] private readonly RespawnSystem _respawn = default!;
