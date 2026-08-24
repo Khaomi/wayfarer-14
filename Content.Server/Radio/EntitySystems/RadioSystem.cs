@@ -210,7 +210,7 @@ public sealed class RadioSystem : EntitySystem
                 continue;
 
             // Check if within range for range-limited channels
-            if (channel.MaxRange.HasValue && channel.MaxRange.Value > 0)
+            if (!channel.UseRAEWS && channel.MaxRange.HasValue && channel.MaxRange.Value > 0) // Wayfarer: Add RAEWS check
             {
                 var sourcePos = Transform(radioSource).WorldPosition;
                 var targetPos = transform.WorldPosition;
