@@ -226,7 +226,7 @@ public sealed class RadioSystem : EntitySystem
                 continue;
 
             // Wayfarer: Add RAEWS check
-            if (channel.UseRAEWS && !HasRAEWS())
+            if (channel.UseRAEWS && CountRAEWS() > channel.RAEWSPower)
                 continue;
             // End Wayfarer
 
@@ -267,9 +267,20 @@ public sealed class RadioSystem : EntitySystem
     }
 
     // Wayfarer
-    private bool HasRAEWS()
+    private int CountRAEWS()
     {
-        return EntityQuery<RAEWSDishComponent, ApcPowerReceiverComponent>().Any((x) => x.Item2.Powered);
+        int poweredCount = 0;
+        var query = EntityQueryEnumerator<RAEWSDishComponent, ApcPowerReceiverComponent>();
+
+        while (query.MoveNext(out var _, out var __, out var powerReceiver))
+        {
+            if (!powerReceiver.Powered)
+                continue;
+
+            poweredCount++;
+        }
+
+        return poweredCount;
     }
     // End Wayfarer
 }

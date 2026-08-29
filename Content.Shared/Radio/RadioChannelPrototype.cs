@@ -50,6 +50,12 @@ public sealed partial class RadioChannelPrototype : IPrototype
     /// </summary>
     [DataField("useRAEWS"), ViewVariables]
     public bool UseRAEWS = false;
+
+    /// <summary>
+    /// The amount of RAEWS needed to transmit the message
+    /// </summary>
+    [DataField("RAEWSPower"), ViewVariables]
+    public int RAEWSPower = 5;
     // End Wayfarer
 
     /// <summary>
