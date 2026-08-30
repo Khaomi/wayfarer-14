@@ -38,7 +38,7 @@
   parent: [EncryptionKey]
   id: EncryptionKeyInterstellar
   name: interstellar encryption key
-  description: An encryption key for the Interstellar channel, requires an RAEWS transmitter to use.
+  description: An encryption key for the Interstellar channel. For communication between a solar body and space. Requires the RAEWS Relay system to be active and operational to use.
   components:
   - type: EncryptionKey
     channels:
